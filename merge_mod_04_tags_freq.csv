@@ -1,0 +1,18 @@
+tags,count,percent,histogram
+Processing,28,28.57,**************
+-,24,24.49,************
+Print Layouts,11,11.22,*****
+Expressions,8,8.16,****
+Mesh,5,5.10,**
+Forms,3,3.06,*
+Symbology,3,3.06,*
+Labeling,2,2.04,*
+Server,2,2.04,*
+Digitizing,2,2.04,*
+API,2,2.04,*
+Data Provider;Raster,2,2.04,*
+Data Provider,2,2.04,*
+Documentation;Mesh,1,1.02,
+GUI/UX,1,1.02,
+API;QGIS Browser,1,1.02,
+Forms;GUI/UX,1,1.02,
