@@ -112,6 +112,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [Comments in Processing Models](#comments-in-processing-models)
   - [Mesh 1D Renderer](#mesh-1d-renderer)
   - [Get current parent form values in child forms](#get-current-parent-form-values-in-child-forms)
+  - [Relation wdgt: add checkbox to hide save child edits button](#relation-wdgt-add-checkbox-to-hide-save-child-edits-button)
   - [Relation widget force suppress popup](#relation-widget-force-suppress-popup)
   - [New standalone console tool for running processing algorithms](#new-standalone-console-tool-for-running-processing-algorithms)
   - [New parameter type for Merged (or date, or time) values](#new-parameter-type-for-merged-or-date-or-time-values)
@@ -905,8 +906,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [34827](https://github.com/qgis/QGIS/pull/34827)
 - **Merged:** 2020-03-05T09:51:44Z
 - **tags:** Forms
-- 
-- **Description: Relation wdgt:** add checkbox to hide save child edits button
+
+## Relation wdgt: add checkbox to hide save child edits button
 - **Author:** [elpaso](https://twitter.com/elpaso66)
 - **milestone:** 3.14.0
 - **PR:** [34760](https://github.com/qgis/QGIS/pull/34760)
@@ -1061,4 +1062,5 @@ Forms;GUI/UX|1|1.02|
 
 ---
 
-**Blog Pigrecoinfinito**: https://pigrecoinfinito.com/
+- **VisiData** : https://www.visidata.org/
+- **Blog Pigrecoinfinito**: https://pigrecoinfinito.com/
