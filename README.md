@@ -1061,4 +1061,4 @@ Forms;GUI/UX|1|1.02|
 
 ---
 
-**Blog Pigreco infinito**: https://pigrecoinfinito.com/
+**Blog Pigrecoinfinito**: https://pigrecoinfinito.com/
