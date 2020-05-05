@@ -1062,9 +1062,11 @@ Forms;GUI/UX|1|1.02|
 
 ---
 
+**Useful references:**
+
 - **VisiData** : https://www.visidata.org/
 - **Miller** : https://github.com/johnkerl/miller
 - **xq** : https://github.com/kislyuk/yq
-- **Scape** : https://github.com/aborruso/scrape-cli
+- **Scrape** : https://github.com/aborruso/scrape-cli
 - **curl** : https://curl.haxx.se/
 - **Blog Pigrecoinfinito**: https://pigrecoinfinito.com/
