@@ -4,8 +4,6 @@
   </div>
 </div>
 
-<h1>Changelog 3.14 (Pi)</h1>
-
 [**Pigrecoinfinito**](http://pigrecoinfinito.com/) has collected on this page some **views** of the changelog 3.14 Pi 😊).
 
 
