@@ -4,9 +4,8 @@
   </div>
 </div>
 
+
 [**Pigrecoinfinito**](http://pigrecoinfinito.com/) has collected on this page some **views** of the changelog 3.14 Pi 😊).
-
-
 
 The following changelogs are the result of this [filter](https://github.com/qgis/QGIS/pulls?page=1&q=is%3Apr+is%3Aclosed+label%3Afeature+merged%3A2020-02-22T00%3A00%3A00Z..2020-05-15T12%3A00%3A00Z):
 
@@ -151,7 +150,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/80680488-37c3dd80-8b02-11ea-98bb-e0882e6ab9ab.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Feature browser for preview in expression builder
 - **Author:** 3nids
@@ -162,7 +161,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/127259/80604352-e6e4b400-8a31-11ea-8f3b-8c864e124c78.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## add expression close_line
 - **Author:** JanCaha
@@ -173,7 +172,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](./imgs/close_line.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow overriding the legend patch size on a per-item basis
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -185,7 +184,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/80325577-0edce780-8879-11ea-82bd-8f323a4c68ab.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow control over the horizontal spacing before legend group/subgroup/symbols
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -195,7 +194,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Print Layouts
 - **Sponsored by:** SLYR
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Expressions for geometry Z and M minimum and maximum
 - **Author:** JanCaha
@@ -206,7 +205,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](./imgs/m_MaxMin.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## 1D mesh width/color varying
 - **Author:** vcloarec
@@ -217,7 +216,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/7416892/80013358-bb475400-849c-11ea-95c8-71b04382a927.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Manage legend patch shapes through style manager
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -228,7 +227,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/79927419-0c4a4e80-8483-11ea-9b87-7ed8b393d349.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## ability to remove custom functions (fix #27513)
 - **Author:** alexbruy
@@ -239,7 +238,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](./imgs/remove.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## add is_multipart expression for geometry
 - **Author:** JanCaha
@@ -250,7 +249,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](./imgs/is_multipart.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow configuring legend patch shapes by double-clicking on legend items
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -261,7 +260,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/79714030-ea31be80-8312-11ea-8b6f-f40e3eea04b1.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## ascii expression
 - **Author:** JanCaha
@@ -272,7 +271,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](./imgs/ascii.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Support pasting pictures directly into layouts
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -281,7 +280,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-17T03:48:07Z
 - **tags:** Print Layouts
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add vector tiles to Datasource manager dialog and Layers menu
 - **Author:** alexbruy
@@ -290,7 +289,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-17T08:59:40Z
 - **tags:** -
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## New modeler algorithm for creating conditional branches
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -302,7 +301,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/79409609-b6d4f400-7fe1-11ea-8f7a-f42542f3fbfe.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## import/export for ArcGIS Map and FeatureServer connections (fix #27485)
 - **Author:** alexbruy
@@ -311,7 +310,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-15T17:20:24Z
 - **tags:** -
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow reordering model inputs
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -321,7 +320,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Processing
 - **Sponsored by:** NaturalGIS
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add XYZ tiles to Datasource manager dialog and Layers menu
 - **Author:** alexbruy
@@ -332,7 +331,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](./imgs/datasource.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Defer model validation
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -341,7 +340,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-14T10:27:22Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Vector tile layer - part 5 (identify tool)
 - **Author:** wonder-sk
@@ -352,7 +351,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/193367/79157425-d3501100-7dd4-11ea-8395-5c8ff1dce449.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Server: add QGIS_SERVER_IGNORE_BAD_LAYERS config option
 - **Author:** [elpaso](https://twitter.com/elpaso66)
@@ -362,7 +361,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Server
 - **Funded by:** Geoinformatikbüro Dassau GmbH
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add support for different raster data types in Create constant raster layer algorithm
 - **Author:** root676
@@ -371,7 +370,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-13T23:20:57Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## add native Round raster algorithm
 - **Author:** root676
@@ -382,7 +381,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/9716552/78931913-f615b900-7aa6-11ea-8db9-a19df79667c1.png) ![](https://user-images.githubusercontent.com/9716552/78931950-ff068a80-7aa6-11ea-8bea-e7edf17d75db.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add avoid intersection/overlap mode
 - **Author:** nirvn
@@ -393,7 +392,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1728657/78890069-2a7d7b00-7a8f-11ea-9313-a882d891bb5e.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Forms: expression controlled aliases (labels)
 - **Author:** [elpaso](https://twitter.com/elpaso66)
@@ -404,7 +403,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/142164/78904645-26486200-7a7d-11ea-84b0-b9e96c0c9797.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Vector tile layer - part 4 (labeling)
 - **Author:** wonder-sk
@@ -415,7 +414,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/193367/78723460-bf676380-792b-11ea-9cab-a6732e20033a.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow copying/cut/paste of model components
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -426,7 +425,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![ (https://user-images.githubusercontent.com/1829991/78641463-a099aa80-78f4-11ea-8c0b-c6b6b72f0e7d.gif)]
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow appending processing results to existing layers
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -437,7 +436,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/78631098-b9976100-78de-11ea-8f18-f7c7473e0945.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow plugins to register custom Project Open handlers
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -448,7 +447,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/78514331-1833e080-77f4-11ea-9c8d-a5e9ead7dc1a.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow marker items to sync rotation with maps
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -460,7 +459,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/78419618-c885d580-768a-11ea-959a-8459e19e05df.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## New item type for marker symbols
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -469,7 +468,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-05T04:23:23Z
 - **tags:** Print Layouts
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Expression builder: add layer_property(...,'distance_units')
 - **Author:** jmonticolo
@@ -478,7 +477,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-06T23:20:39Z
 - **tags:** Expressions
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Added move to bottom in layertreeview context menu
 - **Author:** uclaros
@@ -487,7 +486,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-04T22:05:29Z
 - **tags:** -
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Show a menu next to scale widget buttons, to allow setting the widget directly to a scale from a print layout map
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -498,7 +497,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/78198825-34bada80-74cd-11ea-803a-90afea085b38.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Postgres raster temporal API support
 - **Author:** [elpaso](https://twitter.com/elpaso66)
@@ -509,7 +508,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/142164/78421830-1f73b680-765b-11ea-8e65-6c2040ad24f2.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow creation of group boxes in models
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -520,7 +519,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/78090538-bba87e00-740d-11ea-9476-144163d8f1ca.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Spatialite provider transactions
 - **Author:** [elpaso](https://twitter.com/elpaso66)
@@ -530,7 +529,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Data Provider
 - **Funded by:** ARPA Piemonte
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Port output parameter wrappers to new API
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -541,7 +540,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/78028688-bbbf6400-73a2-11ea-9b7f-a7d81133d321.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add import content from clipboard for fixed table items
 - **Author:** nirvn
@@ -552,7 +551,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1728657/77991304-ad932880-734d-11ea-8e5a-40b2b28e66b0.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Processing: show input and output values for children after running model through designer
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -563,7 +562,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/77991113-5d749000-7366-11ea-986c-652f6e2229e7.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add Save Log to File algorithm for models
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -572,7 +571,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-31T09:35:30Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## plug mesh layer to QGIS temporal framework
 - **Author:** vcloarec
@@ -583,7 +582,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/7416892/77872855-31e29000-7216-11ea-80fb-82e351dbb4a2.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Network logger - more functionality
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -592,7 +591,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-31T02:53:44Z
 - **tags:** -
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Port last remaining input parameters to new API
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -601,7 +600,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-30T15:06:49Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Raster Layer Contour Renderer
 - **Author:** wonder-sk
@@ -612,7 +611,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/193367/77861880-17111b00-7218-11ea-95ba-410c97830b93.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add percentage size unit for Raster Image Marker and Raster fill layers symbology.
 - **Author:** beketata
@@ -623,7 +622,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/7413903/77845539-726bea80-71d1-11ea-9512-0a8e6cde7b3c.jpg) ![](https://user-images.githubusercontent.com/7413903/77845535-6e3fcd00-71d1-11ea-8760-b477e75f7a3a.jpg)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Port Feature Source, Raster, Vector and Mesh Layer parameters to new API
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -632,7 +631,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-28T19:56:24Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Server project settings, add 'expanded' attribute
 - **Author:** mhugent
@@ -641,7 +640,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-30T05:35:07Z
 - **tags:** Server
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Inbuilt network logging tool
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -652,7 +651,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/77712469-95ef3380-701f-11ea-8fec-3eded258b4e9.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allowing saving outputs direct to more database formats (and other nice stuff)
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -663,7 +662,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/77608752-dab89300-6f69-11ea-9c48-eefca7a4d199.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Vector tile layer - part 1
 - **Author:** wonder-sk
@@ -674,7 +673,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/193367/77539757-2d2e7c80-6ea2-11ea-9098-c6c0924f9d59.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow running algorithms directly on database (and other non-disk) sources without loading into projects first
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -685,7 +684,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/77508685-fca50d80-6eb6-11ea-8190-a447847f55d9.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Port processing extent parameter to new api, many other improvements
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -694,7 +693,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-25T09:25:42Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Interface and API for unified development/debugging tools
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -705,7 +704,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/77492080-55f74780-6e8b-11ea-9141-1b96c42c29eb.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Expose per-feature-source advanced options for processing inputs
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -716,7 +715,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/77395930-64dbec80-6dee-11ea-9590-b7fadcd242c1.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Resampling from vertex values to face values
 - **Author:** vcloarec
@@ -727,7 +726,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/7416892/77320848-acc41c00-6ce7-11ea-85af-2bff553ecbb5.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Enable snapping to grid for models in designer
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -736,7 +735,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-23T09:25:34Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add numeric formatter fraction style
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -747,7 +746,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/77267662-0c71f580-6cef-11ea-9956-917e1d6ef496.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add stepped line and hollow scalebar styles
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -759,7 +758,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 ![](https://user-images.githubusercontent.com/1829991/77247015-c1b59680-6c78-11ea-92a9-7bbb2ba8638a.png)
 ![](https://user-images.githubusercontent.com/1829991/77247024-dc880b00-6c78-11ea-827a-344645cec248.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Allow scalebar line style to be set using standard QGIS line symbols
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -769,7 +768,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Print Layouts
 - **Sponsored:** SLYR
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add data-defined property to font family/style for font markers
 - **Author:** nirvn
@@ -780,7 +779,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1728657/77220009-07396d00-6b6e-11ea-914d-a4d419750de3.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## coloring mesh vector dataset with color ramp shader
 - **Author:** vcloarec
@@ -791,7 +790,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/7416892/77156669-2c4ab480-6a76-11ea-9209-d0144fbfc3f0.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## add maptip, expression display and eval_template expressions
 - **Author:** Gustry
@@ -802,7 +801,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](./imgs/maptips.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add @layers, @layer_ids project scope variables
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -814,7 +813,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](./imgs/layer_ids.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add a font style setting for font markers
 - **Author:** nirvn
@@ -823,7 +822,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-21T05:11:17Z
 - **tags:** Symbology
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Rework picture item UI and behavior
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -832,7 +831,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-19T03:18:49Z
 - **tags:** Print Layouts
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add filter by geometry type and filter by layer type algorithms to processing
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -841,7 +840,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-17T16:52:38Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Make Add Group button act as Group Selected if selected layers >= 2
 - **Author:** uclaros
@@ -852,7 +851,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/11358178/76710403-f624d200-670f-11ea-9a41-13420c7940e3.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 - ## Add toolbutton to Deselect Features from the Current Active layer
 - **Author:** suricactus
@@ -863,7 +862,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/2820439/76692569-26616780-6661-11ea-9071-fd4c712860db.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Optionally, also remove EMPTY geometries in RemoveNullGeometries algorithm
 - **Author:** gacarrillor
@@ -874,7 +873,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/652785/76703713-81b34a00-66a1-11ea-9818-ebf771885206.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Data type support for QgsProcessingParameterMapLayer
 - **Author:** alexbruy
@@ -883,7 +882,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-15T14:14:21Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add processing parameter types for database schema and table name
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -892,7 +891,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-14T06:57:16Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add description to value relation widget
 - **Author:** m-kuhn
@@ -903,7 +902,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/588407/76538031-f195ba80-647e-11ea-9a41-271576e315bc.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add multi-selection handling to model designer, interactive resizing
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -914,7 +913,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/76388083-f9d4f380-63b3-11ea-8f06-97249e85ac2e.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## New database table name widget
 - **Author:** [elpaso](https://twitter.com/elpaso66)
@@ -925,7 +924,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/142164/76504669-70233580-6448-11ea-9194-173ae0d344ce.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add dedicated parameter type for database connections
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -934,7 +933,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-10T09:10:54Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## arrows for 3D mesh layer dataset rendering
 - **Author:** vcloarec
@@ -945,7 +944,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/7416892/76225815-681e8800-61f3-11ea-96e2-25ccc692ed2e.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add undo/redo support to model designer
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -956,7 +955,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/76176510-c8fe8e00-61fc-11ea-90e1-91cbeadcbd4f.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add control over anchor point for callout on label
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -967,7 +966,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/76173706-6d78d400-61ed-11ea-89c1-ce4e2477dfef.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## PG: expose foreign tables
 - **Author:** [elpaso](https://twitter.com/elpaso66)
@@ -976,7 +975,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-07T03:55:30Z
 - **tags:** Data Provider
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Add expression variables for current map temporal range
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -985,7 +984,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-08T21:29:46Z
 - **tags:** Expressions
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Remember parameter values between model designer runs
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -994,7 +993,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-06T08:22:51Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## plugin manager allow to install stable or experimental
 - **Author:** olivierdalang
@@ -1005,7 +1004,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1894106/75906889-b1fc1c80-5e47-11ea-954a-bdb16939b0c6.PNG)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## PG raster expose set filter to app
 - **Author:** [elpaso](https://twitter.com/elpaso66)
@@ -1017,7 +1016,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/142164/75894983-49a43f80-5e35-11ea-95a8-a86276b39bbc.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Comments in Processing Models
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -1028,7 +1027,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/1829991/75851342-26799000-5e35-11ea-8895-a310f01b3823.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Mesh 1D Renderer
 - **Author:** PeterPetrik
@@ -1039,7 +1038,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/804608/75885122-3b9af280-5e26-11ea-96a3-f4a4e48c040e.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Get current parent form values in child forms
 - **Author:** [elpaso](https://twitter.com/elpaso66)
@@ -1050,7 +1049,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/142164/75692656-28f9af80-5ca6-11ea-8dd6-9a4bf454f5b7.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Relation wdgt: add checkbox to hide save child edits button
 - **Author:** [elpaso](https://twitter.com/elpaso66)
@@ -1061,7 +1060,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/142164/75524592-82e04800-5a0e-11ea-9333-461a0d02a1c0.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Relation widget force suppress popup
 - **Author:** [elpaso](https://twitter.com/elpaso66)
@@ -1072,7 +1071,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/142164/75249972-9786cb00-57d7-11ea-8100-3426d32831db.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## New standalone console tool for running processing algorithms
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -1083,7 +1082,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://twitter.com/i/status/1250506567528722433)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## New parameter type for Merged (or date, or time) values
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -1092,7 +1091,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-02-24T07:23:42Z
 - **tags:** Processing
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## QGIS Project temporal settings
 - **Author:** Samweli
@@ -1103,7 +1102,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/2663775/74980472-93f2ed00-5441-11ea-8765-f35d1f69b144.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Make CRS controlable by a variable
 - **Author:** roya0045
@@ -1114,7 +1113,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/12854129/74844265-348ac500-52fb-11ea-9198-78f4f9022ac1.PNG)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## mesh simplification
 - **Author:** vcloarec
@@ -1125,7 +1124,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/7416892/74750757-9e936380-5242-11ea-98cf-a0e3e6694831.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## WMS-T layers temporal constrains support
 - **Author:** Samweli
@@ -1136,7 +1135,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/2663775/74638491-02535900-517d-11ea-84e3-28729f05b14d.gif)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Temporal API
 - **Author:** Samweli
@@ -1153,7 +1152,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/7521540/71798125-35201280-3051-11ea-959d-a5897ca3391a.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Show 'template layer' constraints info in the Refactor fields algorithm's UI
 - **Author:** gacarrillor
@@ -1164,7 +1163,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/652785/75100644-6079a500-559e-11ea-91b6-f99fa05451de.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 # Statistics
 
@@ -1195,7 +1194,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 | roya0045                                       | 1     | 1.02    |
 | lbartoletti                                    | 1     | 1.02    |
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 ## Tags
 
@@ -1219,7 +1218,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 | API;QGIS Browser     | 1     | 1.02    |
 | Forms;GUI/UX         | 1     | 1.02    |
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#features)
 
 **stay tuned!**
 
