@@ -107,7 +107,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [PG: expose foreign tables](#pg-expose-foreign-tables)
   - [Add expression variables for current map temporal range](#add-expression-variables-for-current-map-temporal-range)
   - [Remember parameter values between model designer runs](#remember-parameter-values-between-model-designer-runs)
-  - [allow to install stable or experimental](#allow-to-install-stable-or-experimental)
+  - [plugin manager allow to install stable or experimental](#plugin-manager-allow-to-install-stable-or-experimental)
   - [PG raster expose set filter to app](#pg-raster-expose-set-filter-to-app)
   - [Comments in Processing Models](#comments-in-processing-models)
   - [Mesh 1D Renderer](#mesh-1d-renderer)
@@ -131,115 +131,140 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 # Features
 
-##  Automatic placement of labels outside polygons
+## Automatic placement of labels outside polygons
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [36106](https://github.com/qgis/QGIS/pull/36106)
 - **Merged:** 2020-05-03T19:38:49Z
 - **tags:** Labeling
+- **Sponsored by:** the Swiss QGIS user group
+
+![](https://user-images.githubusercontent.com/1829991/80680488-37c3dd80-8b02-11ea-98bb-e0882e6ab9ab.png)
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Feature browser for preview in expression builder
+## Feature browser for preview in expression builder
 - **Author:** 3nids
 - **milestone:** 3.14.0
 - **PR:** [36089](https://github.com/qgis/QGIS/pull/36089)
 - **Merged:** 2020-04-30T15:50:11Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/127259/80604352-e6e4b400-8a31-11ea-8f3b-8c864e124c78.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  add expression close_line
+## add expression close_line
 - **Author:** JanCaha
 - **milestone:** 3.14.0
 - **PR:** [36069](https://github.com/qgis/QGIS/pull/36069)
 - **Merged:** 2020-05-01T23:08:36Z
 - **tags:** Expressions
 
+![](./imgs/close_line.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow overriding the legend patch size on a per-item basis
+## Allow overriding the legend patch size on a per-item basis
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [36013](https://github.com/qgis/QGIS/pull/36013)
 - **Merged:** 2020-04-28T01:31:45Z
 - **tags:** Print Layouts
+- **Sponsored by:** SLYR
+
+![](https://user-images.githubusercontent.com/1829991/80325577-0edce780-8879-11ea-82bd-8f323a4c68ab.gif)
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow control over the horizontal spacing before legend group/subgroup/symbols
+## Allow control over the horizontal spacing before legend group/subgroup/symbols
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35974](https://github.com/qgis/QGIS/pull/35974)
 - **Merged:** 2020-04-24T18:49:55Z
 - **tags:** Print Layouts
+- **Sponsored by:** SLYR
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Expressions for geometry Z and M minimum and maximum
+## Expressions for geometry Z and M minimum and maximum
 - **Author:** JanCaha
 - **milestone:** 3.14.0
 - **PR:** [35928](https://github.com/qgis/QGIS/pull/35928)
 - **Merged:** 2020-04-27T11:28:23Z
 - **tags:** Expressions
 
+![](./imgs/m_MaxMin.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  1D mesh width/color varying
+## 1D mesh width/color varying
 - **Author:** vcloarec
 - **milestone:** 3.14.0
 - **PR:** [35926](https://github.com/qgis/QGIS/pull/35926)
 - **Merged:** 2020-04-24T08:49:25Z
 - **tags:** Documentation;Mesh
 
+![](https://user-images.githubusercontent.com/7416892/80013358-bb475400-849c-11ea-95c8-71b04382a927.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Manage legend patch shapes through style manager
+## Manage legend patch shapes through style manager
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35909](https://github.com/qgis/QGIS/pull/35909)
 - **Merged:** 2020-04-22T02:43:03Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/1829991/79927419-0c4a4e80-8483-11ea-9b87-7ed8b393d349.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  ability to remove custom functions (fix #27513)
+## ability to remove custom functions (fix #27513)
 - **Author:** alexbruy
 - **milestone:** 3.14.0
 - **PR:** [35901](https://github.com/qgis/QGIS/pull/35901)
 - **Merged:** 2020-04-30T06:38:40Z
 - **tags:** -
 
+![](./imgs/remove.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  add is_multipart expression for geometry
+## add is_multipart expression for geometry
 - **Author:** JanCaha
 - **milestone:** 3.14.0
 - **PR:** [35889](https://github.com/qgis/QGIS/pull/35889)
 - **Merged:** 2020-04-21T19:26:55Z
 - **tags:** Expressions
 
+![](./imgs/is_multipart.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow configuring legend patch shapes by double-clicking on legend items
+## Allow configuring legend patch shapes by double-clicking on legend items
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35863](https://github.com/qgis/QGIS/pull/35863)
 - **Merged:** 2020-04-21T00:40:51Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/1829991/79714030-ea31be80-8312-11ea-8b6f-f40e3eea04b1.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  ascii expression
+## ascii expression
 - **Author:** JanCaha
 - **milestone:** 3.14.0
 - **PR:** [35839](https://github.com/qgis/QGIS/pull/35839)
 - **Merged:** 2020-04-19T23:28:57Z
 - **tags:** Expressions
 
+![](./imgs/ascii.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Support pasting pictures directly into layouts
+## Support pasting pictures directly into layouts
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35821](https://github.com/qgis/QGIS/pull/35821)
@@ -248,7 +273,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add vector tiles to Datasource manager dialog and Layers menu
+## Add vector tiles to Datasource manager dialog and Layers menu
 - **Author:** alexbruy
 - **milestone:** 3.14.0
 - **PR:** [35815](https://github.com/qgis/QGIS/pull/35815)
@@ -257,16 +282,19 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  New modeler algorithm for creating conditional branches
+## New modeler algorithm for creating conditional branches
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35808](https://github.com/qgis/QGIS/pull/35808)
 - **Merged:** 2020-04-16T06:02:54Z
 - **tags:** Processing
+- **Sponsored by:** Andreas Neumann
+
+![](https://user-images.githubusercontent.com/1829991/79409609-b6d4f400-7fe1-11ea-8f7a-f42542f3fbfe.gif)
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  import/export for ArcGIS Map and FeatureServer connections (fix #27485)
+## import/export for ArcGIS Map and FeatureServer connections (fix #27485)
 - **Author:** alexbruy
 - **milestone:** 3.14.0
 - **PR:** [35790](https://github.com/qgis/QGIS/pull/35790)
@@ -275,25 +303,28 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow reordering model inputs
+## Allow reordering model inputs
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35778](https://github.com/qgis/QGIS/pull/35778)
 - **Merged:** 2020-04-15T20:03:49Z
 - **tags:** Processing
+- **Sponsored by:** NaturalGIS
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add XYZ tiles to Datasource manager dialog and Layers menu
+## Add XYZ tiles to Datasource manager dialog and Layers menu
 - **Author:** alexbruy
 - **milestone:** 3.14.0
 - **PR:** [35764](https://github.com/qgis/QGIS/pull/35764)
 - **Merged:** 2020-04-15T08:26:24Z
 - **tags:** GUI/UX
 
+![](./imgs/datasource.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Defer model validation
+## Defer model validation
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35760](https://github.com/qgis/QGIS/pull/35760)
@@ -302,12 +333,14 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Vector tile layer - part 5 (identify tool)
+## Vector tile layer - part 5 (identify tool)
 - **Author:** wonder-sk
 - **milestone:** 3.14.0
 - **PR:** [35748](https://github.com/qgis/QGIS/pull/35748)
 - **Merged:** 2020-04-15T11:38:21Z
 - **tags:** -
+
+![](https://user-images.githubusercontent.com/193367/79157425-d3501100-7dd4-11ea-8395-5c8ff1dce449.png)
 
 [↑ come back ↑](#changelog-314-pi)
 
@@ -317,10 +350,11 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35738](https://github.com/qgis/QGIS/pull/35738)
 - **Merged:** 2020-04-14T05:57:10Z
 - **tags:** Server
+- **Funded by:** Geoinformatikbüro Dassau GmbH
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add support for different raster data types in Create constant raster layer algorithm
+## Add support for different raster data types in Create constant raster layer algorithm
 - **Author:** root676
 - **milestone:** 3.14.0
 - **PR:** [35727](https://github.com/qgis/QGIS/pull/35727)
@@ -329,22 +363,26 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  add native Round raster algorithm
+## add native Round raster algorithm
 - **Author:** root676
 - **milestone:** 3.14.0
 - **PR:** [35694](https://github.com/qgis/QGIS/pull/35694)
 - **Merged:** 2020-04-12T21:34:27Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/9716552/78931913-f615b900-7aa6-11ea-8db9-a19df79667c1.png) ![](https://user-images.githubusercontent.com/9716552/78931950-ff068a80-7aa6-11ea-8bea-e7edf17d75db.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add avoid intersection/overlap mode
+## Add avoid intersection/overlap mode
 - **Author:** nirvn
 - **milestone:** 3.14.0
 - **PR:** [35689](https://github.com/qgis/QGIS/pull/35689)
 - **Merged:** 2020-04-10T06:42:08Z
 - **tags:** Digitizing
--
+
+![](https://user-images.githubusercontent.com/1728657/78890069-2a7d7b00-7a8f-11ea-9313-a882d891bb5e.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
 ## Forms: expression controlled aliases (labels)
@@ -354,54 +392,67 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-15T13:09:15Z
 - **tags:** Forms
 
+![](https://user-images.githubusercontent.com/142164/78904645-26486200-7a7d-11ea-84b0-b9e96c0c9797.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Vector tile layer - part 4 (labeling)
+## Vector tile layer - part 4 (labeling)
 - **Author:** wonder-sk
 - **milestone:** 3.14.0
 - **PR:** [35657](https://github.com/qgis/QGIS/pull/35657)
 - **Merged:** 2020-04-14T22:33:30Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/193367/78723460-bf676380-792b-11ea-9cab-a6732e20033a.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow copying/cut/paste of model components
+## Allow copying/cut/paste of model components
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35644](https://github.com/qgis/QGIS/pull/35644)
 - **Merged:** 2020-04-14T04:36:03Z
 - **tags:** Processing
 
+![ (https://user-images.githubusercontent.com/1829991/78641463-a099aa80-78f4-11ea-8c0b-c6b6b72f0e7d.gif)]
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow appending processing results to existing layers
+## Allow appending processing results to existing layers
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35641](https://github.com/qgis/QGIS/pull/35641)
 - **Merged:** 2020-04-07T07:05:45Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/1829991/78631098-b9976100-78de-11ea-8f18-f7c7473e0945.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow plugins to register custom Project Open handlers
+## Allow plugins to register custom Project Open handlers
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35606](https://github.com/qgis/QGIS/pull/35606)
 - **Merged:** 2020-04-06T23:18:50Z
 - **tags:** API
 
+![](https://user-images.githubusercontent.com/1829991/78514331-1833e080-77f4-11ea-9c8d-a5e9ead7dc1a.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow marker items to sync rotation with maps
+## Allow marker items to sync rotation with maps
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35591](https://github.com/qgis/QGIS/pull/35591)
 - **Merged:** 2020-04-06T04:04:21Z
 - **tags:** Print Layouts
+- **Sponsored by:** SLYR
+
+![](https://user-images.githubusercontent.com/1829991/78419618-c885d580-768a-11ea-959a-8459e19e05df.png)
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  New item type for marker symbols
+## New item type for marker symbols
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35576](https://github.com/qgis/QGIS/pull/35576)
@@ -419,7 +470,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Added move to bottom in layertreeview context menu
+## Added move to bottom in layertreeview context menu
 - **Author:** uclaros
 - **milestone:** 3.14.0
 - **PR:** [35531](https://github.com/qgis/QGIS/pull/35531)
@@ -428,57 +479,68 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Show a menu next to scale widget buttons, to allow setting the widget directly to a scale from a print layout map
+## Show a menu next to scale widget buttons, to allow setting the widget directly to a scale from a print layout map
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35518](https://github.com/qgis/QGIS/pull/35518)
 - **Merged:** 2020-04-02T23:06:10Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/1829991/78198825-34bada80-74cd-11ea-803a-90afea085b38.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Postgres raster temporal API support
+## Postgres raster temporal API support
 - **Author:** [elpaso](https://twitter.com/elpaso66)
 - **milestone:** 3.14.0
 - **PR:** [35511](https://github.com/qgis/QGIS/pull/35511)
 - **Merged:** 2020-04-06T19:54:23Z
 - **tags:** Data Provider;Raster
 
+![](https://user-images.githubusercontent.com/142164/78421830-1f73b680-765b-11ea-8e65-6c2040ad24f2.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow creation of group boxes in models
+## Allow creation of group boxes in models
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35494](https://github.com/qgis/QGIS/pull/35494)
 - **Merged:** 2020-04-01T08:20:10Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/1829991/78090538-bba87e00-740d-11ea-9476-144163d8f1ca.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Spatialite provider transactions
+## Spatialite provider transactions
 - **Author:** [elpaso](https://twitter.com/elpaso66)
 - **milestone:** 3.14.0
 - **PR:** [35488](https://github.com/qgis/QGIS/pull/35488)
 - **Merged:** 2020-04-01T09:15:15Z
 - **tags:** Data Provider
+- **Funded by:** ARPA Piemonte
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Port output parameter wrappers to new API
+## Port output parameter wrappers to new API
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35484](https://github.com/qgis/QGIS/pull/35484)
 - **Merged:** 2020-04-01T16:29:55Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/1829991/78028688-bbbf6400-73a2-11ea-9b7f-a7d81133d321.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add import content from clipboard for fixed table items
+## Add import content from clipboard for fixed table items
 - **Author:** nirvn
 - **milestone:** 3.14.0
 - **PR:** [35475](https://github.com/qgis/QGIS/pull/35475)
 - **Merged:** 2020-03-31T10:21:11Z
 - **tags:** Print Layouts
+
+![](https://user-images.githubusercontent.com/1728657/77991304-ad932880-734d-11ea-8e5a-40b2b28e66b0.gif)
 
 [↑ come back ↑](#changelog-314-pi)
 
@@ -489,9 +551,11 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-31T09:35:52Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/1829991/77991113-5d749000-7366-11ea-986c-652f6e2229e7.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add Save Log to File algorithm for models
+## Add Save Log to File algorithm for models
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35473](https://github.com/qgis/QGIS/pull/35473)
@@ -500,16 +564,18 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  plug mesh layer to QGIS temporal framework
+## plug mesh layer to QGIS temporal framework
 - **Author:** vcloarec
 - **milestone:** 3.14.0
 - **PR:** [35466](https://github.com/qgis/QGIS/pull/35466)
 - **Merged:** 2020-04-03T06:21:16Z
 - **tags:** Mesh
 
+![](https://user-images.githubusercontent.com/7416892/77872855-31e29000-7216-11ea-80fb-82e351dbb4a2.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Network logger - more functionality
+## Network logger - more functionality
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35454](https://github.com/qgis/QGIS/pull/35454)
@@ -518,7 +584,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Port last remaining input parameters to new API
+## Port last remaining input parameters to new API
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35452](https://github.com/qgis/QGIS/pull/35452)
@@ -527,25 +593,29 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Raster Layer Contour Renderer
+## Raster Layer Contour Renderer
 - **Author:** wonder-sk
 - **milestone:** 3.14.0
 - **PR:** [35446](https://github.com/qgis/QGIS/pull/35446)
 - **Merged:** 2020-03-31T06:51:55Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/193367/77861880-17111b00-7218-11ea-95ba-410c97830b93.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add percentage size unit for Raster Image Marker and Raster fill layers symbology.
+## Add percentage size unit for Raster Image Marker and Raster fill layers symbology.
 - **Author:** beketata
 - **milestone:** 3.14.0
 - **PR:** [35438](https://github.com/qgis/QGIS/pull/35438)
 - **Merged:** 2020-04-07T22:32:21Z
 - **tags:** Symbology
 
+![](https://user-images.githubusercontent.com/7413903/77845539-726bea80-71d1-11ea-9512-0a8e6cde7b3c.jpg) ![](https://user-images.githubusercontent.com/7413903/77845535-6e3fcd00-71d1-11ea-8760-b477e75f7a3a.jpg)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Port Feature Source, Raster, Vector and Mesh Layer parameters to new API
+## Port Feature Source, Raster, Vector and Mesh Layer parameters to new API
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35419](https://github.com/qgis/QGIS/pull/35419)
@@ -554,7 +624,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Server project settings, add 'expanded' attribute
+## Server project settings, add 'expanded' attribute
 - **Author:** mhugent
 - **milestone:** 3.14.0
 - **PR:** [35408](https://github.com/qgis/QGIS/pull/35408)
@@ -563,43 +633,51 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Inbuilt network logging tool
+## Inbuilt network logging tool
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35396](https://github.com/qgis/QGIS/pull/35396)
 - **Merged:** 2020-03-30T06:54:23Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/1829991/77712469-95ef3380-701f-11ea-8fec-3eded258b4e9.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allowing saving outputs direct to more database formats (and other nice stuff)
+## Allowing saving outputs direct to more database formats (and other nice stuff)
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35364](https://github.com/qgis/QGIS/pull/35364)
 - **Merged:** 2020-03-26T15:30:28Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/1829991/77608752-dab89300-6f69-11ea-9c48-eefca7a4d199.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Vector tile layer - part 1
+## Vector tile layer - part 1
 - **Author:** wonder-sk
 - **milestone:** 3.14.0
 - **PR:** [35341](https://github.com/qgis/QGIS/pull/35341)
 - **Merged:** 2020-04-02T14:06:31Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/193367/77539757-2d2e7c80-6ea2-11ea-9098-c6c0924f9d59.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow running algorithms directly on database (and other non-disk) sources without loading into projects first
+## Allow running algorithms directly on database (and other non-disk) sources without loading into projects first
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35324](https://github.com/qgis/QGIS/pull/35324)
 - **Merged:** 2020-03-26T01:55:47Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/1829991/77508685-fca50d80-6eb6-11ea-8190-a447847f55d9.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Port processing extent parameter to new api, many other improvements
+## Port processing extent parameter to new api, many other improvements
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35321](https://github.com/qgis/QGIS/pull/35321)
@@ -608,34 +686,40 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Interface and API for unified development/debugging tools
+## Interface and API for unified development/debugging tools
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35319](https://github.com/qgis/QGIS/pull/35319)
 - **Merged:** 2020-03-25T10:03:19Z
 - **tags:** API
 
+![](https://user-images.githubusercontent.com/1829991/77492080-55f74780-6e8b-11ea-9141-1b96c42c29eb.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Expose per-feature-source advanced options for processing inputs
+## Expose per-feature-source advanced options for processing inputs
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35292](https://github.com/qgis/QGIS/pull/35292)
 - **Merged:** 2020-03-24T23:42:18Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/1829991/77395930-64dbec80-6dee-11ea-9590-b7fadcd242c1.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Resampling from vertex values to face values
+## Resampling from vertex values to face values
 - **Author:** vcloarec
 - **milestone:** 3.14.0
 - **PR:** [35264](https://github.com/qgis/QGIS/pull/35264)
 - **Merged:** 2020-03-24T09:03:55Z
 - **tags:** Mesh
 
+![](https://user-images.githubusercontent.com/7416892/77320848-acc41c00-6ce7-11ea-85af-2bff553ecbb5.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Enable snapping to grid for models in designer
+## Enable snapping to grid for models in designer
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35251](https://github.com/qgis/QGIS/pull/35251)
@@ -644,52 +728,62 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add numeric formatter fraction style
+## Add numeric formatter fraction style
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35244](https://github.com/qgis/QGIS/pull/35244)
 - **Merged:** 2020-03-23T04:24:38Z
 - **tags:** Print Layouts
 
+![](https://user-images.githubusercontent.com/1829991/77267662-0c71f580-6cef-11ea-9956-917e1d6ef496.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add stepped line and hollow scalebar styles
+## Add stepped line and hollow scalebar styles
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35238](https://github.com/qgis/QGIS/pull/35238)
 - **Merged:** 2020-03-22T17:08:51Z
 - **tags:** Print Layouts
 
+![](https://user-images.githubusercontent.com/1829991/77247015-c1b59680-6c78-11ea-92a9-7bbb2ba8638a.png)
+![](https://user-images.githubusercontent.com/1829991/77247024-dc880b00-6c78-11ea-827a-344645cec248.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Allow scalebar line style to be set using standard QGIS line symbols
+## Allow scalebar line style to be set using standard QGIS line symbols
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35225](https://github.com/qgis/QGIS/pull/35225)
 - **Merged:** 2020-03-22T06:41:32Z
 - **tags:** Print Layouts
+- **Sponsored:** SLYR
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add data-defined property to font family/style for font markers
+## Add data-defined property to font family/style for font markers
 - **Author:** nirvn
 - **milestone:** 3.14.0
 - **PR:** [35224](https://github.com/qgis/QGIS/pull/35224)
 - **Merged:** 2020-03-22T05:24:09Z
 - **tags:** Symbology
 
+![](https://user-images.githubusercontent.com/1728657/77220009-07396d00-6b6e-11ea-914d-a4d419750de3.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  coloring mesh vector dataset with color ramp shader
+## coloring mesh vector dataset with color ramp shader
 - **Author:** vcloarec
 - **milestone:** 3.14.0
 - **PR:** [35216](https://github.com/qgis/QGIS/pull/35216)
 - **Merged:** 2020-03-24T08:58:49Z
 - **tags:** Mesh
 
+![](https://user-images.githubusercontent.com/7416892/77156669-2c4ab480-6a76-11ea-9209-d0144fbfc3f0.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  add maptip, expression display and eval_template expressions
+## add maptip, expression display and eval_template expressions
 - **Author:** Gustry
 - **milestone:** 3.14.0
 - **PR:** [35211](https://github.com/qgis/QGIS/pull/35211)
@@ -698,16 +792,17 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add @layers, @layer_ids project scope variables
+## Add @layers, @layer_ids project scope variables
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35208](https://github.com/qgis/QGIS/pull/35208)
 - **Merged:** 2020-03-20T02:56:23Z
 - **tags:** Expressions
+- **Sponsored:** SLYR
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add a font style setting for font markers
+## Add a font style setting for font markers
 - **Author:** nirvn
 - **milestone:** 3.14.0
 - **PR:** [35197](https://github.com/qgis/QGIS/pull/35197)
@@ -716,7 +811,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Rework picture item UI and behavior
+## Rework picture item UI and behavior
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35160](https://github.com/qgis/QGIS/pull/35160)
@@ -725,7 +820,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add filter by geometry type and filter by layer type algorithms to processing
+## Add filter by geometry type and filter by layer type algorithms to processing
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35130](https://github.com/qgis/QGIS/pull/35130)
@@ -734,12 +829,14 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Make Add Group button act as Group Selected if selected layers >= 2
+## Make Add Group button act as Group Selected if selected layers >= 2
 - **Author:** uclaros
 - **milestone:** 3.14.0
 - **PR:** [35097](https://github.com/qgis/QGIS/pull/35097)
 - **Merged:** 2020-03-16T02:11:08Z
 - **tags:** -
+
+![](https://user-images.githubusercontent.com/11358178/76710403-f624d200-670f-11ea-9a41-13420c7940e3.gif)
 
 [↑ come back ↑](#changelog-314-pi)
 
@@ -750,18 +847,22 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-18T03:26:49Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/2820439/76692569-26616780-6661-11ea-9071-fd4c712860db.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Optionally, also remove EMPTY geometries in RemoveNullGeometries algorithm
+## Optionally, also remove EMPTY geometries in RemoveNullGeometries algorithm
 - **Author:** gacarrillor
 - **milestone:** 3.14.0
 - **PR:** [35084](https://github.com/qgis/QGIS/pull/35084)
 - **Merged:** 2020-03-15T07:37:53Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/652785/76703713-81b34a00-66a1-11ea-9818-ebf771885206.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Data type support for QgsProcessingParameterMapLayer
+## Data type support for QgsProcessingParameterMapLayer
 - **Author:** alexbruy
 - **milestone:** 3.14.0
 - **PR:** [35076](https://github.com/qgis/QGIS/pull/35076)
@@ -770,7 +871,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add processing parameter types for database schema and table name
+## Add processing parameter types for database schema and table name
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [35056](https://github.com/qgis/QGIS/pull/35056)
@@ -779,34 +880,40 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add description to value relation widget
+## Add description to value relation widget
 - **Author:** m-kuhn
 - **milestone:** 3.14.0
 - **PR:** [35035](https://github.com/qgis/QGIS/pull/35035)
 - **Merged:** 2020-03-17T14:32:47Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/588407/76538031-f195ba80-647e-11ea-9a41-271576e315bc.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add multi-selection handling to model designer, interactive resizing
+## Add multi-selection handling to model designer, interactive resizing
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [34987](https://github.com/qgis/QGIS/pull/34987)
 - **Merged:** 2020-03-12T03:14:34Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/1829991/76388083-f9d4f380-63b3-11ea-8f06-97249e85ac2e.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  New database table name widget
+## New database table name widget
 - **Author:** [elpaso](https://twitter.com/elpaso66)
 - **milestone:** 3.14.0
 - **PR:** [34968](https://github.com/qgis/QGIS/pull/34968)
 - **Merged:** 2020-03-12T20:35:54Z
 - **tags:** API;QGIS Browser
 
+![](https://user-images.githubusercontent.com/142164/76504669-70233580-6448-11ea-9194-173ae0d344ce.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add dedicated parameter type for database connections
+## Add dedicated parameter type for database connections
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [34955](https://github.com/qgis/QGIS/pull/34955)
@@ -815,30 +922,36 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  arrows for 3D mesh layer dataset rendering
+## arrows for 3D mesh layer dataset rendering
 - **Author:** vcloarec
 - **milestone:** 3.14.0
 - **PR:** [34945](https://github.com/qgis/QGIS/pull/34945)
 - **Merged:** 2020-03-11T06:51:03Z
 - **tags:** Mesh
 
+![](https://user-images.githubusercontent.com/7416892/76225815-681e8800-61f3-11ea-96e2-25ccc692ed2e.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add undo/redo support to model designer
+## Add undo/redo support to model designer
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [34938](https://github.com/qgis/QGIS/pull/34938)
 - **Merged:** 2020-03-10T22:39:55Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/1829991/76176510-c8fe8e00-61fc-11ea-90e1-91cbeadcbd4f.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add control over anchor point for callout on label
+## Add control over anchor point for callout on label
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [34936](https://github.com/qgis/QGIS/pull/34936)
 - **Merged:** 2020-03-09T05:29:52Z
 - **tags:** Labeling
+
+![](https://user-images.githubusercontent.com/1829991/76173706-6d78d400-61ed-11ea-89c1-ce4e2477dfef.png)
 
 [↑ come back ↑](#changelog-314-pi)
 
@@ -851,7 +964,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Add expression variables for current map temporal range
+## Add expression variables for current map temporal range
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [34898](https://github.com/qgis/QGIS/pull/34898)
@@ -860,7 +973,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Remember parameter values between model designer runs
+## Remember parameter values between model designer runs
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [34895](https://github.com/qgis/QGIS/pull/34895)
@@ -869,16 +982,18 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  allow to install stable or experimental
+## plugin manager allow to install stable or experimental
 - **Author:** olivierdalang
 - **milestone:** 3.14.0
 - **PR:** [34876](https://github.com/qgis/QGIS/pull/34876)
 - **Merged:** 2020-03-15T19:31:18Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/1894106/75906889-b1fc1c80-5e47-11ea-954a-bdb16939b0c6.PNG)
+
 [↑ come back ↑](#changelog-314-pi)
 
-##  PG raster expose set filter to app
+## PG raster expose set filter to app
 - **Author:** [elpaso](https://twitter.com/elpaso66)
 - **milestone:** 3.14.0
 - **PR:** [34871](https://github.com/qgis/QGIS/pull/34871)
@@ -890,7 +1005,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Comments in Processing Models
+## Comments in Processing Models
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [34856](https://github.com/qgis/QGIS/pull/34856)
@@ -901,7 +1016,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Mesh 1D Renderer
+## Mesh 1D Renderer
 - **Author:** PeterPetrik
 - **milestone:** 3.14.0
 - **PR:** [34848](https://github.com/qgis/QGIS/pull/34848)
@@ -912,7 +1027,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Get current parent form values in child forms
+## Get current parent form values in child forms
 - **Author:** [elpaso](https://twitter.com/elpaso66)
 - **milestone:** 3.14.0
 - **PR:** [34827](https://github.com/qgis/QGIS/pull/34827)
@@ -934,7 +1049,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Relation widget force suppress popup
+## Relation widget force suppress popup
 - **Author:** [elpaso](https://twitter.com/elpaso66)
 - **milestone:** 3.14.0
 - **PR:** [34654](https://github.com/qgis/QGIS/pull/34654)
@@ -945,7 +1060,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  New standalone console tool for running processing algorithms
+## New standalone console tool for running processing algorithms
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [34617](https://github.com/qgis/QGIS/pull/34617)
@@ -956,7 +1071,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  New parameter type for Merged (or date, or time) values
+## New parameter type for Merged (or date, or time) values
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
 - **PR:** [34610](https://github.com/qgis/QGIS/pull/34610)
@@ -965,7 +1080,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  QGIS Project temporal settings
+## QGIS Project temporal settings
 - **Author:** Samweli
 - **milestone:** 3.14.0
 - **PR:** [34590](https://github.com/qgis/QGIS/pull/34590)
@@ -976,7 +1091,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Make CRS controlable by a variable
+## Make CRS controlable by a variable
 - **Author:** roya0045
 - **milestone:** 3.14.0
 - **PR:** [34547](https://github.com/qgis/QGIS/pull/34547)
@@ -987,7 +1102,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  mesh simplification
+## mesh simplification
 - **Author:** vcloarec
 - **milestone:** 3.14.0
 - **PR:** [34532](https://github.com/qgis/QGIS/pull/34532)
@@ -998,7 +1113,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  WMS-T layers temporal constrains support
+## WMS-T layers temporal constrains support
 - **Author:** Samweli
 - **milestone:** 3.14.0
 - **PR:** [34497](https://github.com/qgis/QGIS/pull/34497)
@@ -1009,7 +1124,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Temporal API
+## Temporal API
 - **Author:** Samweli
 - **PR:** [34040](https://github.com/qgis/QGIS/pull/34040)
 - **Merged:** 2020-02-24T03:48:40Z
@@ -1026,7 +1141,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#changelog-314-pi)
 
-##  Show 'template layer' constraints info in the Refactor fields algorithm's UI
+## Show 'template layer' constraints info in the Refactor fields algorithm's UI
 - **Author:** gacarrillor
 - **milestone:** 3.14.0
 - **PR:** [31387](https://github.com/qgis/QGIS/pull/31387)
@@ -1041,54 +1156,54 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ## Authors
 
-| author                                         | count | percent | histogram              |
+| author                     | count | percent | histogram       |
 | ---------------------------------------------- | ----- | ------- | ---------------------- |
-| [nyalldawson](https://twitter.com/nyalldawson) | 45    | 45.92   | ********************** |
-| [elpaso](https://twitter.com/elpaso66)         | 10    | 10.20   | *****                  |
-| vcloarec                                       | 6     | 6.12    | ***                    |
-| alexbruy                                       | 5     | 5.10    | **                     |
-| JanCaha                                        | 4     | 4.08    | **                     |
-| wonder-sk                                      | 4     | 4.08    | **                     |
-| nirvn                                          | 4     | 4.08    | **                     |
-| Samweli                                        | 3     | 3.06    | *                      |
-| root676                                        | 2     | 2.04    | *                      |
-| uclaros                                        | 2     | 2.04    | *                      |
-| gacarrillor                                    | 2     | 2.04    | *                      |
-| 3nids                                          | 1     | 1.02    |
-| jmonticolo                                     | 1     | 1.02    |
-| beketata                                       | 1     | 1.02    |
-| mhugent                                        | 1     | 1.02    |
-| Gustry                                         | 1     | 1.02    |
-| suricactus                                     | 1     | 1.02    |
-| m-kuhn                                         | 1     | 1.02    |
-| olivierdalang                                  | 1     | 1.02    |
-| PeterPetrik                                    | 1     | 1.02    |
-| roya0045                                       | 1     | 1.02    |
-| lbartoletti                                    | 1     | 1.02    |
+| [nyalldawson](https://twitter.com/nyalldawson) | 45  | 45.92  | ********************** |
+| [elpaso](https://twitter.com/elpaso66)     | 10  | 10.20  | *****         |
+| vcloarec                    | 6   | 6.12  | ***          |
+| alexbruy                    | 5   | 5.10  | **           |
+| JanCaha                    | 4   | 4.08  | **           |
+| wonder-sk                   | 4   | 4.08  | **           |
+| nirvn                     | 4   | 4.08  | **           |
+| Samweli                    | 3   | 3.06  | *           |
+| root676                    | 2   | 2.04  | *           |
+| uclaros                    | 2   | 2.04  | *           |
+| gacarrillor                  | 2   | 2.04  | *           |
+| 3nids                     | 1   | 1.02  |
+| jmonticolo                   | 1   | 1.02  |
+| beketata                    | 1   | 1.02  |
+| mhugent                    | 1   | 1.02  |
+| Gustry                     | 1   | 1.02  |
+| suricactus                   | 1   | 1.02  |
+| m-kuhn                     | 1   | 1.02  |
+| olivierdalang                 | 1   | 1.02  |
+| PeterPetrik                  | 1   | 1.02  |
+| roya0045                    | 1   | 1.02  |
+| lbartoletti                  | 1   | 1.02  |
 
 [↑ come back ↑](#changelog-314-pi)
 
 ## Tags
 
-| tags                 | count | percent | histogram      |
+| tags         | count | percent | histogram   |
 | -------------------- | ----- | ------- | -------------- |
-| Processing           | 28    | 28.57   | ************** |
-| -                    | 24    | 24.49   | ************   |
-| Print Layouts        | 11    | 11.22   | *****          |
-| Expressions          | 8     | 8.16    | ****           |
-| Mesh                 | 5     | 5.10    | **             |
-| Forms                | 3     | 3.06    | *              |
-| Symbology            | 3     | 3.06    | *              |
-| Labeling             | 2     | 2.04    | *              |
-| Server               | 2     | 2.04    | *              |
-| Digitizing           | 2     | 2.04    | *              |
-| API                  | 2     | 2.04    | *              |
-| Data Provider;Raster | 2     | 2.04    | *              |
-| Data Provider        | 2     | 2.04    | *              |
-| Documentation;Mesh   | 1     | 1.02    |
-| GUI/UX               | 1     | 1.02    |
-| API;QGIS Browser     | 1     | 1.02    |
-| Forms;GUI/UX         | 1     | 1.02    |
+| Processing      | 28  | 28.57  | ************** |
+| -          | 24  | 24.49  | ************  |
+| Print Layouts    | 11  | 11.22  | *****     |
+| Expressions     | 8   | 8.16  | ****      |
+| Mesh         | 5   | 5.10  | **       |
+| Forms        | 3   | 3.06  | *       |
+| Symbology      | 3   | 3.06  | *       |
+| Labeling       | 2   | 2.04  | *       |
+| Server        | 2   | 2.04  | *       |
+| Digitizing      | 2   | 2.04  | *       |
+| API         | 2   | 2.04  | *       |
+| Data Provider;Raster | 2   | 2.04  | *       |
+| Data Provider    | 2   | 2.04  | *       |
+| Documentation;Mesh  | 1   | 1.02  |
+| GUI/UX        | 1   | 1.02  |
+| API;QGIS Browser   | 1   | 1.02  |
+| Forms;GUI/UX     | 1   | 1.02  |
 
 [↑ come back ↑](#changelog-314-pi)
 
