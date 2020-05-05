@@ -1,4 +1,14 @@
-# Changelog 3.14 (Pi)
+<div class="container-lg clearfix border p-2 bg-blue-light my-">
+  <div class="col-md-6 float-left p-2 border0">
+    📧 <a href="mailto:pigrecoinfinito@gmail.com">Info!</a>
+  </div>
+</div>
+
+<h1>Changelog 3.14 (Pi)</h1>
+
+[**Pigrecoinfinito**](http://pigrecoinfinito.com/) has collected on this page some **views** of the changelog 3.14 Pi 😊).
+
+
 
 The following changelogs are the result of this [filter](https://github.com/qgis/QGIS/pulls?page=1&q=is%3Apr+is%3Aclosed+label%3Afeature+merged%3A2020-02-22T00%3A00%3A00Z..2020-05-15T12%3A00%3A00Z):
 
@@ -20,6 +30,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Tweet QGIS 3.14 Pi**: https://twitter.com/totofiandaca/status/1244960239193120771
 
 ![splash](./imgs/Bucarest2019.png)
+
+<hr>
 
 **---> UPDATED 2020-05-03 <---****---> UPDATED 2020-05-03 <---****---> UPDATED 2020-05-03 <---** **98 FEATURES**
 
