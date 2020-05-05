@@ -25,7 +25,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 <!-- TOC -->
 
-- [Changelog 3.14 (Pi)](#changelog-314-pi)
+- [Features](#features)
   - [Automatic placement of labels outside polygons](#automatic-placement-of-labels-outside-polygons)
   - [Feature browser for preview in expression builder](#feature-browser-for-preview-in-expression-builder)
   - [add expression close_line](#add-expression-closeline)
@@ -121,12 +121,15 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [mesh simplification](#mesh-simplification)
   - [WMS-T layers temporal constrains support](#wms-t-layers-temporal-constrains-support)
   - [Temporal API](#temporal-api)
+  - [New snapping modes: Centroid and middle of a segment (midpoint)](#new-snapping-modes-centroid-and-middle-of-a-segment-midpoint)
   - [Show 'template layer' constraints info in the Refactor fields algorithm's UI](#show-template-layer-constraints-info-in-the-refactor-fields-algorithms-ui)
 - [Statistics](#statistics)
   - [Authors](#authors)
   - [Tags](#tags)
 
 <!-- /TOC -->
+
+# Features
 
 ##  Automatic placement of labels outside polygons
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
@@ -738,6 +741,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-16T02:11:08Z
 - **tags:** -
 
+[↑ come back ↑](#changelog-314-pi)
+
 - ## Add toolbutton to Deselect Features from the Current Active layer
 - **Author:** suricactus
 - **milestone:** 3.14.0
@@ -879,6 +884,9 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [34871](https://github.com/qgis/QGIS/pull/34871)
 - **Merged:** 2020-03-05T14:34:33Z
 - **tags:** Data Provider;Raster
+- **Funded by**: ARPA Piemonte
+
+![](https://user-images.githubusercontent.com/142164/75894983-49a43f80-5e35-11ea-95a8-a86276b39bbc.gif)
 
 [↑ come back ↑](#changelog-314-pi)
 
@@ -889,6 +897,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-05T17:49:17Z
 - **tags:** Processing
 
+![](https://user-images.githubusercontent.com/1829991/75851342-26799000-5e35-11ea-8895-a310f01b3823.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
 ##  Mesh 1D Renderer
@@ -897,6 +907,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [34848](https://github.com/qgis/QGIS/pull/34848)
 - **Merged:** 2020-03-09T04:59:52Z
 - **tags:** -
+
+![](https://user-images.githubusercontent.com/804608/75885122-3b9af280-5e26-11ea-96a3-f4a4e48c040e.png)
 
 [↑ come back ↑](#changelog-314-pi)
 
@@ -907,12 +919,18 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-05T09:51:44Z
 - **tags:** Forms
 
+![](https://user-images.githubusercontent.com/142164/75692656-28f9af80-5ca6-11ea-8dd6-9a4bf454f5b7.gif)
+
+[↑ come back ↑](#changelog-314-pi)
+
 ## Relation wdgt: add checkbox to hide save child edits button
 - **Author:** [elpaso](https://twitter.com/elpaso66)
 - **milestone:** 3.14.0
 - **PR:** [34760](https://github.com/qgis/QGIS/pull/34760)
 - **Merged:** 2020-02-28T14:52:46Z
 - **tags:** Forms;GUI/UX
+
+![](https://user-images.githubusercontent.com/142164/75524592-82e04800-5a0e-11ea-9333-461a0d02a1c0.png)
 
 [↑ come back ↑](#changelog-314-pi)
 
@@ -923,6 +941,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-02-27T07:11:45Z
 - **tags:** Forms
 
+![](https://user-images.githubusercontent.com/142164/75249972-9786cb00-57d7-11ea-8100-3426d32831db.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
 ##  New standalone console tool for running processing algorithms
@@ -931,6 +951,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [34617](https://github.com/qgis/QGIS/pull/34617)
 - **Merged:** 2020-04-15T08:20:28Z
 - **tags:** Processing
+
+![](https://twitter.com/i/status/1250506567528722433)
 
 [↑ come back ↑](#changelog-314-pi)
 
@@ -950,6 +972,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-06T21:43:14Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/2663775/74980472-93f2ed00-5441-11ea-8765-f35d1f69b144.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
 ##  Make CRS controlable by a variable
@@ -958,6 +982,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [34547](https://github.com/qgis/QGIS/pull/34547)
 - **Merged:** 2020-02-22T20:50:56Z
 - **tags:** Print Layouts
+
+![](https://user-images.githubusercontent.com/12854129/74844265-348ac500-52fb-11ea-9198-78f4f9022ac1.PNG)
 
 [↑ come back ↑](#changelog-314-pi)
 
@@ -968,6 +994,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-02-25T07:05:50Z
 - **tags:** Mesh
 
+![](https://user-images.githubusercontent.com/7416892/74750757-9e936380-5242-11ea-98cf-a0e3e6694831.png)
+
 [↑ come back ↑](#changelog-314-pi)
 
 ##  WMS-T layers temporal constrains support
@@ -977,6 +1005,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-05T08:41:37Z
 - **tags:** -
 
+![](https://user-images.githubusercontent.com/2663775/74638491-02535900-517d-11ea-84e3-28729f05b14d.gif)
+
 [↑ come back ↑](#changelog-314-pi)
 
 ##  Temporal API
@@ -984,13 +1014,15 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [34040](https://github.com/qgis/QGIS/pull/34040)
 - **Merged:** 2020-02-24T03:48:40Z
 - **tags:** -
-- 
-- **Description: New snapping modes:** Centroid and middle of a segment (midpoint)
+
+## New snapping modes: Centroid and middle of a segment (midpoint)
 - **Author:** lbartoletti
 - **milestone:** 3.14.0
 - **PR:** [33622](https://github.com/qgis/QGIS/pull/33622)
 - **Merged:** 2020-03-02T08:02:36Z
 - **tags:** Digitizing
+
+![](https://user-images.githubusercontent.com/7521540/71798125-35201280-3051-11ea-959d-a5897ca3391a.png)
 
 [↑ come back ↑](#changelog-314-pi)
 
@@ -1000,6 +1032,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [31387](https://github.com/qgis/QGIS/pull/31387)
 - **Merged:** 2020-03-18T06:10:07Z
 - **tags:** -
+
+![](https://user-images.githubusercontent.com/652785/75100644-6079a500-559e-11ea-91b6-f99fa05451de.png)
 
 [↑ come back ↑](#changelog-314-pi)
 
