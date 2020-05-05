@@ -1041,54 +1041,54 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ## Authors
 
-author|count|percent|histogram
-------|-----|-------|------
-[nyalldawson](https://twitter.com/nyalldawson)|45|45.92|**********************
-[elpaso](https://twitter.com/elpaso66)|10|10.20|*****
-vcloarec|6|6.12|***
-alexbruy|5|5.10|**
-JanCaha|4|4.08|**
-wonder-sk|4|4.08|**
-nirvn|4|4.08|**
-Samweli|3|3.06|*
-root676|2|2.04|*
-uclaros|2|2.04|*
-gacarrillor|2|2.04|*
-3nids|1|1.02|
-jmonticolo|1|1.02|
-beketata|1|1.02|
-mhugent|1|1.02|
-Gustry|1|1.02|
-suricactus|1|1.02|
-m-kuhn|1|1.02|
-olivierdalang|1|1.02|
-PeterPetrik|1|1.02|
-roya0045|1|1.02|
-lbartoletti|1|1.02|
+| author                                         | count | percent | histogram              |
+| ---------------------------------------------- | ----- | ------- | ---------------------- |
+| [nyalldawson](https://twitter.com/nyalldawson) | 45    | 45.92   | ********************** |
+| [elpaso](https://twitter.com/elpaso66)         | 10    | 10.20   | *****                  |
+| vcloarec                                       | 6     | 6.12    | ***                    |
+| alexbruy                                       | 5     | 5.10    | **                     |
+| JanCaha                                        | 4     | 4.08    | **                     |
+| wonder-sk                                      | 4     | 4.08    | **                     |
+| nirvn                                          | 4     | 4.08    | **                     |
+| Samweli                                        | 3     | 3.06    | *                      |
+| root676                                        | 2     | 2.04    | *                      |
+| uclaros                                        | 2     | 2.04    | *                      |
+| gacarrillor                                    | 2     | 2.04    | *                      |
+| 3nids                                          | 1     | 1.02    |
+| jmonticolo                                     | 1     | 1.02    |
+| beketata                                       | 1     | 1.02    |
+| mhugent                                        | 1     | 1.02    |
+| Gustry                                         | 1     | 1.02    |
+| suricactus                                     | 1     | 1.02    |
+| m-kuhn                                         | 1     | 1.02    |
+| olivierdalang                                  | 1     | 1.02    |
+| PeterPetrik                                    | 1     | 1.02    |
+| roya0045                                       | 1     | 1.02    |
+| lbartoletti                                    | 1     | 1.02    |
 
 [↑ come back ↑](#changelog-314-pi)
 
 ## Tags
 
-tags|count|percent|histogram
-----|-----|-------|-------
-Processing|28|28.57|**************
--|24|24.49|************
-Print Layouts|11|11.22|*****
-Expressions|8|8.16|****
-Mesh|5|5.10|**
-Forms|3|3.06|*
-Symbology|3|3.06|*
-Labeling|2|2.04|*
-Server|2|2.04|*
-Digitizing|2|2.04|*
-API|2|2.04|*
-Data Provider;Raster|2|2.04|*
-Data Provider|2|2.04|*
-Documentation;Mesh|1|1.02|
-GUI/UX|1|1.02|
-API;QGIS Browser|1|1.02|
-Forms;GUI/UX|1|1.02|
+| tags                 | count | percent | histogram      |
+| -------------------- | ----- | ------- | -------------- |
+| Processing           | 28    | 28.57   | ************** |
+| -                    | 24    | 24.49   | ************   |
+| Print Layouts        | 11    | 11.22   | *****          |
+| Expressions          | 8     | 8.16    | ****           |
+| Mesh                 | 5     | 5.10    | **             |
+| Forms                | 3     | 3.06    | *              |
+| Symbology            | 3     | 3.06    | *              |
+| Labeling             | 2     | 2.04    | *              |
+| Server               | 2     | 2.04    | *              |
+| Digitizing           | 2     | 2.04    | *              |
+| API                  | 2     | 2.04    | *              |
+| Data Provider;Raster | 2     | 2.04    | *              |
+| Data Provider        | 2     | 2.04    | *              |
+| Documentation;Mesh   | 1     | 1.02    |
+| GUI/UX               | 1     | 1.02    |
+| API;QGIS Browser     | 1     | 1.02    |
+| Forms;GUI/UX         | 1     | 1.02    |
 
 [↑ come back ↑](#changelog-314-pi)
 
