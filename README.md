@@ -423,7 +423,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-14T04:36:03Z
 - **tags:** Processing
 
-![ (https://user-images.githubusercontent.com/1829991/78641463-a099aa80-78f4-11ea-8c0b-c6b6b72f0e7d.gif)]
+![](https://user-images.githubusercontent.com/1829991/78641463-a099aa80-78f4-11ea-8c0b-c6b6b72f0e7d.gif)
 
 [↑ come back ↑](#features)
 
