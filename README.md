@@ -56,6 +56,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [add expression close_line](#add-expression-closeline)
   - [Allow overriding the legend patch size on a per-item basis](#allow-overriding-the-legend-patch-size-on-a-per-item-basis)
   - [Allow control over the horizontal spacing before legend group/subgroup/symbols](#allow-control-over-the-horizontal-spacing-before-legend-groupsubgroupsymbols)
+  - [Support for adding dock widgets as tabs: addTabifyDockWidget()](#support-for-adding-dock-widgets-as-tabs-addtabifydockwidget)
   - [Expressions for geometry Z and M minimum and maximum](#expressions-for-geometry-z-and-m-minimum-and-maximum)
   - [1D mesh width/color varying](#1d-mesh-widthcolor-varying)
   - [Manage legend patch shapes through style manager](#manage-legend-patch-shapes-through-style-manager)
@@ -292,6 +293,17 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Sponsored by:** SLYR
 
 [↑ come back ↑](#features)
+
+## Support for adding dock widgets as tabs: addTabifyDockWidget()
+- **Author:** gacarrillor
+- **milestone:** 3.14.0
+- **PR:** [35933](https://github.com/qgis/QGIS/pull/35933)
+- **Merged:** 2020-05-03T07:34:55Z
+- **tags:** GUI/UX
+
+![](https://user-images.githubusercontent.com/652785/80049561-d8017d00-84d8-11ea-826e-d7092ac7a5c6.gif)
+
+[↑ come back ↑](#changelog-314-pi)
 
 ## Expressions for geometry Z and M minimum and maximum
 - **Author:** JanCaha
