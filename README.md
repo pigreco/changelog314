@@ -3,7 +3,7 @@
     📧 <a href="mailto:pigrecoinfinito@gmail.com">Info!</a>
   </div>
   <div class="col-md-6 float-left p-2 border0 text-right">
-    Grazie a prezioso aiuto di <a class="" href="https://twitter.com/aborruso" target="_blank"><b>Andrea Borruso</b></a> aka wikiAndy
+    Grazie al prezioso aiuto di <a class="" href="https://twitter.com/aborruso" target="_blank"><b>Andrea Borruso</b></a> aka wikiAndy
   </div>
 </div>
 
@@ -35,7 +35,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <hr>
 
 <div class="flash flash-error">
-  UPDATED 2020-05-06T10:00:00Z - 107 features
+  <p align="center">UPDATED 2020-05-06T10:00:00Z - 107 features</p>
 </div>
 
 <br>
