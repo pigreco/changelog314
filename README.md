@@ -26,6 +26,14 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <!-- TOC -->
 
 - [Features](#features)
+  - [Expose control over layer legend splitting behavior on a layer-by-layer basis](#expose-control-over-layer-legend-splitting-behavior-on-a-layer-by-layer-basis)
+  - [allow editing of links in file widget](#allow-editing-of-links-in-file-widget)
+  - [Snap on mesh elements](#snap-on-mesh-elements)
+  - [Allow filtering WM(T)S list in source dialog](#allow-filtering-wmts-list-in-source-dialog)
+  - [Allow overriding the default symbol for a legend node](#allow-overriding-the-default-symbol-for-a-legend-node)
+  - [Allow placing manual column breaks in legends](#allow-placing-manual-column-breaks-in-legends)
+  - [Add subdivisions in ticksscalebar right segments](#add-subdivisions-in-ticksscalebar-right-segments)
+  - [Complete random raster algorithm collection #2](#complete-random-raster-algorithm-collection-2)
   - [Automatic placement of labels outside polygons](#automatic-placement-of-labels-outside-polygons)
   - [Feature browser for preview in expression builder](#feature-browser-for-preview-in-expression-builder)
   - [add expression close_line](#add-expression-closeline)
@@ -130,6 +138,65 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <!-- /TOC -->
 
 # Features
+
+## Expose control over layer legend splitting behavior on a layer-by-layer basis
+- **Author:**	[nyalldawson](https://twitter.com/nyalldawson)
+- **Milestone:** 3.14.0
+-**PR:** [36224](https://github.com/qgis/QGIS/pull/36224)
+- **Merged:**	2020-05-06T06:27:33Z
+- **tags:**	FeaturePrint;Layouts
+- **Sponsored by:** SLYR
+
+## allow editing of links in file widget
+- **Author:**	3nids
+- **Milestone:** 3.14.0
+-**PR:** [36190](https://github.com/qgis/QGIS/pull/36190)
+- **Merged:**	2020-05-06T04:46:55Z
+- **tags:**	FeatureNeeds;Documentation
+- **Sponsored by:** the QGIS Swiss user group
+
+## Snap on mesh elements
+- **Author:**	vcloarec
+- **Milestone:** 3.14.0
+-**PR:** [36171](https://github.com/qgis/QGIS/pull/36171)
+- **Merged:**	2020-05-05T11:31:50Z
+- **tags:**	APIFeatureMesh
+
+## Allow filtering WM(T)S list in source dialog
+- **Author:**	3nids
+- **Milestone:** 3.14.0
+-**PR:** [36166](https://github.com/qgis/QGIS/pull/36166)
+- **Merged:**	2020-05-05T05:21:00Z
+- **tags:**	FeatureNeeds;Documentation
+- **Sponsored by:** the QGIS Swiss user group
+
+## Allow overriding the default symbol for a legend node
+- **Author:**	[nyalldawson](https://twitter.com/nyalldawson)
+- **Milestone:** 3.14.0
+-**PR:** [36162](https://github.com/qgis/QGIS/pull/36162)
+- **Merged:**	2020-05-05T01:49:07Z
+- **tags:**	FeaturePrint;Layouts
+
+## Allow placing manual column breaks in legends
+- **Author:**	[nyalldawson](https://twitter.com/nyalldawson)
+- **Milestone:** 3.14.0
+-**PR:** [36136](https://github.com/qgis/QGIS/pull/36136)
+- **Merged:**	2020-05-05T14:22:28Z
+- **tags:**	Feature
+
+## Add subdivisions in ticksscalebar right segments
+- **Author:**	agiudiceandrea
+- **Milestone:** 3.14.0
+-**PR:** [36131](https://github.com/qgis/QGIS/pull/36131)
+- **Merged:**	2020-05-05T23:12:37Z
+- **tags:**	FeaturePrint;Layouts
+
+## Complete random raster algorithm collection #2
+- **Author:**	root676
+- **Milestone:** 3.14.0
+-**PR:** [36130](https://github.com/qgis/QGIS/pull/36130)
+- **Merged:**	2020-05-03T20:28:46Z
+- **tags:**	FeatureNeeds;Documentation
 
 ## Automatic placement of labels outside polygons
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
