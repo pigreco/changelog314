@@ -156,6 +156,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:**	FeaturePrint;Layouts
 - **Sponsored by:** SLYR
 
+[↑ come back ↑](#features)
+
 ## allow editing of links in file widget
 - **Author:**	3nids
 - **Milestone:** 3.14.0
@@ -166,12 +168,16 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](https://user-images.githubusercontent.com/127259/81038564-bcb64a80-8ea6-11ea-8289-46340dee9a88.gif)
 
+[↑ come back ↑](#features)
+
 ## Snap on mesh elements
 - **Author:**	vcloarec
 - **Milestone:** 3.14.0
 - **PR:** [36171](https://github.com/qgis/QGIS/pull/36171)
 - **Merged:**	2020-05-05T11:31:50Z
 - **tags:**	APIFeatureMesh
+
+[↑ come back ↑](#features)
 
 ## Allow filtering WM(T)S list in source dialog
 - **Author:**	3nids
@@ -180,6 +186,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:**	2020-05-05T05:21:00Z
 - **tags:**	FeatureNeeds;Documentation
 - **Sponsored by:** the QGIS Swiss user group
+
+[↑ come back ↑](#features)
 
 ![](https://user-images.githubusercontent.com/127259/80964825-d0fc3800-8e11-11ea-9961-34edb623458c.png)
 
@@ -190,12 +198,16 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:**	2020-05-05T01:49:07Z
 - **tags:**	FeaturePrint;Layouts
 
+[↑ come back ↑](#features)
+
 ## Allow placing manual column breaks in legends
 - **Author:**	[nyalldawson](https://twitter.com/nyalldawson)
 - **Milestone:** 3.14.0
 - **PR:** [36136](https://github.com/qgis/QGIS/pull/36136)
 - **Merged:**	2020-05-05T14:22:28Z
 - **tags:**	Feature
+
+[↑ come back ↑](#features)
 
 ## Add subdivisions in ticksscalebar right segments
 - **Author:**	agiudiceandrea
@@ -206,12 +218,16 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![](./imgs/line_scale_bar.png)
 
+[↑ come back ↑](#features)
+
 ## Complete random raster algorithm collection #2
 - **Author:**	root676
 - **Milestone:** 3.14.0
 - **PR:** [36130](https://github.com/qgis/QGIS/pull/36130)
 - **Merged:**	2020-05-03T20:28:46Z
 - **tags:**	FeatureNeeds;Documentation
+
+[↑ come back ↑](#features)
   
 ## Automatic placement of labels outside polygons
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
