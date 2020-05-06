@@ -2,6 +2,9 @@
   <div class="col-md-6 float-left p-2 border0">
     📧 <a href="mailto:pigrecoinfinito@gmail.com">Info!</a>
   </div>
+  <div class="col-md-6 float-left p-2 border0 text-right">
+    Grazie a prezioso aiuto di <a class="" href="https://twitter.com/aborruso" target="_blank"><b>Andrea Borruso</b></a> aka wikiAndy
+  </div>
 </div>
 
 <br>
