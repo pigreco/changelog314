@@ -19,19 +19,21 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ---
 
-- **QGIS**: https://qgis.org/it/site/
-- **Repository**: https://github.com/qgis/QGIS
+- **QGIS**: <https://qgis.org/it/site/>
+- **Repository**: <https://github.com/qgis/QGIS>
 
 ---
 
-- **Tweet QGIS 3.14 Pi**: https://twitter.com/totofiandaca/status/1244960239193120771
+- **Tweet QGIS 3.14 Pi**: <https://twitter.com/totofiandaca/status/1244960239193120771>
 
 ![splash](./imgs/Bucarest2019.png)
 
 <hr>
 
-**---> UPDATED 2020-05-06 <---****---> UPDATED 2020-05-06 <---****---> UPDATED 2020-05-06 <---** **107 FEATURES**
-
+<div class="flash flash-error">
+  UPDATED 2020-05-06T10:00:00Z
+</div>
+ 
 <!-- TOC -->
 
 - [Features](#features)
