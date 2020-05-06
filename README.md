@@ -4,6 +4,7 @@
   </div>
 </div>
 
+<br>
 
 [**Pigrecoinfinito**](http://pigrecoinfinito.com/) has collected on this page some **views** of the changelog 3.14 Pi 😊).
 
@@ -31,8 +32,10 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <hr>
 
 <div class="flash flash-error">
-  UPDATED 2020-05-06T10:00:00Z
+  UPDATED 2020-05-06T10:00:00Z - 107 features
 </div>
+
+<br>
  
 <!-- TOC -->
 
