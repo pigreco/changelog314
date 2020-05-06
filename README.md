@@ -35,7 +35,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <hr>
 
 <div class="flash flash-error">
-  <p align="center">UPDATED 2020-05-06T10:00:00Z - 107 features</p>
+  <h2><p align="center"><b>UPDATED 2020-05-06T10:00:00Z - 107 features</b></p>
 </div>
 
 <br>
