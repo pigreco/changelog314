@@ -195,9 +195,9 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:**	FeatureNeeds;Documentation
 - **Sponsored by:** the QGIS Swiss user group
 
-[↑ come back ↑](#features)
-
 ![](https://user-images.githubusercontent.com/127259/80964825-d0fc3800-8e11-11ea-9961-34edb623458c.png)
+
+[↑ come back ↑](#features)
 
 ## Allow overriding the default symbol for a legend node
 - **Author:**	[nyalldawson](https://twitter.com/nyalldawson)
