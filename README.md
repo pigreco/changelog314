@@ -30,11 +30,19 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 <hr>
 
-**---> UPDATED 2020-05-03 <---****---> UPDATED 2020-05-03 <---****---> UPDATED 2020-05-03 <---** **98 FEATURES**
+**---> UPDATED 2020-05-06 <---****---> UPDATED 2020-05-06 <---****---> UPDATED 2020-05-06 <---** **107 FEATURES**
 
 <!-- TOC -->
 
 - [Features](#features)
+  - [Expose control over layer legend splitting behavior on a layer-by-layer basis](#expose-control-over-layer-legend-splitting-behavior-on-a-layer-by-layer-basis)
+  - [allow editing of links in file widget](#allow-editing-of-links-in-file-widget)
+  - [Snap on mesh elements](#snap-on-mesh-elements)
+  - [Allow filtering WM(T)S list in source dialog](#allow-filtering-wmts-list-in-source-dialog)
+  - [Allow overriding the default symbol for a legend node](#allow-overriding-the-default-symbol-for-a-legend-node)
+  - [Allow placing manual column breaks in legends](#allow-placing-manual-column-breaks-in-legends)
+  - [Add subdivisions in ticksscalebar right segments](#add-subdivisions-in-ticksscalebar-right-segments)
+  - [Complete random raster algorithm collection #2](#complete-random-raster-algorithm-collection-2)
   - [Automatic placement of labels outside polygons](#automatic-placement-of-labels-outside-polygons)
   - [Feature browser for preview in expression builder](#feature-browser-for-preview-in-expression-builder)
   - [add expression close_line](#add-expression-closeline)
@@ -140,6 +148,71 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 # Features
 
+## Expose control over layer legend splitting behavior on a layer-by-layer basis
+- **Author:**	[nyalldawson](https://twitter.com/nyalldawson)
+- **Milestone:** 3.14.0
+- **PR:** [36224](https://github.com/qgis/QGIS/pull/36224)
+- **Merged:**	2020-05-06T06:27:33Z
+- **tags:**	FeaturePrint;Layouts
+- **Sponsored by:** SLYR
+
+## allow editing of links in file widget
+- **Author:**	3nids
+- **Milestone:** 3.14.0
+- **PR:** [36190](https://github.com/qgis/QGIS/pull/36190)
+- **Merged:**	2020-05-06T04:46:55Z
+- **tags:**	FeatureNeeds;Documentation
+- **Sponsored by:** the QGIS Swiss user group
+
+![](https://user-images.githubusercontent.com/127259/81038564-bcb64a80-8ea6-11ea-8289-46340dee9a88.gif)
+
+## Snap on mesh elements
+- **Author:**	vcloarec
+- **Milestone:** 3.14.0
+- **PR:** [36171](https://github.com/qgis/QGIS/pull/36171)
+- **Merged:**	2020-05-05T11:31:50Z
+- **tags:**	APIFeatureMesh
+
+## Allow filtering WM(T)S list in source dialog
+- **Author:**	3nids
+- **Milestone:** 3.14.0
+- **PR:** [36166](https://github.com/qgis/QGIS/pull/36166)
+- **Merged:**	2020-05-05T05:21:00Z
+- **tags:**	FeatureNeeds;Documentation
+- **Sponsored by:** the QGIS Swiss user group
+
+![](https://user-images.githubusercontent.com/127259/80964825-d0fc3800-8e11-11ea-9961-34edb623458c.png)
+
+## Allow overriding the default symbol for a legend node
+- **Author:**	[nyalldawson](https://twitter.com/nyalldawson)
+- **Milestone:** 3.14.0
+- **PR:** [36162](https://github.com/qgis/QGIS/pull/36162)
+- **Merged:**	2020-05-05T01:49:07Z
+- **tags:**	FeaturePrint;Layouts
+
+## Allow placing manual column breaks in legends
+- **Author:**	[nyalldawson](https://twitter.com/nyalldawson)
+- **Milestone:** 3.14.0
+- **PR:** [36136](https://github.com/qgis/QGIS/pull/36136)
+- **Merged:**	2020-05-05T14:22:28Z
+- **tags:**	Feature
+
+## Add subdivisions in ticksscalebar right segments
+- **Author:**	agiudiceandrea
+- **Milestone:** 3.14.0
+- **PR:** [36131](https://github.com/qgis/QGIS/pull/36131)
+- **Merged:**	2020-05-05T23:12:37Z
+- **tags:**	FeaturePrint;Layouts
+
+![](./imgs/line_scale_bar.png)
+
+## Complete random raster algorithm collection #2
+- **Author:**	root676
+- **Milestone:** 3.14.0
+- **PR:** [36130](https://github.com/qgis/QGIS/pull/36130)
+- **Merged:**	2020-05-03T20:28:46Z
+- **tags:**	FeatureNeeds;Documentation
+  
 ## Automatic placement of labels outside polygons
 - **Author:** [nyalldawson](https://twitter.com/nyalldawson)
 - **milestone:** 3.14.0
@@ -1169,54 +1242,58 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ## Authors
 
-| author                                         | count | percent | histogram              |
-| ---------------------------------------------- | ----- | ------- | ---------------------- |
-| [nyalldawson](https://twitter.com/nyalldawson) | 45    | 45.92   | ********************** |
-| [elpaso](https://twitter.com/elpaso66)         | 10    | 10.20   | *****                  |
-| vcloarec                                       | 6     | 6.12    | ***                    |
-| alexbruy                                       | 5     | 5.10    | **                     |
-| JanCaha                                        | 4     | 4.08    | **                     |
-| wonder-sk                                      | 4     | 4.08    | **                     |
-| nirvn                                          | 4     | 4.08    | **                     |
-| Samweli                                        | 3     | 3.06    | *                      |
-| root676                                        | 2     | 2.04    | *                      |
-| uclaros                                        | 2     | 2.04    | *                      |
-| gacarrillor                                    | 2     | 2.04    | *                      |
-| 3nids                                          | 1     | 1.02    |
-| jmonticolo                                     | 1     | 1.02    |
-| beketata                                       | 1     | 1.02    |
-| mhugent                                        | 1     | 1.02    |
-| Gustry                                         | 1     | 1.02    |
-| suricactus                                     | 1     | 1.02    |
-| m-kuhn                                         | 1     | 1.02    |
-| olivierdalang                                  | 1     | 1.02    |
-| PeterPetrik                                    | 1     | 1.02    |
-| roya0045                                       | 1     | 1.02    |
-| lbartoletti                                    | 1     | 1.02    |
+| Author         | count | percent | histogram                |
+| -------------- | ----- | ------- | ------------------------ |
+| nyalldawson    | 48    | 44.86   | ************************ |
+| elpaso         | 10    | 9.35    | *****                    |
+| vcloarec       | 7     | 6.54    | ***                      |
+| alexbruy       | 5     | 4.67    | **                       |
+| JanCaha        | 4     | 3.74    | **                       |
+| wonder-sk      | 4     | 3.74    | **                       |
+| nirvn          | 4     | 3.74    | **                       |
+| 3nids          | 3     | 2.80    | *                        |
+| root676        | 3     | 2.80    | *                        |
+| Samweli        | 3     | 2.80    | *                        |
+| uclaros        | 2     | 1.87    | *                        |
+| gacarrillor    | 2     | 1.87    | *                        |
+| agiudiceandrea | 1     | 0.93    |
+| jmonticolo     | 1     | 0.93    |
+| beketata       | 1     | 0.93    |
+| mhugent        | 1     | 0.93    |
+| Gustry         | 1     | 0.93    |
+| suricactus     | 1     | 0.93    |
+| m-kuhn         | 1     | 0.93    |
+| olivierdalang  | 1     | 0.93    |
+| PeterPetrik    | 1     | 0.93    |
+| roya0045       | 1     | 0.93    |
+| DelazJ         | 1     | 0.93    |
+| lbartoletti    | 1     | 0.93    |
 
 [↑ come back ↑](#features)
 
 ## Tags
 
-| tags                 | count | percent | histogram      |
-| -------------------- | ----- | ------- | -------------- |
-| Processing           | 28    | 28.57   | ************** |
-| -                    | 24    | 24.49   | ************   |
-| Print Layouts        | 11    | 11.22   | *****          |
-| Expressions          | 8     | 8.16    | ****           |
-| Mesh                 | 5     | 5.10    | **             |
-| Forms                | 3     | 3.06    | *              |
-| Symbology            | 3     | 3.06    | *              |
-| Labeling             | 2     | 2.04    | *              |
-| Server               | 2     | 2.04    | *              |
-| Digitizing           | 2     | 2.04    | *              |
-| API                  | 2     | 2.04    | *              |
-| Data Provider;Raster | 2     | 2.04    | *              |
-| Data Provider        | 2     | 2.04    | *              |
-| Documentation;Mesh   | 1     | 1.02    |
-| GUI/UX               | 1     | 1.02    |
-| API;QGIS Browser     | 1     | 1.02    |
-| Forms;GUI/UX         | 1     | 1.02    |
+| tags                        | count | percent | histogram      |
+| --------------------------- | ----- | ------- | -------------- |
+| -                           | 29    | 27.10   | ************** |
+| Processing                  | 27    | 25.23   | *************  |
+| Print Layouts               | 14    | 13.08   | *******        |
+| Expressions                 | 8     | 7.48    | ****           |
+| Mesh                        | 5     | 4.67    | **             |
+| Forms                       | 3     | 2.80    | *              |
+| Symbology                   | 3     | 2.80    | *              |
+| Labeling                    | 2     | 1.87    | *              |
+| Server                      | 2     | 1.87    | *              |
+| Digitizing                  | 2     | 1.87    | *              |
+| API                         | 2     | 1.87    | *              |
+| Data Provider; Raster       | 2     | 1.87    | *              |
+| Data Provider               | 2     | 1.87    | *              |
+| API; Mesh                   | 1     | 0.93    |
+| Documentation; Mesh         | 1     | 0.93    |
+| GUI/UX                      | 1     | 0.93    |
+| API; QGIS Browser           | 1     | 0.93    |
+| Processing; Requires Tests! | 1     | 0.93    |
+| Forms; GUI/UX               | 1     | 0.93    |
 
 [↑ come back ↑](#features)
 
