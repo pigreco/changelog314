@@ -1101,6 +1101,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [34895](https://github.com/qgis/QGIS/pull/34895)
 - **Merged:** 2020-03-06T08:22:51Z
 - **tags:** Processing
+- **Sponsored by:** Alta Ehf
 
 [↑ come back ↑](#features)
 
@@ -1251,6 +1252,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [34040](https://github.com/qgis/QGIS/pull/34040)
 - **Merged:** 2020-02-24T03:48:40Z
 - **tags:** -
+
+[↑ come back ↑](#features)
 
 ## New snapping modes: Centroid and middle of a segment (midpoint)
 - **Author:** lbartoletti
