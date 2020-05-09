@@ -34,8 +34,17 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 <hr>
 
+- **Chair** : [Marco Bernasocchi](https://io.berna.io/)
+- **Vice-Chair** : [Alessandro Pasotti](https://www.itopen.it/)
+
+- [**honorary PSC members**](http://blog.qgis.org/2020/05/06/qgis-annual-general-meeting-2020/): Gary Sherman, Tim Sutton
+
+- [**honorary QGIS members**](https://www.qgis.org/en/site/getinvolved/governance/charter/index.html#honorable-members): Harrissou Sant-anna, Nyall Dawson
+
+<hr>
+
 <div class="flash flash-error">
-  <h2><p align="center"><b>UPDATED 2020-05-06T10:00:00Z - 107 features</b></p></h2>
+  <h2><p align="center"><b>UPDATED 2020-05-09T20:30:00Z - 118 features</b></p></h2>
 </div>
 
 <br>
@@ -43,6 +52,16 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <!-- TOC -->
 
 - [Features](#features)
+  - [New expression function make_interval](#new-expression-function-makeinterval)
+  - [Add expression variables for frame properties](#add-expression-variables-for-frame-properties)
+  - [Add a new Redraw Layer Only mode for temporal vector layers](#add-a-new-redraw-layer-only-mode-for-temporal-vector-layers)
+  - [Add make_date, make_time and make_datetime functions](#add-makedate-maketime-and-makedatetime-functions)
+  - [Add basic temporal handling support for vector layers](#add-basic-temporal-handling-support-for-vector-layers)
+  - [allow sorting attribute table by field not listed in the table](#allow-sorting-attribute-table-by-field-not-listed-in-the-table)
+  - [Allow customisation of division and subdivision symbols as distinct from scalebar tick horizontal symbol](#allow-customisation-of-division-and-subdivision-symbols-as-distinct-from-scalebar-tick-horizontal-symbol)
+  - [allow creating geometryless DBF tables from the New Shapefile dialog (fix #15654)](#allow-creating-geometryless-dbf-tables-from-the-new-shapefile-dialog-fix-15654)
+  - [Vector tile layer - part 8 (writer in Processing)](#vector-tile-layer---part-8-writer-in-processing)
+  - [allow to drag'n'drop layer across several QGIS instances](#allow-to-dragndrop-layer-across-several-qgis-instances)
   - [Expose control over layer legend splitting behavior on a layer-by-layer basis](#expose-control-over-layer-legend-splitting-behavior-on-a-layer-by-layer-basis)
   - [allow editing of links in file widget](#allow-editing-of-links-in-file-widget)
   - [Snap on mesh elements](#snap-on-mesh-elements)
@@ -156,6 +175,107 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <!-- /TOC -->
 
 # Features
+
+## New expression function make_interval
+- **Author** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone**	3.14.0
+- **PR** [36303](https://github.com/qgis/QGIS/pull/36303)
+- **Merged** 2020-05-09T10:22:54Z
+- **tags** Expressions
+
+[↑ come back ↑](#features)
+
+## Add expression variables for frame properties
+- **Author** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone**	3.14.0
+- **PR** [36300](https://github.com/qgis/QGIS/pull/36300)
+- **Merged** 2020-05-09T08:07:00Z
+- **tags** Temporal
+
+[↑ come back ↑](#features)
+
+## Add a new Redraw Layer Only mode for temporal vector layers
+- **Author** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone**	3.14.0
+- **PR** [36299](https://github.com/qgis/QGIS/pull/36299)
+- **Merged** 2020-05-09T08:06:37Z
+- **tags** Temporal
+
+[↑ come back ↑](#features)
+
+## Add make_date, make_time and make_datetime functions
+- **Author** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone**	3.14.0
+- **PR** [36245](https://github.com/qgis/QGIS/pull/36245)
+- **Merged** 2020-05-07T04:46:55Z
+- **tags** Expressions
+
+[↑ come back ↑](#features)
+
+## Add basic temporal handling support for vector layers
+- **Author** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone**	3.14.0
+- **PR** [36243](https://github.com/qgis/QGIS/pull/36243)
+- **Merged** 2020-05-08T01:46:T47Z
+- **tags** -
+
+[↑ come back ↑](#features)
+
+![](https://user-images.githubusercontent.com/1829991/81264708-373cc100-9085-11ea-93b4-bd037487ec69.gif)
+
+##  allow sorting attribute table by field not listed in the table
+- **Author** [3nids](https://github.com/3nids)
+- **Milestone**	3.14.0
+- **PR** [36236](https://github.com/qgis/QGIS/pull/36236)
+- **Merged** 2020-05-07T04:02:T42Z
+**tags** -
+
+[↑ come back ↑](#features)
+
+## Allow customisation of division and subdivision symbols as distinct from scalebar tick horizontal symbol
+- **Author** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone**	3.14.0
+- **PR** [36222](https://github.com/qgis/QGIS/pull/36222)
+- **Merged** 2020-05-07T00:56:51Z
+- **tags** Print Layouts
+- **Sponsored by:** SLYR
+
+[↑ come back ↑](#features)
+
+## allow creating geometryless DBF tables from the New Shapefile dialog (fix #15654)
+- **Author** [alexbruy](https://github.com/alexbruy)
+- **Milestone**	3.14.0
+- **PR** [36202](https://github.com/qgis/QGIS/pull/36202)
+- **Merged** 2020-05-06T10:30:T51Z
+- **tags** -
+
+[↑ come back ↑](#features)
+
+![](https://user-images.githubusercontent.com/776954/81068877-be553200-8ee9-11ea-9a06-a4d30e773cf6.png)
+
+## Vector tile layer - part 8 (writer in Processing)
+- **Author** [wonder-sk](https://github.com/wonder-sk)
+- **Milestone**	3.14.0
+- **PR** [36099](https://github.com/qgis/QGIS/pull/36099)
+- **Merged** 2020-05-08T10:55:T10Z
+- **tags** -
+- **Donors:** <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/>
+
+[↑ come back ↑](#features)
+
+![](https://user-images.githubusercontent.com/193367/81117303-224a1b80-8f27-11ea-851d-f4271ce66ed3.png)
+
+## allow to drag'n'drop layer across several QGIS instances
+- **Author** [3nids](https://github.com/3nids)
+- **Milestone**	3.14.0
+- **PR** [35382](https://github.com/qgis/QGIS/pull/35382)
+- **Merged** 2020-05-06T14:04:T08Z
+- **tags** -
+- **Sponsored by:** the QGIS Swiss user group
+
+[↑ come back ↑](#features)
+
+![](https://user-images.githubusercontent.com/127259/77666018-b5834f00-6f80-11ea-971e-c6d7d996d37d.gif)
 
 ## Expose control over layer legend splitting behavior on a layer-by-layer basis
 - **Author:**	[nyalldawson](https://twitter.com/nyalldawson)
@@ -1300,58 +1420,59 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ## Authors
 
-| Author         | count | percent | histogram                |
-| -------------- | ----- | ------- | ------------------------ |
-| nyalldawson    | 48    | 44.86   | ************************ |
-| elpaso         | 10    | 9.35    | *****                    |
-| vcloarec       | 7     | 6.54    | ***                      |
-| alexbruy       | 5     | 4.67    | **                       |
-| JanCaha        | 4     | 3.74    | **                       |
-| wonder-sk      | 4     | 3.74    | **                       |
-| nirvn          | 4     | 3.74    | **                       |
-| 3nids          | 3     | 2.80    | *                        |
-| root676        | 3     | 2.80    | *                        |
-| Samweli        | 3     | 2.80    | *                        |
-| uclaros        | 2     | 1.87    | *                        |
-| gacarrillor    | 2     | 1.87    | *                        |
-| agiudiceandrea | 1     | 0.93    |
-| jmonticolo     | 1     | 0.93    |
-| beketata       | 1     | 0.93    |
-| mhugent        | 1     | 0.93    |
-| Gustry         | 1     | 0.93    |
-| suricactus     | 1     | 0.93    |
-| m-kuhn         | 1     | 0.93    |
-| olivierdalang  | 1     | 0.93    |
-| PeterPetrik    | 1     | 0.93    |
-| roya0045       | 1     | 0.93    |
-| DelazJ         | 1     | 0.93    |
-| lbartoletti    | 1     | 0.93    |
+| Author | PR | Total_count |
+| --- | --- | --- |
+| nyalldawson | [36303](https://github.com/qgis/QGIS/pull/36303) [36300](https://github.com/qgis/QGIS/pull/36300) [36299](https://github.com/qgis/QGIS/pull/36299) [36245](https://github.com/qgis/QGIS/pull/36245) [36243](https://github.com/qgis/QGIS/pull/36243) [36224](https://github.com/qgis/QGIS/pull/36224) [36222](https://github.com/qgis/QGIS/pull/36222) [36162](https://github.com/qgis/QGIS/pull/36162) [36136](https://github.com/qgis/QGIS/pull/36136) [36106](https://github.com/qgis/QGIS/pull/36106) [36013](https://github.com/qgis/QGIS/pull/36013) [35974](https://github.com/qgis/QGIS/pull/35974) [35909](https://github.com/qgis/QGIS/pull/35909) [35863](https://github.com/qgis/QGIS/pull/35863) [35821](https://github.com/qgis/QGIS/pull/35821) [35808](https://github.com/qgis/QGIS/pull/35808) [35778](https://github.com/qgis/QGIS/pull/35778) [35760](https://github.com/qgis/QGIS/pull/35760) [35644](https://github.com/qgis/QGIS/pull/35644) [35641](https://github.com/qgis/QGIS/pull/35641) [35606](https://github.com/qgis/QGIS/pull/35606) [35591](https://github.com/qgis/QGIS/pull/35591) [35576](https://github.com/qgis/QGIS/pull/35576) [35518](https://github.com/qgis/QGIS/pull/35518) [35494](https://github.com/qgis/QGIS/pull/35494) [35484](https://github.com/qgis/QGIS/pull/35484) [35474](https://github.com/qgis/QGIS/pull/35474) [35473](https://github.com/qgis/QGIS/pull/35473) [35454](https://github.com/qgis/QGIS/pull/35454) [35452](https://github.com/qgis/QGIS/pull/35452) [35419](https://github.com/qgis/QGIS/pull/35419) [35396](https://github.com/qgis/QGIS/pull/35396) [35364](https://github.com/qgis/QGIS/pull/35364) [35324](https://github.com/qgis/QGIS/pull/35324) [35321](https://github.com/qgis/QGIS/pull/35321) [35319](https://github.com/qgis/QGIS/pull/35319) [35292](https://github.com/qgis/QGIS/pull/35292) [35251](https://github.com/qgis/QGIS/pull/35251) [35244](https://github.com/qgis/QGIS/pull/35244) [35238](https://github.com/qgis/QGIS/pull/35238) [35225](https://github.com/qgis/QGIS/pull/35225) [35208](https://github.com/qgis/QGIS/pull/35208) [35160](https://github.com/qgis/QGIS/pull/35160) [35130](https://github.com/qgis/QGIS/pull/35130) [35056](https://github.com/qgis/QGIS/pull/35056) [34987](https://github.com/qgis/QGIS/pull/34987) [34955](https://github.com/qgis/QGIS/pull/34955) [34938](https://github.com/qgis/QGIS/pull/34938) [34936](https://github.com/qgis/QGIS/pull/34936) [34898](https://github.com/qgis/QGIS/pull/34898) [34895](https://github.com/qgis/QGIS/pull/34895) [34856](https://github.com/qgis/QGIS/pull/34856) [34617](https://github.com/qgis/QGIS/pull/34617) [34610](https://github.com/qgis/QGIS/pull/34610) | 54 |
+| elpaso | [35738](https://github.com/qgis/QGIS/pull/35738) [35688](https://github.com/qgis/QGIS/pull/35688) [35511](https://github.com/qgis/QGIS/pull/35511) [35488](https://github.com/qgis/QGIS/pull/35488) [34968](https://github.com/qgis/QGIS/pull/34968) [34914](https://github.com/qgis/QGIS/pull/34914) [34871](https://github.com/qgis/QGIS/pull/34871) [34827](https://github.com/qgis/QGIS/pull/34827) [34760](https://github.com/qgis/QGIS/pull/34760) [34654](https://github.com/qgis/QGIS/pull/34654) | 10 |
+| vcloarec | [36171](https://github.com/qgis/QGIS/pull/36171) [35926](https://github.com/qgis/QGIS/pull/35926) [35466](https://github.com/qgis/QGIS/pull/35466) [35264](https://github.com/qgis/QGIS/pull/35264) [35216](https://github.com/qgis/QGIS/pull/35216) [34945](https://github.com/qgis/QGIS/pull/34945) [34532](https://github.com/qgis/QGIS/pull/34532) | 7 |
+| alexbruy | [36202](https://github.com/qgis/QGIS/pull/36202) [35901](https://github.com/qgis/QGIS/pull/35901) [35815](https://github.com/qgis/QGIS/pull/35815) [35790](https://github.com/qgis/QGIS/pull/35790) [35764](https://github.com/qgis/QGIS/pull/35764) [35076](https://github.com/qgis/QGIS/pull/35076) | 6 |
+| 3nids | [36236](https://github.com/qgis/QGIS/pull/36236) [36190](https://github.com/qgis/QGIS/pull/36190) [36166](https://github.com/qgis/QGIS/pull/36166) [36089](https://github.com/qgis/QGIS/pull/36089) [35382](https://github.com/qgis/QGIS/pull/35382) | 5 |
+| wonder-sk | [36099](https://github.com/qgis/QGIS/pull/36099) [35748](https://github.com/qgis/QGIS/pull/35748) [35657](https://github.com/qgis/QGIS/pull/35657) [35446](https://github.com/qgis/QGIS/pull/35446) [35341](https://github.com/qgis/QGIS/pull/35341) | 5 |
+| JanCaha | [36069](https://github.com/qgis/QGIS/pull/36069) [35928](https://github.com/qgis/QGIS/pull/35928) [35889](https://github.com/qgis/QGIS/pull/35889) [35839](https://github.com/qgis/QGIS/pull/35839) | 4 |
+| nirvn | [35689](https://github.com/qgis/QGIS/pull/35689) [35475](https://github.com/qgis/QGIS/pull/35475) [35224](https://github.com/qgis/QGIS/pull/35224) [35197](https://github.com/qgis/QGIS/pull/35197) | 4 |
+| root676 | [36130](https://github.com/qgis/QGIS/pull/36130) [35727](https://github.com/qgis/QGIS/pull/35727) [35694](https://github.com/qgis/QGIS/pull/35694) | 3 |
+| gacarrillor | [35933](https://github.com/qgis/QGIS/pull/35933) [35084](https://github.com/qgis/QGIS/pull/35084) [31387](https://github.com/qgis/QGIS/pull/31387) | 3 |
+| Samweli | [34590](https://github.com/qgis/QGIS/pull/34590) [34497](https://github.com/qgis/QGIS/pull/34497) [34040](https://github.com/qgis/QGIS/pull/34040) | 3 |
+| uclaros | [35531](https://github.com/qgis/QGIS/pull/35531) [35097](https://github.com/qgis/QGIS/pull/35097) | 2 |
+| agiudiceandrea | [36131](https://github.com/qgis/QGIS/pull/36131) | 1 |
+| jmonticolo | [35559](https://github.com/qgis/QGIS/pull/35559) | 1 |
+| beketata | [35438](https://github.com/qgis/QGIS/pull/35438) | 1 |
+| mhugent | [35408](https://github.com/qgis/QGIS/pull/35408) | 1 |
+| Gustry | [35211](https://github.com/qgis/QGIS/pull/35211) | 1 |
+| suricactus | [35085](https://github.com/qgis/QGIS/pull/35085) | 1 |
+| m-kuhn | [35035](https://github.com/qgis/QGIS/pull/35035) | 1 |
+| olivierdalang | [34876](https://github.com/qgis/QGIS/pull/34876) | 1 |
+| PeterPetrik | [34848](https://github.com/qgis/QGIS/pull/34848) | 1 |
+| roya0045 | [34547](https://github.com/qgis/QGIS/pull/34547) | 1 |
+| DelazJ | [33950](https://github.com/qgis/QGIS/pull/33950) | 1 |
+| lbartoletti | [33622](https://github.com/qgis/QGIS/pull/33622) | 1 |
 
 [↑ come back ↑](#features)
 
 ## Tags
 
-| tags                        | count | percent | histogram      |
-| --------------------------- | ----- | ------- | -------------- |
-| -                           | 29    | 27.10   | ************** |
-| Processing                  | 27    | 25.23   | *************  |
-| Print Layouts               | 14    | 13.08   | *******        |
-| Expressions                 | 8     | 7.48    | ****           |
-| Mesh                        | 5     | 4.67    | **             |
-| Forms                       | 3     | 2.80    | *              |
-| Symbology                   | 3     | 2.80    | *              |
-| Labeling                    | 2     | 1.87    | *              |
-| Server                      | 2     | 1.87    | *              |
-| Digitizing                  | 2     | 1.87    | *              |
-| API                         | 2     | 1.87    | *              |
-| Data Provider; Raster       | 2     | 1.87    | *              |
-| Data Provider               | 2     | 1.87    | *              |
-| API; Mesh                   | 1     | 0.93    |
-| Documentation; Mesh         | 1     | 0.93    |
-| GUI/UX                      | 1     | 0.93    |
-| API; QGIS Browser           | 1     | 0.93    |
-| Processing; Requires Tests! | 1     | 0.93    |
-| Forms; GUI/UX               | 1     | 0.93    |
+| tags                  | count | percent | histogram         |
+| --------------------- | ----- | ------- | ----------------- |
+| -                     | 34    | 28.81   | ***************** |
+| Processing            | 28    | 23.73   | **************    |
+| Print Layouts         | 15    | 12.71   | *******           |
+| Expressions           | 10    | 8.47    | *****             |
+| Mesh                  | 5     | 4.24    | **                |
+| Forms                 | 3     | 2.54    | *                 |
+| Symbology             | 3     | 2.54    | *                 |
+| Temporal              | 2     | 1.69    | *                 |
+| Labeling              | 2     | 1.69    | *                 |
+| GUI/UX                | 2     | 1.69    | *                 |
+| Server                | 2     | 1.69    | *                 |
+| Digitizing            | 2     | 1.69    | *                 |
+| API                   | 2     | 1.69    | *                 |
+| Data Provider; Raster | 2     | 1.69    | *                 |
+| Data Provider         | 2     | 1.69    | *                 |
+| API; Mesh             | 1     | 0.85    |                   |
+| Documentation; Mesh   | 1     | 0.85    |                   |
+| API; QGIS Browser     | 1     | 0.85    |                   |
+| Forms; GUI/UX         | 1     | 0.85    |                   |
+
 
 [↑ come back ↑](#features)
 
