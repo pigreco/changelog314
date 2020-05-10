@@ -171,6 +171,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - [Statistics](#statistics)
   - [Authors](#authors)
   - [Tags](#tags)
+  - [Sponsors](#sponsors)
 
 <!-- /TOC -->
 
@@ -1013,7 +1014,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35225](https://github.com/qgis/QGIS/pull/35225)
 - **Merged:** 2020-03-22T06:41:32Z
 - **tags:** Print Layouts
-- **Sponsored:** SLYR
+- **Sponsored by:** SLYR
 
 [↑ come back ↑](#features)
 
@@ -1056,7 +1057,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35208](https://github.com/qgis/QGIS/pull/35208)
 - **Merged:** 2020-03-20T02:56:23Z
 - **tags:** Expressions
-- **Sponsored:** SLYR
+- **Sponsored by:** SLYR
 
 ![](./imgs/layer_ids.png)
 
@@ -1478,6 +1479,27 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 | Documentation; Mesh   | 1     | 0.85    |                   |
 | API; QGIS Browser     | 1     | 0.85    |                   |
 | Forms; GUI/UX         | 1     | 0.85    |                   |
+
+[↑ come back ↑](#features)
+
+## Sponsors
+
+Sponsored by|count
+---|--
+SLYR|11
+ARPA Piemonte|5
+<https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/>|4
+the QGIS Swiss user group|3
+Geoinformatikbüro Dassau GmbH|1
+Fisel + König|1
+the Swiss QGIS user group|1
+the QGIS Swiss User Group!|1
+Andreas Neumann|1
+NaturalGIS|1
+QField|1
+Alta Ehf|1
+the Swedish User Group|1
+Qwat group / Ville de Lausanne ( [@ponceta](https://github.com/ponceta) [@dsavary](https://github.com/dsavary) ) / Oslandia and some spare time|1
 
 
 [↑ come back ↑](#features)
