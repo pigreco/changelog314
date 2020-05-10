@@ -177,88 +177,94 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 # Features
 
 ## New expression function make_interval
-- **Author** [nyalldawson](https://github.com/nyalldawson)
-- **Milestone**	3.14.0
-- **PR** [36303](https://github.com/qgis/QGIS/pull/36303)
-- **Merged** 2020-05-09T10:22:54Z
-- **tags** Expressions
+- **Author:** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone:**	3.14.0
+- **PR:** [36303](https://github.com/qgis/QGIS/pull/36303)
+- **Merged:** 2020-05-09T10:22:54Z
+- **tags:** Expressions
+
+![](./imgs/36303.png)
 
 [↑ come back ↑](#features)
 
 ## Add expression variables for frame properties
-- **Author** [nyalldawson](https://github.com/nyalldawson)
-- **Milestone**	3.14.0
-- **PR** [36300](https://github.com/qgis/QGIS/pull/36300)
-- **Merged** 2020-05-09T08:07:00Z
-- **tags** Temporal
+- **Author:** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone:**	3.14.0
+- **PR:** [36300](https://github.com/qgis/QGIS/pull/36300)
+- **Merged:** 2020-05-09T08:07:00Z
+- **tags:** Temporal
 
 [↑ come back ↑](#features)
 
 ## Add a new Redraw Layer Only mode for temporal vector layers
-- **Author** [nyalldawson](https://github.com/nyalldawson)
-- **Milestone**	3.14.0
-- **PR** [36299](https://github.com/qgis/QGIS/pull/36299)
-- **Merged** 2020-05-09T08:06:37Z
-- **tags** Temporal
+- **Author:** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone:**	3.14.0
+- **PR:** [36299](https://github.com/qgis/QGIS/pull/36299)
+- **Merged:** 2020-05-09T08:06:37Z
+- **tags:** Temporal
 
 [↑ come back ↑](#features)
 
 ## Add make_date, make_time and make_datetime functions
-- **Author** [nyalldawson](https://github.com/nyalldawson)
-- **Milestone**	3.14.0
-- **PR** [36245](https://github.com/qgis/QGIS/pull/36245)
-- **Merged** 2020-05-07T04:46:55Z
-- **tags** Expressions
+- **Author:** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone:**	3.14.0
+- **PR:** [36245](https://github.com/qgis/QGIS/pull/36245)
+- **Merged:** 2020-05-07T04:46:55Z
+- **tags:** Expressions
+
+![](./imgs/36245.png)
 
 [↑ come back ↑](#features)
 
 ## Add basic temporal handling support for vector layers
-- **Author** [nyalldawson](https://github.com/nyalldawson)
-- **Milestone**	3.14.0
-- **PR** [36243](https://github.com/qgis/QGIS/pull/36243)
-- **Merged** 2020-05-08T01:46:T47Z
-- **tags** -
+- **Author:** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone:**	3.14.0
+- **PR:** [36243](https://github.com/qgis/QGIS/pull/36243)
+- **Merged:** 2020-05-08T01:46:T47Z
+- **tags:** -
 
 [↑ come back ↑](#features)
 
 ![](https://user-images.githubusercontent.com/1829991/81264708-373cc100-9085-11ea-93b4-bd037487ec69.gif)
 
 ##  allow sorting attribute table by field not listed in the table
-- **Author** [3nids](https://github.com/3nids)
-- **Milestone**	3.14.0
-- **PR** [36236](https://github.com/qgis/QGIS/pull/36236)
-- **Merged** 2020-05-07T04:02:T42Z
-**tags** -
+- **Author:** [3nids](https://github.com/3nids)
+- **Milestone:**	3.14.0
+- **PR:** [36236](https://github.com/qgis/QGIS/pull/36236)
+- **Merged:** 2020-05-07T04:02:T42Z
+- **tags:** -
+
+![](./imgs/36236.png)
 
 [↑ come back ↑](#features)
 
 ## Allow customisation of division and subdivision symbols as distinct from scalebar tick horizontal symbol
-- **Author** [nyalldawson](https://github.com/nyalldawson)
-- **Milestone**	3.14.0
-- **PR** [36222](https://github.com/qgis/QGIS/pull/36222)
-- **Merged** 2020-05-07T00:56:51Z
-- **tags** Print Layouts
+- **Author:** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone:**	3.14.0
+- **PR:** [36222](https://github.com/qgis/QGIS/pull/36222)
+- **Merged:** 2020-05-07T00:56:51Z
+- **tags:** Print Layouts
 - **Sponsored by:** SLYR
 
 [↑ come back ↑](#features)
 
 ## allow creating geometryless DBF tables from the New Shapefile dialog (fix #15654)
-- **Author** [alexbruy](https://github.com/alexbruy)
-- **Milestone**	3.14.0
-- **PR** [36202](https://github.com/qgis/QGIS/pull/36202)
-- **Merged** 2020-05-06T10:30:T51Z
-- **tags** -
+- **Author:** [alexbruy](https://github.com/alexbruy)
+- **Milestone:**	3.14.0
+- **PR:** [36202](https://github.com/qgis/QGIS/pull/36202)
+- **Merged:** 2020-05-06T10:30:T51Z
+- **tags:** -
 
 [↑ come back ↑](#features)
 
 ![](https://user-images.githubusercontent.com/776954/81068877-be553200-8ee9-11ea-9a06-a4d30e773cf6.png)
 
 ## Vector tile layer - part 8 (writer in Processing)
-- **Author** [wonder-sk](https://github.com/wonder-sk)
-- **Milestone**	3.14.0
-- **PR** [36099](https://github.com/qgis/QGIS/pull/36099)
-- **Merged** 2020-05-08T10:55:T10Z
-- **tags** -
+- **Author:** [wonder-sk](https://github.com/wonder-sk)
+- **Milestone:**	3.14.0
+- **PR:** [36099](https://github.com/qgis/QGIS/pull/36099)
+- **Merged:** 2020-05-08T10:55:T10Z
+- **tags:** -
 - **Donors:** <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/>
 
 [↑ come back ↑](#features)
@@ -266,11 +272,11 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 ![](https://user-images.githubusercontent.com/193367/81117303-224a1b80-8f27-11ea-851d-f4271ce66ed3.png)
 
 ## allow to drag'n'drop layer across several QGIS instances
-- **Author** [3nids](https://github.com/3nids)
-- **Milestone**	3.14.0
-- **PR** [35382](https://github.com/qgis/QGIS/pull/35382)
-- **Merged** 2020-05-06T14:04:T08Z
-- **tags** -
+- **Author:** [3nids](https://github.com/3nids)
+- **Milestone:**	3.14.0
+- **PR:** [35382](https://github.com/qgis/QGIS/pull/35382)
+- **Merged:** 2020-05-06T14:04:T08Z
+- **tags:** -
 - **Sponsored by:** the QGIS Swiss user group
 
 [↑ come back ↑](#features)
