@@ -97,22 +97,23 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ## Sponsors
 
-Sponsored by|count
----|--
-SLYR|11
-ARPA Piemonte|5
-<https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/>|4
-the QGIS Swiss user group|3
-Geoinformatikbüro Dassau GmbH|1
-Fisel + König|1
-the Swiss QGIS user group|1
-the QGIS Swiss User Group!|1
-Andreas Neumann|1
-NaturalGIS|1
-QField|1
-Alta Ehf|1
-the Swedish User Group|1
-Qwat group / Ville de Lausanne ( [@ponceta](https://github.com/ponceta) [@dsavary](https://github.com/dsavary) ) / Oslandia and some spare time|1
+| Sponsored by | count | percent |
+| --- | --- | --- |
+| - | 85 | 72.03 |
+| SLYR | 11 | 9.32 |
+| ARPA Piemonte | 5 | 4.24 |
+| <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/> | 4 | 3.39 |
+| the QGIS Swiss user group | 3 | 2.54 |
+| Geoinformatikbüro Dassau GmbH | 1 | 0.85 |
+| Fisel + König | 1 | 0.85 |
+| the Swiss QGIS user group | 1 | 0.85 |
+| the QGIS Swiss User Group! | 1 | 0.85 |
+| Andreas Neumann | 1 | 0.85 |
+| NaturalGIS | 1 | 0.85 |
+| QField | 1 | 0.85 |
+| Alta Ehf | 1 | 0.85 |
+| the Swedish User Group | 1 | 0.85 |
+| Qwat group / Ville de Lausanne ( [@ponceta](https://github.com/ponceta) [@dsavary](https://github.com/dsavary) ) / Oslandia and some spare time | 1 | 0.85 |
 
 [↑ come back ↑](#changelog-314-pi)
 
