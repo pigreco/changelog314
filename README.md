@@ -86,7 +86,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [Support pasting pictures directly into layouts](#support-pasting-pictures-directly-into-layouts)
   - [Add vector tiles to Datasource manager dialog and Layers menu](#add-vector-tiles-to-datasource-manager-dialog-and-layers-menu)
   - [New modeler algorithm for creating conditional branches](#new-modeler-algorithm-for-creating-conditional-branches)
-  - [import/export for ArcGIS Map and FeatureServer connections (fix #27485)](#importexport-for-arcgis-map-and-featureserver-connections-fix-27485)
+  - [import/export for ArcGIS Map and FeatureServer connections](#importexport-for-arcgis-map-and-featureserver-connections)
   - [Allow reordering model inputs](#allow-reordering-model-inputs)
   - [Add XYZ tiles to Datasource manager dialog and Layers menu](#add-xyz-tiles-to-datasource-manager-dialog-and-layers-menu)
   - [Defer model validation](#defer-model-validation)
@@ -518,6 +518,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-17T03:48:07Z
 - **tags:** Print Layouts
 
+![](./imgs/35821.png)
+
 [↑ come back ↑](#features)
 
 ## Add vector tiles to Datasource manager dialog and Layers menu
@@ -526,6 +528,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35815](https://github.com/qgis/QGIS/pull/35815)
 - **Merged:** 2020-04-17T08:59:40Z
 - **tags:** -
+
+![](./imgs/35815.png)
 
 [↑ come back ↑](#features)
 
@@ -541,7 +545,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#features)
 
-## import/export for ArcGIS Map and FeatureServer connections (fix #27485)
+## import/export for ArcGIS Map and FeatureServer connections
 - **Author:** [alexbruy](https://github.com/alexbruy)
 - **milestone:** 3.14.0
 - **PR:** [35790](https://github.com/qgis/QGIS/pull/35790)
@@ -567,7 +571,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-15T08:26:24Z
 - **tags:** GUI/UX
 
-![](./imgs/datasource.png)
+![](./imgs/35764.png)
 
 [↑ come back ↑](#features)
 
@@ -718,6 +722,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35559](https://github.com/qgis/QGIS/pull/35559)
 - **Merged:** 2020-04-06T23:20:39Z
 - **tags:** Expressions
+
+![](./imgs/35559.png)
 
 [↑ come back ↑](#features)
 
@@ -980,6 +986,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35251](https://github.com/qgis/QGIS/pull/35251)
 - **Merged:** 2020-03-23T09:25:34Z
 - **tags:** Processing
+
+![](./imgs/35251.png)
 
 [↑ come back ↑](#features)
 
