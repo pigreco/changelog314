@@ -44,7 +44,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <hr>
 
 <div class="flash flash-error">
-  <h2><p align="center"><b>UPDATED 2020-05-09T20:30:00Z - 118 features</b></p></h2>
+  <h2><p align="center"><b>UPDATED 2020-05-09T20:30:00Z - 119 features</b></p></h2>
 </div>
 
 <br>
@@ -138,6 +138,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [Add a font style setting for font markers](#add-a-font-style-setting-for-font-markers)
   - [Rework picture item UI and behavior](#rework-picture-item-ui-and-behavior)
   - [Add filter by geometry type and filter by layer type algorithms to processing](#add-filter-by-geometry-type-and-filter-by-layer-type-algorithms-to-processing)
+  - [Add ability to edit, import and export user expressions](#add-ability-to-edit-import-and-export-user-expressions)
   - [Make Add Group button act as Group Selected if selected layers >= 2](#make-add-group-button-act-as-group-selected-if-selected-layers--2)
   - [Optionally, also remove EMPTY geometries in RemoveNullGeometries algorithm](#optionally-also-remove-empty-geometries-in-removenullgeometries-algorithm)
   - [Data type support for QgsProcessingParameterMapLayer](#data-type-support-for-qgsprocessingparametermaplayer)
@@ -222,7 +223,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Milestone:**	3.14.0
 - **PR:** [36243](https://github.com/qgis/QGIS/pull/36243)
 - **Merged:** 2020-05-08T01:46:T47Z
-- **tags:** -
+- **tags:** Temporal
 
 [↑ come back ↑](#features)
 
@@ -233,7 +234,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Milestone:**	3.14.0
 - **PR:** [36236](https://github.com/qgis/QGIS/pull/36236)
 - **Merged:** 2020-05-07T04:02:T42Z
-- **tags:** -
+- **tags:** Print Layouts
 
 ![](./imgs/36236.png)
 
@@ -254,7 +255,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Milestone:**	3.14.0
 - **PR:** [36202](https://github.com/qgis/QGIS/pull/36202)
 - **Merged:** 2020-05-06T10:30:T51Z
-- **tags:** -
+- **tags:** Vectors
 
 [↑ come back ↑](#features)
 
@@ -299,7 +300,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Milestone:** 3.14.0
 - **PR:** [36190](https://github.com/qgis/QGIS/pull/36190)
 - **Merged:**	2020-05-06T04:46:55Z
-- **tags:**	-
+- **tags:**	Forms
 - **Sponsored by:** the QGIS Swiss user group
 
 ![](https://user-images.githubusercontent.com/127259/81038564-bcb64a80-8ea6-11ea-8289-46340dee9a88.gif)
@@ -320,7 +321,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Milestone:** 3.14.0
 - **PR:** [36166](https://github.com/qgis/QGIS/pull/36166)
 - **Merged:**	2020-05-05T05:21:00Z
-- **tags:**	-
+- **tags:**	GUI/UX
 - **Sponsored by:** the QGIS Swiss user group
 
 ![](https://user-images.githubusercontent.com/127259/80964825-d0fc3800-8e11-11ea-9961-34edb623458c.png)
@@ -357,11 +358,11 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 [↑ come back ↑](#features)
 
 ## Complete random raster algorithm collection #2
-- **Author:**	root676
+- **Author:**	[root676](https://github.com/root676)
 - **Milestone:** 3.14.0
 - **PR:** [36130](https://github.com/qgis/QGIS/pull/36130)
 - **Merged:**	2020-05-03T20:28:46Z
-- **tags:**	-
+- **tags:**	Processing
 
 [↑ come back ↑](#features)
   
@@ -382,7 +383,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [36089](https://github.com/qgis/QGIS/pull/36089)
 - **Merged:** 2020-04-30T15:50:11Z
-- **tags:** -
+- **tags:** GUI/UX
 - **Sponsored by:** the QGIS Swiss User Group!
 
 ![](https://user-images.githubusercontent.com/127259/80604352-e6e4b400-8a31-11ea-8f3b-8c864e124c78.png)
@@ -460,7 +461,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35909](https://github.com/qgis/QGIS/pull/35909)
 - **Merged:** 2020-04-22T02:43:03Z
-- **tags:** -
+- **tags:** Map and Legend
 
 ![](https://user-images.githubusercontent.com/1829991/79927419-0c4a4e80-8483-11ea-9b87-7ed8b393d349.gif)
 
@@ -471,7 +472,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35901](https://github.com/qgis/QGIS/pull/35901)
 - **Merged:** 2020-04-30T06:38:40Z
-- **tags:** -
+- **tags:** GUI/UX
 
 ![](./imgs/remove.png)
 
@@ -493,7 +494,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35863](https://github.com/qgis/QGIS/pull/35863)
 - **Merged:** 2020-04-21T00:40:51Z
-- **tags:** -
+- **tags:** Print Layouts
 - **Sponsored by:** SLYR
 
 ![](https://user-images.githubusercontent.com/1829991/79714030-ea31be80-8312-11ea-8b6f-f40e3eea04b1.gif)
@@ -527,7 +528,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35815](https://github.com/qgis/QGIS/pull/35815)
 - **Merged:** 2020-04-17T08:59:40Z
-- **tags:** -
+- **tags:** GUI/UX
 
 ![](./imgs/35815.png)
 
@@ -743,7 +744,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35518](https://github.com/qgis/QGIS/pull/35518)
 - **Merged:** 2020-04-02T23:06:10Z
-- **tags:** -
+- **tags:** GUI/UX
 
 ![](https://user-images.githubusercontent.com/1829991/78198825-34bada80-74cd-11ea-803a-90afea085b38.gif)
 
@@ -858,7 +859,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35446](https://github.com/qgis/QGIS/pull/35446)
 - **Merged:** 2020-03-31T06:51:55Z
-- **tags:** -
+- **tags:** Symbology
 
 ![](https://user-images.githubusercontent.com/193367/77861880-17111b00-7218-11ea-95ba-410c97830b93.png)
 
@@ -1099,12 +1100,23 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#features)
 
+## Add ability to edit, import and export user expressions
+- **Author:** [suricactus](https://github.com/suricactus)
+- **milestone:** 3.14.0
+- **PR:** [34997](https://github.com/qgis/QGIS/pull/34997)
+- **Merged:** 2020-03-17T10:31:38Z
+- **tags:** GUI/UX
+
+![](./imgs/34997.png)
+
+[↑ come back ↑](#features)
+
 ## Make Add Group button act as Group Selected if selected layers >= 2
 - **Author:** [uclaros](https://github.com/uclaros)
 - **milestone:** 3.14.0
 - **PR:** [35097](https://github.com/qgis/QGIS/pull/35097)
 - **Merged:** 2020-03-16T02:11:08Z
-- **tags:** -
+- **tags:** GUI/UX
 
 ![](https://user-images.githubusercontent.com/11358178/76710403-f624d200-670f-11ea-9a41-13420c7940e3.gif)
 
@@ -1115,7 +1127,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35085](https://github.com/qgis/QGIS/pull/35085)
 - **Merged:** 2020-03-18T03:26:49Z
-- **tags:** -
+- **tags:** GUI/UX
 
 ![](https://user-images.githubusercontent.com/2820439/76692569-26616780-6661-11ea-9071-fd4c712860db.gif)
 
@@ -1155,7 +1167,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35035](https://github.com/qgis/QGIS/pull/35035)
 - **Merged:** 2020-03-17T14:32:47Z
-- **tags:** -
+- **tags:** Forms
 
 ![](https://user-images.githubusercontent.com/588407/76538031-f195ba80-647e-11ea-9a41-271576e315bc.gif)
 
@@ -1260,7 +1272,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [34876](https://github.com/qgis/QGIS/pull/34876)
 - **Merged:** 2020-03-15T19:31:18Z
-- **tags:** -
+- **tags:** Plugins
 
 ![](https://user-images.githubusercontent.com/1894106/75906889-b1fc1c80-5e47-11ea-954a-bdb16939b0c6.PNG)
 
@@ -1295,7 +1307,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [34848](https://github.com/qgis/QGIS/pull/34848)
 - **Merged:** 2020-03-09T04:59:52Z
-- **tags:** -
+- **tags:** Mesh
 
 ![](https://user-images.githubusercontent.com/804608/75885122-3b9af280-5e26-11ea-96a3-f4a4e48c040e.png)
 
@@ -1361,7 +1373,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [34590](https://github.com/qgis/QGIS/pull/34590)
 - **Merged:** 2020-03-06T21:43:14Z
-- **tags:** -
+- **tags:** Temporal
 
 ![](https://user-images.githubusercontent.com/2663775/74980472-93f2ed00-5441-11ea-8765-f35d1f69b144.gif)
 
@@ -1449,12 +1461,12 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 | gacarrillor | [35933](https://github.com/qgis/QGIS/pull/35933) [35084](https://github.com/qgis/QGIS/pull/35084) [31387](https://github.com/qgis/QGIS/pull/31387) | 3 |
 | Samweli | [34590](https://github.com/qgis/QGIS/pull/34590) [34497](https://github.com/qgis/QGIS/pull/34497) [34040](https://github.com/qgis/QGIS/pull/34040) | 3 |
 | uclaros | [35531](https://github.com/qgis/QGIS/pull/35531) [35097](https://github.com/qgis/QGIS/pull/35097) | 2 |
+| suricactus | [35085](https://github.com/qgis/QGIS/pull/35085) [34997](https://github.com/qgis/QGIS/pull/34997)  | 2 |
 | agiudiceandrea | [36131](https://github.com/qgis/QGIS/pull/36131) | 1 |
 | jmonticolo | [35559](https://github.com/qgis/QGIS/pull/35559) | 1 |
 | beketata | [35438](https://github.com/qgis/QGIS/pull/35438) | 1 |
 | mhugent | [35408](https://github.com/qgis/QGIS/pull/35408) | 1 |
 | Gustry | [35211](https://github.com/qgis/QGIS/pull/35211) | 1 |
-| suricactus | [35085](https://github.com/qgis/QGIS/pull/35085) | 1 |
 | m-kuhn | [35035](https://github.com/qgis/QGIS/pull/35035) | 1 |
 | olivierdalang | [34876](https://github.com/qgis/QGIS/pull/34876) | 1 |
 | PeterPetrik | [34848](https://github.com/qgis/QGIS/pull/34848) | 1 |
@@ -1466,29 +1478,32 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ## Tags
 
-```
-+---------------+-------+---------+-----------------------------------------+
-| Value         | count | percent | histogram                               |
-+---------------+-------+---------+-----------------------------------------+
-| -             | 34    | 28.81   | *************************************** |
-| Processing    | 28    | 23.73   | ********************************        |
-| Print Layouts | 15    | 12.71   | ****************                        |
-| Expressions   | 10    | 8.47    | **********                              |
-| Mesh          | 7     | 5.93    | *******                                 |
-| API           | 4     | 3.39    | ***                                     |
-| Forms         | 4     | 3.39    | ***                                     |
-| Data Provider | 4     | 3.39    | ***                                     |
-| GUI/UX        | 3     | 2.54    | **                                      |
-| Symbology     | 3     | 2.54    | **                                      |
-| Temporal      | 2     | 1.69    | *                                       |
-| Labeling      | 2     | 1.69    | *                                       |
-| Server        | 2     | 1.69    | *                                       |
-| Digitizing    | 2     | 1.69    | *                                       |
-| Raster        | 2     | 1.69    | *                                       |
-| Documentation | 1     | 0.85    | -                                       |
-| QGIS Browser  | 1     | 0.85    | -                                       |
-+---------------+-------+---------+-----------------------------------------+
-```
+tags|count|percent|histogram
+----|-----|------|-------
+Processing|29|23.20|**************************************************
+Print Layouts|17|13.60|*****************************
+-|16|12.80|***************************
+Expressions|10|8.00|*****************
+GUI/UX|10|8.00|*****************
+Mesh|7|5.60|************
+Temporal|6|4.80|**********
+Forms|5|4.00|********
+Symbology|4|3.20|******
+Labeling|2|1.60|***
+Server|2|1.60|***
+Digitizing|2|1.60|***
+API|2|1.60|***
+Data Provider; Raster|2|1.60|***
+Data Provider|2|1.60|***
+Expressions; Temporal|1|0.80|*
+Print Layouts; Temporal|1|0.80|*
+Vectors|1|0.80|*
+API; Mesh|1|0.80|*
+Documentation; Mesh|1|0.80|*
+Map and Legend|1|0.80|*
+API; QGIS Browser|1|0.80|*
+Plugins|1|0.80|*
+Forms; GUI/UX|1|0.80|*
 
 [↑ come back ↑](#features)
 
