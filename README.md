@@ -99,19 +99,19 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 | Sponsored by | count | percent |
 | --- | --- | --- |
-| - | 85 | 72.03 |
-| SLYR | 11 | 9.32 |
-| the QGIS Swiss user group | 6 | 2.54 |
-| ARPA Piemonte | 5 | 4.24 |
-| <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/> | 4 | 3.39 |
-| Geoinformatikbüro Dassau GmbH | 1 | 0.85 |
-| Fisel + König | 1 | 0.85 |
-| Andreas Neumann | 1 | 0.85 |
-| NaturalGIS | 1 | 0.85 |
-| QField | 1 | 0.85 |
-| Alta Ehf | 1 | 0.85 |
-| the Swedish User Group | 1 | 0.85 |
-| Qwat group / Ville de Lausanne ( [@ponceta](https://github.com/ponceta) [@dsavary](https://github.com/dsavary) ) / Oslandia and some spare time | 1 | 0.85 |
+| - | 85 | 71.43 |
+| SLYR | 11 | 9.24 |
+| The QGIS Swiss User Group | 6 | 5.04 |
+| ARPA Piemonte | 5 | 4.20 |
+| <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/> | 4 | 3.36 |
+| Geoinformatikbüro Dassau GmbH | 1 | 0.84 |
+| Fisel + König | 1 | 0.84 |
+| Andreas Neumann | 1 | 0.84 |
+| NaturalGIS | 1 | 0.84 |
+| QField | 1 | 0.84 |
+| Alta Ehf | 1 | 0.84  |
+| the Swedish User Group | 1 | 0.84 |
+| Qwat group / Ville de Lausanne ( [@ponceta](https://github.com/ponceta) [@dsavary](https://github.com/dsavary) )/Oslandia and some spare time | 1 | 0.84 |
 
 [↑ come back ↑](#changelog-314-pi)
 
