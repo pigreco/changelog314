@@ -44,7 +44,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <hr>
 
 <div class="flash flash-error">
-  <h2><p align="center"><b>UPDATED 2020-05-09T20:30:00Z - 119 features</b></p></h2>
+  <h2><p align="center"><b>UPDATED 2020-05-09T20:30:00Z - 120 features</b></p></h2>
 </div>
 
 <br>
@@ -62,6 +62,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [allow creating geometryless DBF tables from the New Shapefile dialog (fix #15654)](#allow-creating-geometryless-dbf-tables-from-the-new-shapefile-dialog-fix-15654)
   - [Vector tile layer - part 8 (writer in Processing)](#vector-tile-layer---part-8-writer-in-processing)
   - [allow to drag'n'drop layer across several QGIS instances](#allow-to-dragndrop-layer-across-several-qgis-instances)
+  - [enhance sorting capabilities in attribute table list/form view](#enhance-sorting-capabilities-in-attribute-table-listform-view)
   - [Expose control over layer legend splitting behavior on a layer-by-layer basis](#expose-control-over-layer-legend-splitting-behavior-on-a-layer-by-layer-basis)
   - [allow editing of links in file widget](#allow-editing-of-links-in-file-widget)
   - [Snap on mesh elements](#snap-on-mesh-elements)
@@ -281,9 +282,21 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** -
 - **Sponsored by:** the QGIS Swiss user group
 
+![](https://user-images.githubusercontent.com/127259/77666018-b5834f00-6f80-11ea-971e-c6d7d996d37d.gif)
+
 [↑ come back ↑](#features)
 
-![](https://user-images.githubusercontent.com/127259/77666018-b5834f00-6f80-11ea-971e-c6d7d996d37d.gif)
+## enhance sorting capabilities in attribute table list/form view
+- **Author:** [3nids](https://github.com/3nids)
+- **Milestone:**	3.14.0
+- **PR:** [36199](https://github.com/qgis/QGIS/pull/36199)
+- **Merged:** 2020-05-06T06:45:T08Z
+- **tags:** GUI/UX
+- **Sponsored by:** the QGIS Swiss user group
+
+![](https://user-images.githubusercontent.com/127259/81067121-7977ce00-8ede-11ea-80a6-4081bae81c09.png)
+
+[↑ come back ↑](#features)
 
 ## Expose control over layer legend splitting behavior on a layer-by-layer basis
 - **Author:**	[nyalldawson](https://twitter.com/nyalldawson)
@@ -1355,7 +1368,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Processing
 - **Sponsored by:** the Swedish User Group
 
-![](https://twitter.com/i/status/1250506567528722433)
+![](./imgs/34617.png)
+https://twitter.com/i/status/1250506567528722433
 
 [↑ come back ↑](#features)
 
@@ -1453,7 +1467,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 | elpaso | [35738](https://github.com/qgis/QGIS/pull/35738) [35688](https://github.com/qgis/QGIS/pull/35688) [35511](https://github.com/qgis/QGIS/pull/35511) [35488](https://github.com/qgis/QGIS/pull/35488) [34968](https://github.com/qgis/QGIS/pull/34968) [34914](https://github.com/qgis/QGIS/pull/34914) [34871](https://github.com/qgis/QGIS/pull/34871) [34827](https://github.com/qgis/QGIS/pull/34827) [34760](https://github.com/qgis/QGIS/pull/34760) [34654](https://github.com/qgis/QGIS/pull/34654) | 10 |
 | vcloarec | [36171](https://github.com/qgis/QGIS/pull/36171) [35926](https://github.com/qgis/QGIS/pull/35926) [35466](https://github.com/qgis/QGIS/pull/35466) [35264](https://github.com/qgis/QGIS/pull/35264) [35216](https://github.com/qgis/QGIS/pull/35216) [34945](https://github.com/qgis/QGIS/pull/34945) [34532](https://github.com/qgis/QGIS/pull/34532) | 7 |
 | alexbruy | [36202](https://github.com/qgis/QGIS/pull/36202) [35901](https://github.com/qgis/QGIS/pull/35901) [35815](https://github.com/qgis/QGIS/pull/35815) [35790](https://github.com/qgis/QGIS/pull/35790) [35764](https://github.com/qgis/QGIS/pull/35764) [35076](https://github.com/qgis/QGIS/pull/35076) | 6 |
-| 3nids | [36236](https://github.com/qgis/QGIS/pull/36236) [36190](https://github.com/qgis/QGIS/pull/36190) [36166](https://github.com/qgis/QGIS/pull/36166) [36089](https://github.com/qgis/QGIS/pull/36089) [35382](https://github.com/qgis/QGIS/pull/35382) | 5 |
+| 3nids | [36236](https://github.com/qgis/QGIS/pull/36236) [36190](https://github.com/qgis/QGIS/pull/36190) [36166](https://github.com/qgis/QGIS/pull/36166) [36089](https://github.com/qgis/QGIS/pull/36089) [35382](https://github.com/qgis/QGIS/pull/35382) [36199](https://github.com/qgis/QGIS/pull/36199) | 6 |
 | wonder-sk | [36099](https://github.com/qgis/QGIS/pull/36099) [35748](https://github.com/qgis/QGIS/pull/35748) [35657](https://github.com/qgis/QGIS/pull/35657) [35446](https://github.com/qgis/QGIS/pull/35446) [35341](https://github.com/qgis/QGIS/pull/35341) | 5 |
 | JanCaha | [36069](https://github.com/qgis/QGIS/pull/36069) [35928](https://github.com/qgis/QGIS/pull/35928) [35889](https://github.com/qgis/QGIS/pull/35889) [35839](https://github.com/qgis/QGIS/pull/35839) | 4 |
 | nirvn | [35689](https://github.com/qgis/QGIS/pull/35689) [35475](https://github.com/qgis/QGIS/pull/35475) [35224](https://github.com/qgis/QGIS/pull/35224) [35197](https://github.com/qgis/QGIS/pull/35197) | 4 |
@@ -1484,7 +1498,7 @@ Processing|29|23.20|**************************************************
 Print Layouts|17|13.60|*****************************
 -|16|12.80|***************************
 Expressions|10|8.00|*****************
-GUI/UX|10|8.00|*****************
+GUI/UX|11|8.00|*****************
 Mesh|7|5.60|************
 Temporal|6|4.80|**********
 Forms|5|4.00|********
@@ -1512,13 +1526,11 @@ Forms; GUI/UX|1|0.80|*
 Sponsored by|count
 ---|--
 SLYR|11
+the QGIS Swiss user group|6
 ARPA Piemonte|5
 <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/>|4
-the QGIS Swiss user group|3
 Geoinformatikbüro Dassau GmbH|1
 Fisel + König|1
-the Swiss QGIS user group|1
-the QGIS Swiss User Group!|1
 Andreas Neumann|1
 NaturalGIS|1
 QField|1
