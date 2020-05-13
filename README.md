@@ -44,7 +44,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 | [elpaso](https://github.com/elpaso) | [35738](https://github.com/qgis/QGIS/pull/35738) [35688](https://github.com/qgis/QGIS/pull/35688) [35511](https://github.com/qgis/QGIS/pull/35511) [35488](https://github.com/qgis/QGIS/pull/35488) [34968](https://github.com/qgis/QGIS/pull/34968) [34914](https://github.com/qgis/QGIS/pull/34914) [34871](https://github.com/qgis/QGIS/pull/34871) [34827](https://github.com/qgis/QGIS/pull/34827) [34760](https://github.com/qgis/QGIS/pull/34760) [34654](https://github.com/qgis/QGIS/pull/34654) | 10 |
 | [vcloarec](https://github.com/vcloarec) | [36171](https://github.com/qgis/QGIS/pull/36171) [35926](https://github.com/qgis/QGIS/pull/35926) [35466](https://github.com/qgis/QGIS/pull/35466) [35264](https://github.com/qgis/QGIS/pull/35264) [35216](https://github.com/qgis/QGIS/pull/35216) [34945](https://github.com/qgis/QGIS/pull/34945) [34532](https://github.com/qgis/QGIS/pull/34532) | 7 |
 | [alexbruy](https://github.com/alexbruy) | [36202](https://github.com/qgis/QGIS/pull/36202) [35901](https://github.com/qgis/QGIS/pull/35901) [35815](https://github.com/qgis/QGIS/pull/35815) [35790](https://github.com/qgis/QGIS/pull/35790) [35764](https://github.com/qgis/QGIS/pull/35764) [35076](https://github.com/qgis/QGIS/pull/35076) | 6 |
-| [3nids](https://github.com/3nids) | [36236](https://github.com/qgis/QGIS/pull/36236) [36190](https://github.com/qgis/QGIS/pull/36190) [36166](https://github.com/qgis/QGIS/pull/36166) [36089](https://github.com/qgis/QGIS/pull/36089) [35382](https://github.com/qgis/QGIS/pull/35382) | 5 |
+| [3nids](https://github.com/3nids) | [36236](https://github.com/qgis/QGIS/pull/36236) [36190](https://github.com/qgis/QGIS/pull/36190) [36166](https://github.com/qgis/QGIS/pull/36166) [36089](https://github.com/qgis/QGIS/pull/36089) [35382](https://github.com/qgis/QGIS/pull/35382) [36199](https://github.com/qgis/QGIS/pull/36199)| 6 |
 | [wonder-sk](https://github.com/wonder-sk) | [36099](https://github.com/qgis/QGIS/pull/36099) [35748](https://github.com/qgis/QGIS/pull/35748) [35657](https://github.com/qgis/QGIS/pull/35657) [35446](https://github.com/qgis/QGIS/pull/35446) [35341](https://github.com/qgis/QGIS/pull/35341) | 5 |
 | [JanCaha](https://github.com/JanCaha) | [36069](https://github.com/qgis/QGIS/pull/36069) [35928](https://github.com/qgis/QGIS/pull/35928) [35889](https://github.com/qgis/QGIS/pull/35889) [35839](https://github.com/qgis/QGIS/pull/35839) | 4 |
 | [nirvn](https://github.com/nirvn) | [35689](https://github.com/qgis/QGIS/pull/35689) [35475](https://github.com/qgis/QGIS/pull/35475) [35224](https://github.com/qgis/QGIS/pull/35224) [35197](https://github.com/qgis/QGIS/pull/35197) | 4 |
@@ -81,7 +81,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 | API           | 4     | 3.39    | ***                                     |
 | Forms         | 4     | 3.39    | ***                                     |
 | Data Provider | 4     | 3.39    | ***                                     |
-| GUI/UX        | 3     | 2.54    | **                                      |
+| GUI/UX        | 4     | 2.54    | **                                      |
 | Symbology     | 3     | 2.54    | **                                      |
 | Temporal      | 2     | 1.69    | *                                       |
 | Labeling      | 2     | 1.69    | *                                       |
@@ -101,13 +101,11 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 | --- | --- | --- |
 | - | 85 | 72.03 |
 | SLYR | 11 | 9.32 |
+| the QGIS Swiss user group | 6 | 2.54 |
 | ARPA Piemonte | 5 | 4.24 |
 | <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/> | 4 | 3.39 |
-| the QGIS Swiss user group | 3 | 2.54 |
 | Geoinformatikbüro Dassau GmbH | 1 | 0.85 |
 | Fisel + König | 1 | 0.85 |
-| the Swiss QGIS user group | 1 | 0.85 |
-| the QGIS Swiss User Group! | 1 | 0.85 |
 | Andreas Neumann | 1 | 0.85 |
 | NaturalGIS | 1 | 0.85 |
 | QField | 1 | 0.85 |
