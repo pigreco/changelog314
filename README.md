@@ -627,6 +627,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-13T23:20:57Z
 - **tags:** Processing
 
+![](./imgs/35727.png)
+
 [↑ come back ↑](#features)
 
 ## add native Round raster algorithm
@@ -717,7 +719,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Print Layouts
 - **Sponsored by:** SLYR
 
-![](https://user-images.githubusercontent.com/1829991/78419618-c885d580-768a-11ea-959a-8459e19e05df.png)
+![](https://user-images.githubusercontent.com/1829991/78468312-2c2b0400-775a-11ea-926e-2acf7ec15aa4.png)
 
 [↑ come back ↑](#features)
 
@@ -727,6 +729,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35576](https://github.com/qgis/QGIS/pull/35576)
 - **Merged:** 2020-04-05T04:23:23Z
 - **tags:** Print Layouts
+
+![](https://user-images.githubusercontent.com/1829991/78419618-c885d580-768a-11ea-959a-8459e19e05df.png)
 
 [↑ come back ↑](#features)
 
@@ -1369,6 +1373,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Sponsored by:** the Swedish User Group
 
 ![](./imgs/34617.png)
+
 https://twitter.com/i/status/1250506567528722433
 
 [↑ come back ↑](#features)
