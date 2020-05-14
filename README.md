@@ -158,5 +158,4 @@ https://lists.osgeo.org/pipermail/qgis-user/2020-May/045685.html
 
 ## file gimp
 
-
-
+<https://github.com/pigreco/changelog314/raw/master/imgs/splashscreen/splash314_v2.xcf>
