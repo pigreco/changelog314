@@ -267,7 +267,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Milestone:**	3.14.0
 - **PR:** [36099](https://github.com/qgis/QGIS/pull/36099)
 - **Merged:** 2020-05-08T10:55:T10Z
-- **tags:** -
+- **tags:** Vector tiles
 - **Donors:** <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/>
 
 [↑ come back ↑](#features)
@@ -603,7 +603,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35748](https://github.com/qgis/QGIS/pull/35748)
 - **Merged:** 2020-04-15T11:38:21Z
-- **tags:** -
+- **tags:** Vector tiles
 - **Donors:** <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/>
 
 ![](https://user-images.githubusercontent.com/193367/79157425-d3501100-7dd4-11ea-8395-5c8ff1dce449.png)
@@ -671,7 +671,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35657](https://github.com/qgis/QGIS/pull/35657)
 - **Merged:** 2020-04-14T22:33:30Z
-- **tags:** -
+- **tags:** Vector tiles
 - **Donors:** <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/>
 
 ![](https://user-images.githubusercontent.com/193367/78723460-bf676380-792b-11ea-9cab-a6732e20033a.png)
@@ -938,7 +938,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **milestone:** 3.14.0
 - **PR:** [35341](https://github.com/qgis/QGIS/pull/35341)
 - **Merged:** 2020-04-02T14:06:31Z
-- **tags:** -
+- **tags:** Vector tiles
 - **Donors:** <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/>
 
 ![](https://user-images.githubusercontent.com/193367/77539757-2d2e7c80-6ea2-11ea-9098-c6c0924f9d59.png)
