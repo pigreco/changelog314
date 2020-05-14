@@ -31,6 +31,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [Authors](#authors)
   - [Tags](#tags)
   - [Sponsors](#sponsors)
+  - [Map contest: mapping Pi for the 3.14 splash screen](#map-contest-mapping-pi-for-the-314-splash-screen)
 
 <!-- /TOC -->
 
@@ -131,3 +132,26 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 ---
 
 **Thanks to the precious help of** [Andrea Borruso](https://twitter.com/aborruso)
+
+## Map contest: mapping Pi for the 3.14 splash screen
+
+https://lists.osgeo.org/pipermail/qgis-user/2020-May/045685.html
+
+![](./imgs/splashscreen/splash314_bw.png)
+
+![](./imgs/splashscreen/splash3144_v1.png)
+
+![](./imgs/splashscreen/splash3144_v2.png)
+
+![](./imgs/splashscreen/splash314_v3.png)
+
+![](./imgs/splashscreen/splash314_mat1.png)
+
+![](./imgs/splashscreen/splash314_mat2.png)
+
+![](./imgs/splashscreen/splash314_mat3.png)
+
+![](./imgs/splashscreen/splash314_mat4.png)
+
+![](./imgs/splashscreen/splash314_mat5.png)
+
