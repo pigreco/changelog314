@@ -21,7 +21,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 ![splash](./imgs/Bucarest2019.png)
 
-**---> UPDATED 2020-05-09 <---** **118 FEATURES**
+**---> UPDATED 2020-05-09 <---** **131 FEATURES**
 
 [**All new features**](https://pigreco.github.io/changelog314/) <---
 
