@@ -34,7 +34,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [Tags](#tags)
   - [Sponsors](#sponsors)
 - [Map contest: mapping Pi for the 3.14 splash screen](#map-contest-mapping-pi-for-the-314-splash-screen)
-- [file gimp](#file-gimp)
+  - [file gimp](#file-gimp)
 - [Graphics](#graphics)
 
 <!-- /TOC -->
@@ -166,7 +166,7 @@ https://lists.osgeo.org/pipermail/qgis-user/2020-May/045685.html
 
 [↑ come back ↑](#changelog-314-pi)
 
-# file gimp
+## file gimp
 
 <https://github.com/pigreco/changelog314/raw/master/imgs/splashscreen/splash314_v2.xcf>
 
