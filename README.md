@@ -44,7 +44,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <hr>
 
 <div class="flash flash-error">
-  <h2><p align="center"><b>UPDATED 2020-05-09T20:30:00Z - 120 features</b></p></h2>
+  <h2><p align="center"><b>UPDATED 2020-05-15T12:00:00Z - 131 features</b></p></h2>
 </div>
 
 <br>
@@ -52,6 +52,17 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <!-- TOC -->
 
 - [Features](#features)
+  - [Add ability to export animation frames](#add-ability-to-export-animation-frames)
+  - [Add additional temporal modes for vector layers](#add-additional-temporal-modes-for-vector-layers)
+  - [use only specified dataset group](#use-only-specified-dataset-group)
+  - [New variables @animation_start_time and @animation_end_time](#new-variables-animationstarttime-and-animationendtime)
+  - [scalar color settings depending on classification](#scalar-color-settings-depending-on-classification)
+  - [Add cumulative temporal range setting in temporal controller](#add-cumulative-temporal-range-setting-in-temporal-controller)
+  - [Expose temporal UI for map items](#expose-temporal-ui-for-map-items)
+  - [allow adding attributes in the New Scratch Layer dialog (fix #24397)](#allow-adding-attributes-in-the-new-scratch-layer-dialog-fix-24397)
+  - [Respect HTML colors in labels](#respect-html-colors-in-labels)
+  - [add Selection toolbar to the QGIS main window](#add-selection-toolbar-to-the-qgis-main-window)
+  - [Determine primary key from Oracle view](#determine-primary-key-from-oracle-view)
   - [New expression function make_interval](#new-expression-function-makeinterval)
   - [Add expression variables for frame properties](#add-expression-variables-for-frame-properties)
   - [Add a new Redraw Layer Only mode for temporal vector layers](#add-a-new-redraw-layer-only-mode-for-temporal-vector-layers)
@@ -178,6 +189,118 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <!-- /TOC -->
 
 # Features
+
+## Add ability to export animation frames
+- **Author:** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone:** 3.14.0
+- **PR:** [36453](https://github.com/qgis/QGIS/pull/36453)
+- **Merged:** 2020-05-15T06:10:54Z
+- **tags:** Temporal
+
+[↑ come back ↑](#features)
+
+## Add additional temporal modes for vector layers
+- **Author:** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone:** 3.14.0
+- **PR:** [36367](https://github.com/qgis/QGIS/pull/36367)
+- **Merged:** 2020-05-13T10:20:01Z
+- **tags:** Temporal
+
+[↑ come back ↑](#features)
+
+## use only specified dataset group
+- **Author:** [vcloarec](https://github.com/vcloarec)
+- **Milestone:** 3.14.0
+- **PR:** [36334](https://github.com/qgis/QGIS/pull/36334)
+- **Merged:** 2020-05-14T07:56:48Z
+- **tags:** Mesh
+
+![](https://user-images.githubusercontent.com/7416892/81516813-3a46e400-9307-11ea-9621-a27d5a8c86f2.gif)
+
+[↑ come back ↑](#features)
+
+## New variables @animation_start_time and @animation_end_time
+- **Author:** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone:** 3.14.0
+- **PR:** [36324](https://github.com/qgis/QGIS/pull/36324)
+- **Merged:** 2020-05-10T09:33:35Z
+- **tags:** Expressions; Temporal
+
+[↑ come back ↑](#features)
+
+## scalar color settings depending on classification
+- **Author:** [vcloarec](https://github.com/vcloarec)
+- **Milestone:** 3.14.0
+- **PR:** [36313](https://github.com/qgis/QGIS/pull/36313)
+- **Merged:** 2020-05-11T05:19:23Z
+- **tags:** Mesh
+
+![](https://user-images.githubusercontent.com/7416892/81480226-42fbc500-91f6-11ea-91fd-3d430693d551.png)
+
+[↑ come back ↑](#features)
+
+## Add cumulative temporal range setting in temporal controller
+- **Author:** [Samweli](https://github.com/Samweli)
+- **Milestone:** 3.14.0
+- **PR:** [36309](https://github.com/qgis/QGIS/pull/36309)
+- **Merged:** 2020-05-10T23:00:25Z
+- **tags:** Temporal
+
+![](https://user-images.githubusercontent.com/2663775/81475518-77cb4480-9215-11ea-96a6-78b93ca01a69.gif)
+
+[↑ come back ↑](#features)
+
+## Expose temporal UI for map items
+- **Author:** [nirvn](https://github.com/nirvn)
+- **Milestone:** 3.14.0
+- **PR:** [36304](https://github.com/qgis/QGIS/pull/36304)
+- **Merged:** 2020-05-10T07:30:08Z
+- **tags:** Print Layouts; Temporal
+
+![](https://user-images.githubusercontent.com/1728657/81467639-3ed6a400-9204-11ea-9b06-713872a1c799.gif)
+
+[↑ come back ↑](#features)
+
+## allow adding attributes in the New Scratch Layer dialog (fix #24397)
+- **Author:** [alexbruy](https://github.com/alexbruy)
+- **Milestone:** 3.14.0
+- **PR:** [36289](https://github.com/qgis/QGIS/pull/36289)
+- **Merged:** 2020-05-12T05:39:13Z
+- **tags:**	-
+
+![](https://user-images.githubusercontent.com/776954/81394331-76711d80-912a-11ea-8b86-4f2789adff08.png)
+
+[↑ come back ↑](#features)
+
+## Respect HTML colors in labels
+- **Author:** [nyalldawson](https://github.com/nyalldawson)
+- **Milestone:** 3.14.0
+- **PR:** [36283](https://github.com/qgis/QGIS/pull/36283)
+- **Merged:** 2020-05-12T11:16:57Z
+- **tags:**	-
+- **Sponsored by** geoProRegio AG ([www.geoproregio.ch](http://www.geoproregio.ch/))
+
+![](https://user-images.githubusercontent.com/1829991/81377294-88fa4f80-9148-11ea-9036-2a597b064bbc.png)
+
+[↑ come back ↑](#features)
+
+## add Selection toolbar to the QGIS main window
+- **Author:** [alexbruy](https://github.com/alexbruy)
+- **Milestone:** 3.14.0
+- **PR:** [36258](https://github.com/qgis/QGIS/pull/36258)
+- **Merged:** 2020-05-13T00:18:48Z
+- **tags:** GUI/UX
+
+[↑ come back ↑](#features)
+
+## Determine primary key from Oracle view
+- **Author:** [troopa81](https://github.com/troopa81)
+- **Milestone:** 3.14.0
+- **PR:** [35112](https://github.com/qgis/QGIS/pull/35112)
+- **Merged:** 2020-05-13T13:29:04Z
+- **tags:** Data Provider
+
+[↑ come back ↑](#features)
 
 ## New expression function make_interval
 - **Author:** [nyalldawson](https://github.com/nyalldawson)
@@ -1468,17 +1591,17 @@ https://twitter.com/i/status/1250506567528722433
 
 | Author | PR | Total_count |
 | --- | --- | --- |
-| nyalldawson | [36303](https://github.com/qgis/QGIS/pull/36303) [36300](https://github.com/qgis/QGIS/pull/36300) [36299](https://github.com/qgis/QGIS/pull/36299) [36245](https://github.com/qgis/QGIS/pull/36245) [36243](https://github.com/qgis/QGIS/pull/36243) [36224](https://github.com/qgis/QGIS/pull/36224) [36222](https://github.com/qgis/QGIS/pull/36222) [36162](https://github.com/qgis/QGIS/pull/36162) [36136](https://github.com/qgis/QGIS/pull/36136) [36106](https://github.com/qgis/QGIS/pull/36106) [36013](https://github.com/qgis/QGIS/pull/36013) [35974](https://github.com/qgis/QGIS/pull/35974) [35909](https://github.com/qgis/QGIS/pull/35909) [35863](https://github.com/qgis/QGIS/pull/35863) [35821](https://github.com/qgis/QGIS/pull/35821) [35808](https://github.com/qgis/QGIS/pull/35808) [35778](https://github.com/qgis/QGIS/pull/35778) [35760](https://github.com/qgis/QGIS/pull/35760) [35644](https://github.com/qgis/QGIS/pull/35644) [35641](https://github.com/qgis/QGIS/pull/35641) [35606](https://github.com/qgis/QGIS/pull/35606) [35591](https://github.com/qgis/QGIS/pull/35591) [35576](https://github.com/qgis/QGIS/pull/35576) [35518](https://github.com/qgis/QGIS/pull/35518) [35494](https://github.com/qgis/QGIS/pull/35494) [35484](https://github.com/qgis/QGIS/pull/35484) [35474](https://github.com/qgis/QGIS/pull/35474) [35473](https://github.com/qgis/QGIS/pull/35473) [35454](https://github.com/qgis/QGIS/pull/35454) [35452](https://github.com/qgis/QGIS/pull/35452) [35419](https://github.com/qgis/QGIS/pull/35419) [35396](https://github.com/qgis/QGIS/pull/35396) [35364](https://github.com/qgis/QGIS/pull/35364) [35324](https://github.com/qgis/QGIS/pull/35324) [35321](https://github.com/qgis/QGIS/pull/35321) [35319](https://github.com/qgis/QGIS/pull/35319) [35292](https://github.com/qgis/QGIS/pull/35292) [35251](https://github.com/qgis/QGIS/pull/35251) [35244](https://github.com/qgis/QGIS/pull/35244) [35238](https://github.com/qgis/QGIS/pull/35238) [35225](https://github.com/qgis/QGIS/pull/35225) [35208](https://github.com/qgis/QGIS/pull/35208) [35160](https://github.com/qgis/QGIS/pull/35160) [35130](https://github.com/qgis/QGIS/pull/35130) [35056](https://github.com/qgis/QGIS/pull/35056) [34987](https://github.com/qgis/QGIS/pull/34987) [34955](https://github.com/qgis/QGIS/pull/34955) [34938](https://github.com/qgis/QGIS/pull/34938) [34936](https://github.com/qgis/QGIS/pull/34936) [34898](https://github.com/qgis/QGIS/pull/34898) [34895](https://github.com/qgis/QGIS/pull/34895) [34856](https://github.com/qgis/QGIS/pull/34856) [34617](https://github.com/qgis/QGIS/pull/34617) [34610](https://github.com/qgis/QGIS/pull/34610) | 54 |
+| nyalldawson | [36303](https://github.com/qgis/QGIS/pull/36303) [36300](https://github.com/qgis/QGIS/pull/36300) [36299](https://github.com/qgis/QGIS/pull/36299) [36245](https://github.com/qgis/QGIS/pull/36245) [36243](https://github.com/qgis/QGIS/pull/36243) [36224](https://github.com/qgis/QGIS/pull/36224) [36222](https://github.com/qgis/QGIS/pull/36222) [36162](https://github.com/qgis/QGIS/pull/36162) [36136](https://github.com/qgis/QGIS/pull/36136) [36106](https://github.com/qgis/QGIS/pull/36106) [36013](https://github.com/qgis/QGIS/pull/36013) [35974](https://github.com/qgis/QGIS/pull/35974) [35909](https://github.com/qgis/QGIS/pull/35909) [35863](https://github.com/qgis/QGIS/pull/35863) [35821](https://github.com/qgis/QGIS/pull/35821) [35808](https://github.com/qgis/QGIS/pull/35808) [35778](https://github.com/qgis/QGIS/pull/35778) [35760](https://github.com/qgis/QGIS/pull/35760) [35644](https://github.com/qgis/QGIS/pull/35644) [35641](https://github.com/qgis/QGIS/pull/35641) [35606](https://github.com/qgis/QGIS/pull/35606) [35591](https://github.com/qgis/QGIS/pull/35591) [35576](https://github.com/qgis/QGIS/pull/35576) [35518](https://github.com/qgis/QGIS/pull/35518) [35494](https://github.com/qgis/QGIS/pull/35494) [35484](https://github.com/qgis/QGIS/pull/35484) [35474](https://github.com/qgis/QGIS/pull/35474) [35473](https://github.com/qgis/QGIS/pull/35473) [35454](https://github.com/qgis/QGIS/pull/35454) [35452](https://github.com/qgis/QGIS/pull/35452) [35419](https://github.com/qgis/QGIS/pull/35419) [35396](https://github.com/qgis/QGIS/pull/35396) [35364](https://github.com/qgis/QGIS/pull/35364) [35324](https://github.com/qgis/QGIS/pull/35324) [35321](https://github.com/qgis/QGIS/pull/35321) [35319](https://github.com/qgis/QGIS/pull/35319) [35292](https://github.com/qgis/QGIS/pull/35292) [35251](https://github.com/qgis/QGIS/pull/35251) [35244](https://github.com/qgis/QGIS/pull/35244) [35238](https://github.com/qgis/QGIS/pull/35238) [35225](https://github.com/qgis/QGIS/pull/35225) [35208](https://github.com/qgis/QGIS/pull/35208) [35160](https://github.com/qgis/QGIS/pull/35160) [35130](https://github.com/qgis/QGIS/pull/35130) [35056](https://github.com/qgis/QGIS/pull/35056) [34987](https://github.com/qgis/QGIS/pull/34987) [34955](https://github.com/qgis/QGIS/pull/34955) [34938](https://github.com/qgis/QGIS/pull/34938) [34936](https://github.com/qgis/QGIS/pull/34936) [34898](https://github.com/qgis/QGIS/pull/34898) [34895](https://github.com/qgis/QGIS/pull/34895) [34856](https://github.com/qgis/QGIS/pull/34856) [34617](https://github.com/qgis/QGIS/pull/34617) [34610](https://github.com/qgis/QGIS/pull/34610) [36453](https://github.com/qgis/QGIS/pull/36453) [36367](https://github.com/qgis/QGIS/pull/36367) [36324](https://github.com/qgis/QGIS/pull/36324) [36283](https://github.com/qgis/QGIS/pull/36283)  | 58 |
 | elpaso | [35738](https://github.com/qgis/QGIS/pull/35738) [35688](https://github.com/qgis/QGIS/pull/35688) [35511](https://github.com/qgis/QGIS/pull/35511) [35488](https://github.com/qgis/QGIS/pull/35488) [34968](https://github.com/qgis/QGIS/pull/34968) [34914](https://github.com/qgis/QGIS/pull/34914) [34871](https://github.com/qgis/QGIS/pull/34871) [34827](https://github.com/qgis/QGIS/pull/34827) [34760](https://github.com/qgis/QGIS/pull/34760) [34654](https://github.com/qgis/QGIS/pull/34654) | 10 |
-| vcloarec | [36171](https://github.com/qgis/QGIS/pull/36171) [35926](https://github.com/qgis/QGIS/pull/35926) [35466](https://github.com/qgis/QGIS/pull/35466) [35264](https://github.com/qgis/QGIS/pull/35264) [35216](https://github.com/qgis/QGIS/pull/35216) [34945](https://github.com/qgis/QGIS/pull/34945) [34532](https://github.com/qgis/QGIS/pull/34532) | 7 |
-| alexbruy | [36202](https://github.com/qgis/QGIS/pull/36202) [35901](https://github.com/qgis/QGIS/pull/35901) [35815](https://github.com/qgis/QGIS/pull/35815) [35790](https://github.com/qgis/QGIS/pull/35790) [35764](https://github.com/qgis/QGIS/pull/35764) [35076](https://github.com/qgis/QGIS/pull/35076) | 6 |
+| vcloarec | [36171](https://github.com/qgis/QGIS/pull/36171) [35926](https://github.com/qgis/QGIS/pull/35926) [35466](https://github.com/qgis/QGIS/pull/35466) [35264](https://github.com/qgis/QGIS/pull/35264) [35216](https://github.com/qgis/QGIS/pull/35216) [34945](https://github.com/qgis/QGIS/pull/34945) [34532](https://github.com/qgis/QGIS/pull/34532) [36334](https://github.com/qgis/QGIS/pull/36334) [36313](https://github.com/qgis/QGIS/pull/36313)| 9 |
+| alexbruy | [36202](https://github.com/qgis/QGIS/pull/36202) [35901](https://github.com/qgis/QGIS/pull/35901) [35815](https://github.com/qgis/QGIS/pull/35815) [35790](https://github.com/qgis/QGIS/pull/35790) [35764](https://github.com/qgis/QGIS/pull/35764) [35076](https://github.com/qgis/QGIS/pull/35076) [36289](https://github.com/qgis/QGIS/pull/36289) [36258](https://github.com/qgis/QGIS/pull/36258)  | 8 |
 | 3nids | [36236](https://github.com/qgis/QGIS/pull/36236) [36190](https://github.com/qgis/QGIS/pull/36190) [36166](https://github.com/qgis/QGIS/pull/36166) [36089](https://github.com/qgis/QGIS/pull/36089) [35382](https://github.com/qgis/QGIS/pull/35382) [36199](https://github.com/qgis/QGIS/pull/36199) | 6 |
 | wonder-sk | [36099](https://github.com/qgis/QGIS/pull/36099) [35748](https://github.com/qgis/QGIS/pull/35748) [35657](https://github.com/qgis/QGIS/pull/35657) [35446](https://github.com/qgis/QGIS/pull/35446) [35341](https://github.com/qgis/QGIS/pull/35341) | 5 |
+| nirvn | [35689](https://github.com/qgis/QGIS/pull/35689) [35475](https://github.com/qgis/QGIS/pull/35475) [35224](https://github.com/qgis/QGIS/pull/35224) [35197](https://github.com/qgis/QGIS/pull/35197) [36304](https://github.com/qgis/QGIS/pull/36304) | 5 |
 | JanCaha | [36069](https://github.com/qgis/QGIS/pull/36069) [35928](https://github.com/qgis/QGIS/pull/35928) [35889](https://github.com/qgis/QGIS/pull/35889) [35839](https://github.com/qgis/QGIS/pull/35839) | 4 |
-| nirvn | [35689](https://github.com/qgis/QGIS/pull/35689) [35475](https://github.com/qgis/QGIS/pull/35475) [35224](https://github.com/qgis/QGIS/pull/35224) [35197](https://github.com/qgis/QGIS/pull/35197) | 4 |
+| Samweli | [34590](https://github.com/qgis/QGIS/pull/34590) [34497](https://github.com/qgis/QGIS/pull/34497) [34040](https://github.com/qgis/QGIS/pull/34040) [36309](https://github.com/qgis/QGIS/pull/36309)  | 4 |
 | root676 | [36130](https://github.com/qgis/QGIS/pull/36130) [35727](https://github.com/qgis/QGIS/pull/35727) [35694](https://github.com/qgis/QGIS/pull/35694) | 3 |
 | gacarrillor | [35933](https://github.com/qgis/QGIS/pull/35933) [35084](https://github.com/qgis/QGIS/pull/35084) [31387](https://github.com/qgis/QGIS/pull/31387) | 3 |
-| Samweli | [34590](https://github.com/qgis/QGIS/pull/34590) [34497](https://github.com/qgis/QGIS/pull/34497) [34040](https://github.com/qgis/QGIS/pull/34040) | 3 |
 | uclaros | [35531](https://github.com/qgis/QGIS/pull/35531) [35097](https://github.com/qgis/QGIS/pull/35097) | 2 |
 | suricactus | [35085](https://github.com/qgis/QGIS/pull/35085) [34997](https://github.com/qgis/QGIS/pull/34997)  | 2 |
 | agiudiceandrea | [36131](https://github.com/qgis/QGIS/pull/36131) | 1 |
@@ -1492,37 +1615,35 @@ https://twitter.com/i/status/1250506567528722433
 | roya0045 | [34547](https://github.com/qgis/QGIS/pull/34547) | 1 |
 | DelazJ | [33950](https://github.com/qgis/QGIS/pull/33950) | 1 |
 | lbartoletti | [33622](https://github.com/qgis/QGIS/pull/33622) | 1 |
+| troopa81 | [35112](https://github.com/qgis/QGIS/pull/35112) | 1 |
 
 [↑ come back ↑](#features)
 
 ## Tags
 
 tags|count|percent|histogram
-----|-----|------|-------
-Processing|29|23.20|**************************************************
-Print Layouts|17|13.60|*****************************
--|16|12.80|***************************
-Expressions|10|8.00|*****************
-GUI/UX|11|8.00|*****************
-Mesh|7|5.60|************
-Temporal|6|4.80|**********
-Forms|5|4.00|********
-Symbology|4|3.20|******
-Labeling|2|1.60|***
-Server|2|1.60|***
-Digitizing|2|1.60|***
-API|2|1.60|***
-Data Provider; Raster|2|1.60|***
-Data Provider|2|1.60|***
-Expressions; Temporal|1|0.80|*
-Print Layouts; Temporal|1|0.80|*
-Vectors|1|0.80|*
-API; Mesh|1|0.80|*
-Documentation; Mesh|1|0.80|*
-Map and Legend|1|0.80|*
-API; QGIS Browser|1|0.80|*
-Plugins|1|0.80|*
-Forms; GUI/UX|1|0.80|*
+----|-----|-------|------
+Processing|29|21.01|**************************************************
+Print Layouts|18|13.04|*******************************
+-|12|8.70|********************
+GUI/UX|12|8.70|********************
+Expressions|11|7.97|******************
+Temporal|10|7.25|*****************
+Mesh|10|7.25|*****************
+Forms|6|4.35|**********
+Data Provider|5|3.62|********
+API|4|2.90|******
+Vector tiles|4|2.90|******
+Symbology|4|2.90|******
+Labeling|2|1.45|***
+Server|2|1.45|***
+Digitizing|2|1.45|***
+Raster|2|1.45|***
+Vectors|1|0.72|*
+Documentation|1|0.72|*
+Map and Legend|1|0.72|*
+QGIS Browser|1|0.72|*
+Plugins|1|0.72|*
 
 [↑ come back ↑](#features)
 
@@ -1542,6 +1663,8 @@ QField|1
 Alta Ehf|1
 the Swedish User Group|1
 Qwat group / Ville de Lausanne ( [@ponceta](https://github.com/ponceta) [@dsavary](https://github.com/dsavary) ) / Oslandia and some spare time|1
+geoProRegio AG ([www.geoproregio.ch](http://www.geoproregio.ch/))|1
+
 
 
 [↑ come back ↑](#features)
