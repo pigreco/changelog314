@@ -33,8 +33,9 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [Authors](#authors-1)
   - [Tags](#tags)
   - [Sponsors](#sponsors)
-  - [Map contest: mapping Pi for the 3.14 splash screen](#map-contest-mapping-pi-for-the-314-splash-screen)
-  - [file gimp](#file-gimp)
+- [Map contest: mapping Pi for the 3.14 splash screen](#map-contest-mapping-pi-for-the-314-splash-screen)
+- [file gimp](#file-gimp)
+- [Graphics](#graphics)
 
 <!-- /TOC -->
 
@@ -141,7 +142,7 @@ geoProRegio AG ([www.geoproregio.ch](http://www.geoproregio.ch/))|1
 
 **Thanks to the precious help of** [Andrea Borruso](https://twitter.com/aborruso)
 
-## Map contest: mapping Pi for the 3.14 splash screen
+# Map contest: mapping Pi for the 3.14 splash screen
 
 https://lists.osgeo.org/pipermail/qgis-user/2020-May/045685.html
 
@@ -163,6 +164,16 @@ https://lists.osgeo.org/pipermail/qgis-user/2020-May/045685.html
 
 ![](./imgs/splashscreen/splash314_mat5.png)
 
-## file gimp
+[↑ come back ↑](#changelog-314-pi)
+
+# file gimp
 
 <https://github.com/pigreco/changelog314/raw/master/imgs/splashscreen/splash314_v2.xcf>
+
+# Graphics
+
+![](./imgs/features314.png)
+
+![](./imgs/featuresVScategory_2to314.png)
+
+[↑ come back ↑](#changelog-314-pi)
