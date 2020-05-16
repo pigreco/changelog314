@@ -1,4 +1,4 @@
-# Changelog 3.14 (Pi)
+# Changelog 3.14 Pi (π)
 
 The following changelogs are the result of this [filter](https://github.com/qgis/QGIS/pulls?page=1&q=is%3Apr+is%3Aclosed+label%3Afeature+merged%3A2020-02-22T00%3A00%3A00Z..2020-05-15T12%3A00%3A00Z):
 
@@ -27,6 +27,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 <!-- TOC -->
 
+- [Changelog 3.14 Pi (π)](#changelog-314-pi-%cf%80)
 - [Statistics](#statistics)
   - [Authors](#authors)
 - [Statistics](#statistics-1)
