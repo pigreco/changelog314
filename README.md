@@ -1669,7 +1669,6 @@ geoProRegio AG ([www.geoproregio.ch](http://www.geoproregio.ch/))|1
 
 [↑ come back ↑](#features)
 
-**stay tuned!**
 
 ---
 
