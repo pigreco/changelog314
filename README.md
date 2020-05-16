@@ -9,7 +9,7 @@
 
 <br>
 
-[**Pigrecoinfinito**](http://pigrecoinfinito.com/) has collected on this page some **views** of the changelog 3.14 Pi 😊.
+[**Pigrecoinfinito**](http://pigrecoinfinito.com/) has collected on this page some **views** of the changelog 3.14 Pi (π) 😊.
 
 The following changelogs are the result of this [filter](https://github.com/qgis/QGIS/pulls?page=1&q=is%3Apr+is%3Aclosed+label%3Afeature+merged%3A2020-02-22T00%3A00%3A00Z..2020-05-15T12%3A00%3A00Z):
 
@@ -349,9 +349,9 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-05-08T01:46:T47Z
 - **tags:** Temporal
 
-[↑ come back ↑](#features)
-
 ![](https://user-images.githubusercontent.com/1829991/81264708-373cc100-9085-11ea-93b4-bd037487ec69.gif)
+
+[↑ come back ↑](#features)
 
 ##  allow sorting attribute table by field not listed in the table
 - **Author:** [3nids](https://github.com/3nids)
@@ -381,9 +381,9 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-05-06T10:30:T51Z
 - **tags:** Vectors
 
-[↑ come back ↑](#features)
-
 ![](https://user-images.githubusercontent.com/776954/81068877-be553200-8ee9-11ea-9a06-a4d30e773cf6.png)
+
+[↑ come back ↑](#features)
 
 ## Vector tile layer - part 8 (writer in Processing)
 - **Author:** [wonder-sk](https://github.com/wonder-sk)
@@ -393,9 +393,9 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Vector tiles
 - **Donors:** <https://www.lutraconsulting.co.uk/blog/2020/04/02/vectortiles-donors/>
 
-[↑ come back ↑](#features)
-
 ![](https://user-images.githubusercontent.com/193367/81117303-224a1b80-8f27-11ea-851d-f4271ce66ed3.png)
+
+[↑ come back ↑](#features)
 
 ## allow to drag'n'drop layer across several QGIS instances
 - **Author:** [3nids](https://github.com/3nids)
