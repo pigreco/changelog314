@@ -7,6 +7,6 @@ include:
   - README.md
   - test.md
 remote_theme: "pages-themes/primer"
-title: Changelog 3.14 (Pi) - A work created by Pigrecoinfinito
+title: Changelog 3.14 Pi - A work created by Pigrecoinfinito
 description: Changelog QGIS 3.14 (Pi)
 lang: it-IT
