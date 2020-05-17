@@ -151,19 +151,15 @@ https://lists.osgeo.org/pipermail/qgis-user/2020-May/045685.html
 
 ![](./imgs/splashscreen/splash3144_v1.png)
 
-![](./imgs/splashscreen/splash3144_v2.png)
-
 ![](./imgs/splashscreen/splash314_v3.png)
-
-![](./imgs/splashscreen/splash314_mat1.png)
-
-![](./imgs/splashscreen/splash314_mat2.png)
 
 ![](./imgs/splashscreen/splash314_mat3.png)
 
-![](./imgs/splashscreen/splash314_mat4.png)
+![](./imgs/splashscreen/virus.png)
 
-![](./imgs/splashscreen/splash314_mat5.png)
+![](./imgs/splashscreen/virus2.png)
+
+![](./imgs/splashscreen/virus3.png)
 
 [↑ come back ↑](#changelog-314-pi)
 
