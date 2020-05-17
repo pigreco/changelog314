@@ -167,6 +167,9 @@ https://lists.osgeo.org/pipermail/qgis-user/2020-May/045685.html
 
 <https://github.com/pigreco/changelog314/raw/master/imgs/splashscreen/splash314_v2.xcf>
 
+my_splash, image and file xcf:
+<https://github.com/pigreco/changelog314/raw/master/imgs/splashscreen/my_splash.zip>
+
 # Graphics
 
 ![](./imgs/features314.png)
