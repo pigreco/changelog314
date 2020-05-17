@@ -103,7 +103,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [Add XYZ tiles to Datasource manager dialog and Layers menu](#add-xyz-tiles-to-datasource-manager-dialog-and-layers-menu)
   - [Defer model validation](#defer-model-validation)
   - [Vector tile layer - part 5 (identify tool)](#vector-tile-layer---part-5-identify-tool)
-  - [Server: add QGIS_SERVER_IGNORE_BAD_LAYERS config option](#server-add-qgisserverignorebadlayers-config-option)
+  - [Server add QGIS_SERVER_IGNORE_BAD_LAYERS config option](#server-add-qgisserverignorebadlayers-config-option)
   - [Add support for different raster data types in Create constant raster layer algorithm](#add-support-for-different-raster-data-types-in-create-constant-raster-layer-algorithm)
   - [add native Round raster algorithm](#add-native-round-raster-algorithm)
   - [Add avoid intersection/overlap mode](#add-avoid-intersectionoverlap-mode)
@@ -308,6 +308,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-05-13T13:29:04Z
 - **tags:** Data Provider
 
+![](imgs/35112.png)
+
 [↑ come back ↑](#features)
 
 ## New expression function make_interval
@@ -384,6 +386,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Print Layouts
 - **Sponsored by:** SLYR
 
+![](imgs/36222.png)
+
 [↑ come back ↑](#features)
 
 ## allow creating geometryless DBF tables from the New Shapefile dialog (fix #15654)
@@ -441,6 +445,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:**	Print Layouts
 - **Sponsored by:** SLYR
 
+![](imgs/36224.png)
+
 [↑ come back ↑](#features)
 
 ## allow editing of links in file widget
@@ -456,16 +462,18 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 [↑ come back ↑](#features)
 
 ## Snap on mesh elements
-- **Author:**	vcloarec
+- **Author:**	[vcloarec]((https://twitter.com/vcloarec))
 - **Milestone:** 3.14.0
 - **PR:** [36171](https://github.com/qgis/QGIS/pull/36171)
 - **Merged:**	2020-05-05T11:31:50Z
 - **tags:**	API; Mesh
 
+![](imgs/36171.png)
+
 [↑ come back ↑](#features)
 
 ## Allow filtering WM(T)S list in source dialog
-- **Author:**	3nids
+- **Author:**	[3nids](https://twitter.com/3nids)
 - **Milestone:** 3.14.0
 - **PR:** [36166](https://github.com/qgis/QGIS/pull/36166)
 - **Merged:**	2020-05-05T05:21:00Z
@@ -483,6 +491,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:**	2020-05-05T01:49:07Z
 - **tags:**	Print Layouts
 
+![](./imgs/36162.png)
+
 [↑ come back ↑](#features)
 
 ## Allow placing manual column breaks in legends
@@ -490,7 +500,9 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Milestone:** 3.14.0
 - **PR:** [36136](https://github.com/qgis/QGIS/pull/36136)
 - **Merged:**	2020-05-05T14:22:28Z
-- **tags:**	-
+- **tags:**	Print Layouts
+
+![](imgs/36136.png)
 
 [↑ come back ↑](#features)
 
@@ -511,6 +523,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [36130](https://github.com/qgis/QGIS/pull/36130)
 - **Merged:**	2020-05-03T20:28:46Z
 - **tags:**	Processing
+
+![](imgs/36130.png)
 
 [↑ come back ↑](#features)
   
@@ -568,6 +582,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-24T18:49:55Z
 - **tags:** Print Layouts
 - **Sponsored by:** SLYR
+
+![](imgs/35974.png)
 
 [↑ come back ↑](#features)
 
@@ -701,6 +717,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-15T17:20:24Z
 - **tags:** -
 
+![](imgs/35790.png)
+
 [↑ come back ↑](#features)
 
 ## Allow reordering model inputs
@@ -710,6 +728,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-15T20:03:49Z
 - **tags:** Processing
 - **Sponsored by:** NaturalGIS
+
+![](./imgs/35778.png)
 
 [↑ come back ↑](#features)
 
@@ -731,6 +751,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-04-14T10:27:22Z
 - **tags:** Processing
 
+![](imgs/35760.png)
+
 [↑ come back ↑](#features)
 
 ## Vector tile layer - part 5 (identify tool)
@@ -745,13 +767,15 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#features)
 
-## Server: add QGIS_SERVER_IGNORE_BAD_LAYERS config option
+## Server add QGIS_SERVER_IGNORE_BAD_LAYERS config option
 - **Author:** [elpaso](https://github.com/elpaso)
 - **milestone:** 3.14.0
 - **PR:** [35738](https://github.com/qgis/QGIS/pull/35738)
 - **Merged:** 2020-04-14T05:57:10Z
 - **tags:** Server
 - **Funded by:** Geoinformatikbüro Dassau GmbH
+
+![](./imgs/35738.png)
 
 [↑ come back ↑](#features)
 
@@ -933,6 +957,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Data Provider
 - **Funded by:** ARPA Piemonte
 
+![](./imgs/35488.png)
+
 [↑ come back ↑](#features)
 
 ## Port output parameter wrappers to new API
@@ -975,6 +1001,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-31T09:35:30Z
 - **tags:** Processing
 
+![](./imgs/35473.png)
+
 [↑ come back ↑](#features)
 
 ## plug mesh layer to QGIS temporal framework
@@ -995,6 +1023,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-31T02:53:44Z
 - **tags:** -
 
+![](./imgs/35454.png)
+
 [↑ come back ↑](#features)
 
 ## Port last remaining input parameters to new API
@@ -1003,6 +1033,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35452](https://github.com/qgis/QGIS/pull/35452)
 - **Merged:** 2020-03-30T15:06:49Z
 - **tags:** Processing
+
+![](./imgs/35452.png)
 
 [↑ come back ↑](#features)
 
@@ -1035,6 +1067,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-28T19:56:24Z
 - **tags:** Processing
 
+![](./imgs/35419.png)
+
 [↑ come back ↑](#features)
 
 ## Server project settings, add 'expanded' attribute
@@ -1043,6 +1077,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35408](https://github.com/qgis/QGIS/pull/35408)
 - **Merged:** 2020-03-30T05:35:07Z
 - **tags:** Server
+
+![](imgs/35408.png)
 
 [↑ come back ↑](#features)
 
@@ -1097,6 +1133,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35321](https://github.com/qgis/QGIS/pull/35321)
 - **Merged:** 2020-03-25T09:25:42Z
 - **tags:** Processing
+
+![](imgs/35321.png)
 
 [↑ come back ↑](#features)
 
@@ -1177,6 +1215,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Print Layouts
 - **Sponsored by:** SLYR
 
+![](./imgs/35225.png)
+
 [↑ come back ↑](#features)
 
 ## Add data-defined property to font family/style for font markers
@@ -1231,6 +1271,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-21T05:11:17Z
 - **tags:** Symbology
 
+![](https://user-images.githubusercontent.com/1728657/77065816-93378180-6a14-11ea-82fc-53930598de0f.png)
+
 [↑ come back ↑](#features)
 
 ## Rework picture item UI and behavior
@@ -1241,6 +1283,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Print Layouts
 - **Sponsored by:** SLYR
 
+![](./imgs/35160.png)
+
 [↑ come back ↑](#features)
 
 ## Add filter by geometry type and filter by layer type algorithms to processing
@@ -1249,6 +1293,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35130](https://github.com/qgis/QGIS/pull/35130)
 - **Merged:** 2020-03-17T16:52:38Z
 - **tags:** Processing
+
+the two new algorithms are not present in the updated master today (OSGeo4W64)
 
 [↑ come back ↑](#features)
 
@@ -1303,6 +1349,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-15T14:14:21Z
 - **tags:** Processing
 
+![](./imgs/35076.png)
+
 [↑ come back ↑](#features)
 
 ## Add processing parameter types for database schema and table name
@@ -1311,6 +1359,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [35056](https://github.com/qgis/QGIS/pull/35056)
 - **Merged:** 2020-03-14T06:57:16Z
 - **tags:** Processing
+
+![](./imgs/35056.png)
 
 [↑ come back ↑](#features)
 
@@ -1354,6 +1404,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-10T09:10:54Z
 - **tags:** Processing
 
+![](./imgs/34955.png)
+
 [↑ come back ↑](#features)
 
 ## arrows for 3D mesh layer dataset rendering
@@ -1396,6 +1448,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-07T03:55:30Z
 - **tags:** Data Provider
 
+![](imgs/34914.png)
+
 [↑ come back ↑](#features)
 
 ## Add expression variables for current map temporal range
@@ -1416,6 +1470,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-03-06T08:22:51Z
 - **tags:** Processing
 - **Sponsored by:** Alta Ehf
+
+![](imgs/34895.png)
 
 [↑ come back ↑](#features)
 
@@ -1520,6 +1576,8 @@ https://twitter.com/i/status/1250506567528722433
 - **Merged:** 2020-02-24T07:23:42Z
 - **tags:** Processing
 
+![](./imgs/34610.png)
+
 [↑ come back ↑](#features)
 
 ## QGIS Project temporal settings
@@ -1571,6 +1629,8 @@ https://twitter.com/i/status/1250506567528722433
 - **PR:** [34040](https://github.com/qgis/QGIS/pull/34040)
 - **Merged:** 2020-02-24T03:48:40Z
 - **tags:** API
+
+![](./imgs/34040.png)
 
 [↑ come back ↑](#features)
 
