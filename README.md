@@ -197,6 +197,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-05-15T06:10:54Z
 - **tags:** Temporal
 
+![](./imgs/36453.png)
+
 [↑ come back ↑](#features)
 
 ## Add additional temporal modes for vector layers
@@ -205,6 +207,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [36367](https://github.com/qgis/QGIS/pull/36367)
 - **Merged:** 2020-05-13T10:20:01Z
 - **tags:** Temporal
+
+![](./imgs/36367.png)
 
 [↑ come back ↑](#features)
 
@@ -225,6 +229,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [36324](https://github.com/qgis/QGIS/pull/36324)
 - **Merged:** 2020-05-10T09:33:35Z
 - **tags:** Expressions; Temporal
+
+![](./imgs/36324.png)
 
 [↑ come back ↑](#features)
 
@@ -291,6 +297,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-05-13T00:18:48Z
 - **tags:** GUI/UX
 
+![](./imgs/36258.png)
+
 [↑ come back ↑](#features)
 
 ## Determine primary key from Oracle view
@@ -320,6 +328,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **Merged:** 2020-05-09T08:07:00Z
 - **tags:** Temporal
 
+![](./imgs/36300.png)
+
 [↑ come back ↑](#features)
 
 ## Add a new Redraw Layer Only mode for temporal vector layers
@@ -328,6 +338,8 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **PR:** [36299](https://github.com/qgis/QGIS/pull/36299)
 - **Merged:** 2020-05-09T08:06:37Z
 - **tags:** Temporal
+
+![](./imgs/36299.png)
 
 [↑ come back ↑](#features)
 
