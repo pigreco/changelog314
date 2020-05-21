@@ -30,8 +30,6 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - [Changelog 3.14 Pi (π)](#changelog-314-pi-%cf%80)
 - [Statistics](#statistics)
   - [Authors](#authors)
-- [Statistics](#statistics-1)
-  - [Authors](#authors-1)
   - [Tags](#tags)
   - [Sponsors](#sponsors)
 - [Map contest: mapping Pi for the 3.14 splash screen](#map-contest-mapping-pi-for-the-314-splash-screen)
@@ -40,9 +38,6 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 <!-- /TOC -->
 
-# Statistics
-
-## Authors
 
 # Statistics
 
@@ -76,7 +71,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 | lbartoletti | [33622](https://github.com/qgis/QGIS/pull/33622) | 1 |
 | troopa81 | [35112](https://github.com/qgis/QGIS/pull/35112) | 1 |
 
-[↑ come back ↑](#features)
+[↑ come back ↑](#statistics)
 
 ## Tags
 
@@ -104,7 +99,7 @@ Map and Legend|1|0.72|*
 QGIS Browser|1|0.72|*
 Plugins|1|0.72|*
 
-[↑ come back ↑](#features)
+[↑ come back ↑](#statistics)
 
 ## Sponsors
 
@@ -124,7 +119,7 @@ the Swedish User Group|1
 Qwat group / Ville de Lausanne ( [@ponceta](https://github.com/ponceta) [@dsavary](https://github.com/dsavary) ) / Oslandia and some spare time|1
 geoProRegio AG ([www.geoproregio.ch](http://www.geoproregio.ch/))|1
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#statistics)
 
 **stay tuned!**
 
@@ -176,4 +171,4 @@ my_splash, image and file xcf:
 
 ![](./imgs/featuresVScategory_2to314.png)
 
-[↑ come back ↑](#changelog-314-pi)
+[↑ come back ↑](#statistics)
