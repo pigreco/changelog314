@@ -44,7 +44,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 <hr>
 
 <div class="flash flash-error">
-  <h2><p align="center"><b>UPDATED 2020-05-15T12:00:00Z - 131 features</b></p></h2>
+  <h2><p align="center"><b>UPDATED 2020-05-15T12:00:00Z - 133 features</b></p></h2>
 </div>
 
 <br>
@@ -104,6 +104,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [Defer model validation](#defer-model-validation)
   - [Vector tile layer - part 5 (identify tool)](#vector-tile-layer---part-5-identify-tool)
   - [Server add QGIS_SERVER_IGNORE_BAD_LAYERS config option](#server-add-qgisserverignorebadlayers-config-option)
+  - [Update to MDAL 0.5.91 Multi meshes in one file](#update-to-mdal-0591-multi-meshes-in-one-file)
   - [Add support for different raster data types in Create constant raster layer algorithm](#add-support-for-different-raster-data-types-in-create-constant-raster-layer-algorithm)
   - [add native Round raster algorithm](#add-native-round-raster-algorithm)
   - [Add avoid intersection/overlap mode](#add-avoid-intersectionoverlap-mode)
@@ -157,6 +158,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [Add processing parameter types for database schema and table name](#add-processing-parameter-types-for-database-schema-and-table-name)
   - [Add description to value relation widget](#add-description-to-value-relation-widget)
   - [Add multi-selection handling to model designer, interactive resizing](#add-multi-selection-handling-to-model-designer-interactive-resizing)
+  - [Save style for mesh layer](#save-style-for-mesh-layer)
   - [New database table name widget](#new-database-table-name-widget)
   - [Add dedicated parameter type for database connections](#add-dedicated-parameter-type-for-database-connections)
   - [arrows for 3D mesh layer dataset rendering](#arrows-for-3d-mesh-layer-dataset-rendering)
@@ -779,6 +781,17 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 
 [↑ come back ↑](#features)
 
+## Update to MDAL 0.5.91 Multi meshes in one file
+- **Author:** [vcloarec](https://github.com/vcloarec)
+- **milestone:** 3.14.0
+- **PR:** [35669](https://github.com/qgis/QGIS/pull/35669)
+- **Merged:** 2020-04-14T08:17:10Z
+- **tags:** Mesh
+
+![](https://user-images.githubusercontent.com/7416892/78789841-b1413380-797b-11ea-9c7b-f31cb9756809.gif)
+
+[↑ come back ↑](#features)
+
 ## Add support for different raster data types in Create constant raster layer algorithm
 - **Author:** [root676](https://github.com/root676)
 - **milestone:** 3.14.0
@@ -1386,6 +1399,17 @@ the two new algorithms are not present in the updated master today (OSGeo4W64)
 
 [↑ come back ↑](#features)
 
+## Save style for mesh layer
+- **Author:** [vcloarec](https://github.com/vcloarec)
+- **milestone:** 3.14.0
+- **PR:** [34996](https://github.com/qgis/QGIS/pull/34996)
+- **Merged:** 2020-03-13T19:56:00Z
+- **tags:** Symbology
+
+![](https://user-images.githubusercontent.com/7416892/76421493-1fdda200-637a-11ea-9e4b-71a596b18dd9.png)
+
+[↑ come back ↑](#features)
+
 ## New database table name widget
 - **Author:** [elpaso](https://github.com/elpaso)
 - **milestone:** 3.14.0
@@ -1664,8 +1688,8 @@ https://twitter.com/i/status/1250506567528722433
 | Author | PR | Total_count |
 | --- | --- | --- |
 | nyalldawson | [36303](https://github.com/qgis/QGIS/pull/36303) [36300](https://github.com/qgis/QGIS/pull/36300) [36299](https://github.com/qgis/QGIS/pull/36299) [36245](https://github.com/qgis/QGIS/pull/36245) [36243](https://github.com/qgis/QGIS/pull/36243) [36224](https://github.com/qgis/QGIS/pull/36224) [36222](https://github.com/qgis/QGIS/pull/36222) [36162](https://github.com/qgis/QGIS/pull/36162) [36136](https://github.com/qgis/QGIS/pull/36136) [36106](https://github.com/qgis/QGIS/pull/36106) [36013](https://github.com/qgis/QGIS/pull/36013) [35974](https://github.com/qgis/QGIS/pull/35974) [35909](https://github.com/qgis/QGIS/pull/35909) [35863](https://github.com/qgis/QGIS/pull/35863) [35821](https://github.com/qgis/QGIS/pull/35821) [35808](https://github.com/qgis/QGIS/pull/35808) [35778](https://github.com/qgis/QGIS/pull/35778) [35760](https://github.com/qgis/QGIS/pull/35760) [35644](https://github.com/qgis/QGIS/pull/35644) [35641](https://github.com/qgis/QGIS/pull/35641) [35606](https://github.com/qgis/QGIS/pull/35606) [35591](https://github.com/qgis/QGIS/pull/35591) [35576](https://github.com/qgis/QGIS/pull/35576) [35518](https://github.com/qgis/QGIS/pull/35518) [35494](https://github.com/qgis/QGIS/pull/35494) [35484](https://github.com/qgis/QGIS/pull/35484) [35474](https://github.com/qgis/QGIS/pull/35474) [35473](https://github.com/qgis/QGIS/pull/35473) [35454](https://github.com/qgis/QGIS/pull/35454) [35452](https://github.com/qgis/QGIS/pull/35452) [35419](https://github.com/qgis/QGIS/pull/35419) [35396](https://github.com/qgis/QGIS/pull/35396) [35364](https://github.com/qgis/QGIS/pull/35364) [35324](https://github.com/qgis/QGIS/pull/35324) [35321](https://github.com/qgis/QGIS/pull/35321) [35319](https://github.com/qgis/QGIS/pull/35319) [35292](https://github.com/qgis/QGIS/pull/35292) [35251](https://github.com/qgis/QGIS/pull/35251) [35244](https://github.com/qgis/QGIS/pull/35244) [35238](https://github.com/qgis/QGIS/pull/35238) [35225](https://github.com/qgis/QGIS/pull/35225) [35208](https://github.com/qgis/QGIS/pull/35208) [35160](https://github.com/qgis/QGIS/pull/35160) [35130](https://github.com/qgis/QGIS/pull/35130) [35056](https://github.com/qgis/QGIS/pull/35056) [34987](https://github.com/qgis/QGIS/pull/34987) [34955](https://github.com/qgis/QGIS/pull/34955) [34938](https://github.com/qgis/QGIS/pull/34938) [34936](https://github.com/qgis/QGIS/pull/34936) [34898](https://github.com/qgis/QGIS/pull/34898) [34895](https://github.com/qgis/QGIS/pull/34895) [34856](https://github.com/qgis/QGIS/pull/34856) [34617](https://github.com/qgis/QGIS/pull/34617) [34610](https://github.com/qgis/QGIS/pull/34610) [36453](https://github.com/qgis/QGIS/pull/36453) [36367](https://github.com/qgis/QGIS/pull/36367) [36324](https://github.com/qgis/QGIS/pull/36324) [36283](https://github.com/qgis/QGIS/pull/36283)  | 58 |
+| vcloarec | [36171](https://github.com/qgis/QGIS/pull/36171) [35926](https://github.com/qgis/QGIS/pull/35926) [35466](https://github.com/qgis/QGIS/pull/35466) [35264](https://github.com/qgis/QGIS/pull/35264) [35216](https://github.com/qgis/QGIS/pull/35216) [34945](https://github.com/qgis/QGIS/pull/34945) [34532](https://github.com/qgis/QGIS/pull/34532) [36334](https://github.com/qgis/QGIS/pull/36334) [36313](https://github.com/qgis/QGIS/pull/36313) [35669](https://github.com/qgis/QGIS/pull/35669) [34966](https://github.com/qgis/QGIS/pull/34996)| 11 |
 | elpaso | [35738](https://github.com/qgis/QGIS/pull/35738) [35688](https://github.com/qgis/QGIS/pull/35688) [35511](https://github.com/qgis/QGIS/pull/35511) [35488](https://github.com/qgis/QGIS/pull/35488) [34968](https://github.com/qgis/QGIS/pull/34968) [34914](https://github.com/qgis/QGIS/pull/34914) [34871](https://github.com/qgis/QGIS/pull/34871) [34827](https://github.com/qgis/QGIS/pull/34827) [34760](https://github.com/qgis/QGIS/pull/34760) [34654](https://github.com/qgis/QGIS/pull/34654) | 10 |
-| vcloarec | [36171](https://github.com/qgis/QGIS/pull/36171) [35926](https://github.com/qgis/QGIS/pull/35926) [35466](https://github.com/qgis/QGIS/pull/35466) [35264](https://github.com/qgis/QGIS/pull/35264) [35216](https://github.com/qgis/QGIS/pull/35216) [34945](https://github.com/qgis/QGIS/pull/34945) [34532](https://github.com/qgis/QGIS/pull/34532) [36334](https://github.com/qgis/QGIS/pull/36334) [36313](https://github.com/qgis/QGIS/pull/36313)| 9 |
 | alexbruy | [36202](https://github.com/qgis/QGIS/pull/36202) [35901](https://github.com/qgis/QGIS/pull/35901) [35815](https://github.com/qgis/QGIS/pull/35815) [35790](https://github.com/qgis/QGIS/pull/35790) [35764](https://github.com/qgis/QGIS/pull/35764) [35076](https://github.com/qgis/QGIS/pull/35076) [36289](https://github.com/qgis/QGIS/pull/36289) [36258](https://github.com/qgis/QGIS/pull/36258)  | 8 |
 | 3nids | [36236](https://github.com/qgis/QGIS/pull/36236) [36190](https://github.com/qgis/QGIS/pull/36190) [36166](https://github.com/qgis/QGIS/pull/36166) [36089](https://github.com/qgis/QGIS/pull/36089) [35382](https://github.com/qgis/QGIS/pull/35382) [36199](https://github.com/qgis/QGIS/pull/36199) | 6 |
 | wonder-sk | [36099](https://github.com/qgis/QGIS/pull/36099) [35748](https://github.com/qgis/QGIS/pull/35748) [35657](https://github.com/qgis/QGIS/pull/35657) [35446](https://github.com/qgis/QGIS/pull/35446) [35341](https://github.com/qgis/QGIS/pull/35341) | 5 |
@@ -1700,13 +1724,13 @@ Print Layouts|18|13.04|*******************************
 -|12|8.70|********************
 GUI/UX|12|8.70|********************
 Expressions|11|7.97|******************
+Mesh|11|7.97|*****************
 Temporal|10|7.25|*****************
-Mesh|10|7.25|*****************
 Forms|6|4.35|**********
+Symbology|6|4.35|**********
 Data Provider|5|3.62|********
 API|4|2.90|******
 Vector tiles|4|2.90|******
-Symbology|4|2.90|******
 Labeling|2|1.45|***
 Server|2|1.45|***
 Digitizing|2|1.45|***
