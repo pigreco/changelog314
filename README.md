@@ -90,6 +90,7 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
   - [Support for adding dock widgets as tabs](#support-for-adding-dock-widgets-as-tabs)
   - [Expressions for geometry Z and M minimum and maximum](#expressions-for-geometry-z-and-m-minimum-and-maximum)
   - [1D mesh width/color varying](#1d-mesh-widthcolor-varying)
+  - [Allow renaming of the current map theme](#allow-renaming-of-the-current-map-theme)
   - [Manage legend patch shapes through style manager](#manage-legend-patch-shapes-through-style-manager)
   - [ability to remove custom functions (fix #27513)](#ability-to-remove-custom-functions-fix-27513)
   - [add is_multipart expression for geometry](#add-ismultipart-expression-for-geometry)
@@ -619,6 +620,16 @@ is:pr is:closed label:feature merged:2020-02-22T00:00:00Z..2020-05-15T12:00:00Z
 - **tags:** Documentation;Mesh
 
 ![](https://user-images.githubusercontent.com/7416892/80013358-bb475400-849c-11ea-95c8-71b04382a927.gif)
+
+[↑ come back ↑](#features)
+
+## Allow renaming of the current map theme
+- **Author:** [DelazJ](https://github.com/DelazJ)
+- **PR:** [33950](https://github.com/qgis/QGIS/pull/33950)
+- **Merged:** 2020-04-23T16:55:25Z
+- **tags:** -
+
+![](https://user-images.githubusercontent.com/7983394/78195435-e29f9800-747f-11ea-95d2-604be58cf229.gif)
 
 [↑ come back ↑](#features)
 
